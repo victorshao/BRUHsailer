@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BRUHSailer Ironman Guide</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <button class="dark-mode-toggle" id="darkModeToggle">🌓</button>
+    <header>
+      <h1>OSRS Ironman Guide</h1>
+    </header>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#" id="resetProgressBtn">Reset Progress</a>
+    </nav>
+    <div class="container">
+      <div class="progress-bar">
+        <div class="progress" id="progressBar">
+          <span class="progress-text">0%</span>
+        </div>
+      </div>
+
+      <div class="utility-buttons">
+        <button class="utility-btn" id="jumpToLastBtn">
+          Jump to Last Completed Step
+        </button>
+      </div>
+
+      <div class="filter-container">
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">All Steps</button>
+          <button class="filter-btn" data-filter="completed">
+            Completed Steps
+          </button>
+          <button class="filter-btn" data-filter="incomplete">
+            Incomplete Steps
+          </button>
+        </div>
+        <div class="search-container">
+          <input type="text" id="searchInput" placeholder="Search steps..." />
+        </div>
+      </div>
+
+      <div id="guideContent">
+        <!-- Guide content will be loaded here -->
+      </div>
+    </div>
+
+    <div class="save-toast" id="saveToast">Progress saved</div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        loadGuideData();
+
+        document
+          .getElementById("resetProgressBtn")
+          .addEventListener("click", function (e) {
+            e.preventDefault();
+            if (confirm("Are you sure you want to reset your progress?")) {
+              resetProgress();
+            }
+          });
+
+        document
+          .getElementById("darkModeToggle")
+          .addEventListener("click", function () {
+            document.body.classList.toggle("dark-mode");
+            const isDarkMode = document.body.classList.contains("dark-mode");
+            localStorage.setItem("darkMode", isDarkMode);
+          });
+
+        if (localStorage.getItem("darkMode") === "true") {
+          document.body.classList.add("dark-mode");
+        }
+
+        document
+          .getElementById("jumpToLastBtn")
+          .addEventListener("click", function () {
+            jumpToLastCompletedStep();
+          });
+      });
+
+      async function loadGuideData() {
+        try {
+          const response = await fetch("guide-data.json");
+          if (!response.ok) {
+            throw new Error("Failed to load guide data");
+          }
+
+          const guideData = await response.json();
+          const guideContent = document.getElementById("guideContent");
+
+          guideContent.innerHTML = "";
+
+          guideData.forEach((section) => {
+            const sectionElement = document.createElement("div");
+            sectionElement.className = "guide-section";
+
+            const sectionHeader = document.createElement("div");
+            sectionHeader.className = "section-header";
+            sectionHeader.setAttribute("data-section", section.id);
+            sectionHeader.innerHTML = `
+                        <h2 class="section-title">${section.id}: ${section.title}</h2>
+                        <span class="section-time">Total time: ${section.totalTime}</span>
+                    `;
+
+            const sectionContent = document.createElement("div");
+            sectionContent.className = "section-content";
+
+            // sectionContent.classList.add("active");
+
+            section.steps.forEach((step) => {
+              const stepElement = document.createElement("div");
+              stepElement.className = "step";
+              stepElement.id = `step-${section.id}-${step.number}`;
+
+              const stepHeader = document.createElement("div");
+              stepHeader.className = "step-header";
+
+              const timeDisplay =
+                step.meta.total_time ||
+                step.meta.total_time_taken_during_step ||
+                "";
+
+              stepHeader.innerHTML = `
+                            <div class="checkbox-container">
+                                <input type="checkbox" class="checkbox" id="check-${section.id}-${step.number}">
+                                <span class="step-number">Step ${step.number}</span>
+                            </div>
+                            <span class="step-time">Total time: ${timeDisplay}</span>
+                        `;
+
+              const stepContent = document.createElement("div");
+              stepContent.className = "step-content";
+
+              const description = document.createElement("div");
+              description.className = "step-description";
+              description.innerHTML = formatStepContent(step.content);
+              stepContent.appendChild(description);
+
+              if (Object.keys(step.meta).length > 0) {
+                const metaContainer = document.createElement("div");
+                metaContainer.className = "step-meta";
+
+                for (const key in step.meta) {
+                  if (key === "skillsquests_met" || key === "total_time")
+                    continue;
+
+                  const displayName = key
+                    .replace(/_/g, " ")
+                    .replace(/\b\w/g, (l) => l.toUpperCase());
+
+                  const metaItem = document.createElement("div");
+                  metaItem.className = "meta-item";
+                  metaItem.innerHTML = `
+                                    <strong>${displayName}:</strong>
+                                    <span>${step.meta[key]}</span>
+                                `;
+                  metaContainer.appendChild(metaItem);
+                }
+
+                if (metaContainer.children.length > 0) {
+                  stepContent.appendChild(metaContainer);
+                }
+              }
+
+              stepElement.appendChild(stepHeader);
+              stepElement.appendChild(stepContent);
+
+              sectionContent.appendChild(stepElement);
+            });
+
+            sectionElement.appendChild(sectionHeader);
+            sectionElement.appendChild(sectionContent);
+
+            guideContent.appendChild(sectionElement);
+          });
+
+          attachEventListeners();
+
+          loadProgress();
+        } catch (error) {
+          console.error("Error loading guide data:", error);
+          document.getElementById("guideContent").innerHTML = `
+                    <div class="error-message">
+                        <h2>Error Loading Guide Data</h2>
+                        <p>${error.message}</p>
+                    </div>
+                `;
+        }
+      }
+
+      function attachEventListeners() {
+        document.querySelectorAll(".section-header").forEach((header) => {
+          header.addEventListener("click", function () {
+            const content = this.nextElementSibling;
+
+            content.classList.toggle("active");
+          });
+        });
+
+        const firstSection = document.querySelector(".section-content");
+        if (firstSection) {
+          firstSection.classList.add("active");
+        }
+
+        document.querySelectorAll(".checkbox").forEach((checkbox) => {
+          checkbox.addEventListener("change", function () {
+            const stepId = this.id.replace("check-", "");
+            const step = document.getElementById("step-" + stepId);
+
+            if (this.checked) {
+              step.classList.add("completed");
+            } else {
+              step.classList.remove("completed");
+            }
+
+            updateProgress();
+            saveProgress();
+            showSaveToast();
+          });
+        });
+
+        document.querySelectorAll(".step-header").forEach((header) => {
+          header.addEventListener("click", function (e) {
+            if (e.target.type !== "checkbox") {
+              const checkbox = this.querySelector(".checkbox");
+              checkbox.checked = !checkbox.checked;
+
+              const event = new Event("change");
+              checkbox.dispatchEvent(event);
+            }
+          });
+        });
+
+        document.querySelectorAll(".filter-btn").forEach((btn) => {
+          btn.addEventListener("click", function () {
+            const filter = this.getAttribute("data-filter");
+
+            document.querySelectorAll(".filter-btn").forEach((b) => {
+              b.classList.remove("active");
+            });
+            this.classList.add("active");
+
+            const steps = document.querySelectorAll(".step");
+            steps.forEach((step) => {
+              if (filter === "all") {
+                step.style.display = "block";
+              } else if (filter === "completed") {
+                step.style.display = step.classList.contains("completed")
+                  ? "block"
+                  : "none";
+              } else if (filter === "incomplete") {
+                step.style.display = !step.classList.contains("completed")
+                  ? "block"
+                  : "none";
+              }
+            });
+          });
+        });
+
+        document
+          .getElementById("searchInput")
+          .addEventListener("input", function () {
+            const searchTerm = this.value.toLowerCase();
+            const steps = document.querySelectorAll(".step");
+
+            steps.forEach((step) => {
+              const content = step.textContent.toLowerCase();
+              if (content.includes(searchTerm)) {
+                step.style.display = "block";
+
+                const parentSection = step.closest(".section-content");
+                parentSection.classList.add("active");
+              } else {
+                step.style.display = "none";
+              }
+            });
+
+            if (searchTerm === "") {
+              const activeFilter = document
+                .querySelector(".filter-btn.active")
+                .getAttribute("data-filter");
+              document.querySelector(`[data-filter="${activeFilter}"]`).click();
+            }
+          });
+      }
+
+      function saveProgress() {
+        const completedSteps = {};
+        document.querySelectorAll(".checkbox").forEach((checkbox) => {
+          const stepId = checkbox.id.replace("check-", "");
+          completedSteps[stepId] = checkbox.checked;
+        });
+
+        localStorage.setItem(
+          "ironmanGuideProgress",
+          JSON.stringify(completedSteps)
+        );
+      }
+
+      function loadProgress() {
+        const savedProgress = localStorage.getItem("ironmanGuideProgress");
+        if (savedProgress) {
+          const completedSteps = JSON.parse(savedProgress);
+
+          for (const stepId in completedSteps) {
+            const checkbox = document.getElementById("check-" + stepId);
+            if (checkbox && completedSteps[stepId]) {
+              checkbox.checked = true;
+              const step = document.getElementById("step-" + stepId);
+              if (step) {
+                step.classList.add("completed");
+              }
+            }
+          }
+
+          updateProgress();
+        }
+      }
+
+      function resetProgress() {
+        localStorage.removeItem("ironmanGuideProgress");
+
+        document.querySelectorAll(".checkbox").forEach((checkbox) => {
+          checkbox.checked = false;
+          const stepId = checkbox.id.replace("check-", "");
+          const step = document.getElementById("step-" + stepId);
+          if (step) {
+            step.classList.remove("completed");
+          }
+        });
+
+        updateProgress();
+        showSaveToast("Progress reset");
+      }
+
+      function updateProgress() {
+        const totalSteps = document.querySelectorAll(".checkbox").length;
+        const completedSteps =
+          document.querySelectorAll(".checkbox:checked").length;
+        const progressPercentage = Math.round(
+          (completedSteps / totalSteps) * 100
+        );
+
+        const progressBar = document.getElementById("progressBar");
+        progressBar.style.width = progressPercentage + "%";
+
+        const progressText = progressBar.querySelector(".progress-text");
+        progressText.textContent = progressPercentage + "%";
+
+        if (progressPercentage >= 5) {
+          progressText.style.display = "inline";
+        } else {
+          progressText.style.display = "none";
+        }
+      }
+
+      function showSaveToast(message = "Progress saved") {
+        const toast = document.getElementById("saveToast");
+        toast.textContent = message;
+        toast.classList.add("visible");
+
+        setTimeout(() => {
+          toast.classList.remove("visible");
+        }, 2000);
+      }
+
+      function jumpToLastCompletedStep() {
+        const completedSteps = document.querySelectorAll(".step.completed");
+
+        if (completedSteps.length === 0) {
+          showSaveToast("No completed steps found");
+          return;
+        }
+
+        const lastCompletedStep = completedSteps[completedSteps.length - 1];
+
+        const parentSection = lastCompletedStep.closest(".section-content");
+        parentSection.classList.add("active");
+
+        lastCompletedStep.scrollIntoView({
+          behavior: "smooth",
+          block: "center",
+        });
+
+        lastCompletedStep.style.transition = "background-color 0.5s ease";
+        const originalBg = lastCompletedStep.style.backgroundColor;
+        lastCompletedStep.style.backgroundColor = "#ffeb3b";
+
+        setTimeout(() => {
+          lastCompletedStep.style.backgroundColor = originalBg;
+        }, 1500);
+
+        showSaveToast("Jumped to last completed step");
+      }
+
+      function formatStepContent(content) {
+        if (!content) return "";
+
+        let formattedContent = content
+          // Convert links: [text](url) to <a href="url">text</a>
+          .replace(
+            /\[([^\]]+)\]\(([^)]+)\)/g,
+            '<a href="$2" target="_blank">$1</a>'
+          )
+          // Convert bold: **text** or __text__ to <strong>text</strong>
+          .replace(/(\*\*|__)(.*?)\1/g, "<strong>$2</strong>")
+          // Convert italic: *text* or _text_ to <em>text</em>
+          .replace(/(\*|_)(.*?)\1/g, "<em>$2</em>")
+          // Convert code: `text` to <code>text</code>
+          .replace(/`([^`]+)`/g, "<code>$1</code>")
+          // Convert escaped characters
+          .replace(/\\([\\`*_{}[\]()#+\-.!])/g, "$1");
+
+        if (formattedContent.match(/\s+\d+[\.\)]\s+/)) {
+          const lines = formattedContent.split("\n");
+          let result = "";
+          let inSubstep = false;
+          let currentLevel = 0;
+          let substepStack = [];
+
+          for (let i = 0; i < lines.length; i++) {
+            const line = lines[i];
+
+            // Check if this line is a substep
+            const substepMatch = line.match(/^(\s*)(\d+)[\.\)]\s+(.*)/);
+
+            if (substepMatch) {
+              // This is a substep
+              const indentation = substepMatch[1].length;
+              const number = substepMatch[2];
+              const text = substepMatch[3];
+
+              // Determine the nesting level based on indentation
+              const level = Math.floor(indentation / 4) + 1;
+
+              // Close any deeper level substeps
+              while (substepStack.length > level - 1) {
+                result += "</div>"; // Close substep div
+                substepStack.pop();
+              }
+
+              // Open new substep if needed
+              if (substepStack.length < level - 1) {
+                for (let j = substepStack.length; j < level - 1; j++) {
+                  result += '<div class="substep">'; // Open a new level
+                  substepStack.push(j + 1);
+                }
+              }
+
+              // Add this substep
+              result += `<div class="substep"><span class="substep-number">${number}.</span>${text}</div>`;
+
+              inSubstep = true;
+            } else {
+              // Regular content
+              if (inSubstep) {
+                // Close all open substeps
+                while (substepStack.length > 0) {
+                  result += "</div>"; // Close substep div
+                  substepStack.pop();
+                }
+                inSubstep = false;
+              }
+
+              // Add the regular content
+              result += line + " ";
+            }
+          }
+
+          // Close any remaining open substeps
+          while (substepStack.length > 0) {
+            result += "</div>"; // Close substep div
+            substepStack.pop();
+          }
+
+          return result;
+        }
+
+        // For content without complex substeps, use the simpler approach
+        // Split content by spaces that have a number followed by a period or parenthesis
+        const parts = formattedContent.split(/\s+(?=\d+[\.\)])/);
+
+        if (parts.length > 1) {
+          // If we have potential substeps
+          let result = parts[0]; // Start with the main content
+
+          // Process each potential substep
+          for (let i = 1; i < parts.length; i++) {
+            const part = parts[i];
+            const match = part.match(/^(\d+[\.\)])\s+(.*)/);
+
+            if (match) {
+              // This is a substep
+              const number = match[1];
+              const text = match[2];
+              result += `<div class="substep"><span class="substep-number">${number}</span>${text}</div>`;
+            } else {
+              // Not a substep, just append
+              result += " " + part;
+            }
+          }
+
+          return result;
+        }
+
+        return formattedContent;
+      }
+    </script>
+  </body>
+</html>
