@@ -87,7 +87,7 @@
 
       async function loadGuideData() {
         try {
-          const response = await fetch("data.json");
+          const response = await fetch("result_combined.json");
           if (!response.ok) {
             throw new Error("Failed to load guide data");
           }
@@ -97,157 +97,304 @@
 
           guideContent.innerHTML = "";
 
-          guideData.forEach((section) => {
-            const sectionElement = document.createElement("div");
-            sectionElement.className = "guide-section";
+          // Process each chapter
+          guideData.chapters.forEach((chapter, chapterIndex) => {
+            const chapterElement = document.createElement("div");
+            chapterElement.className = "guide-chapter";
+            
+            const chapterHeader = document.createElement("h2");
+            chapterHeader.className = "chapter-title";
+            chapterHeader.textContent = chapter.title;
+            
+            const chapterContent = document.createElement("div");
+            chapterContent.className = "chapter-content";
+            
+            // Keep track of step count within each chapter
+            let chapterStepCount = 0;
 
-            const sectionHeader = document.createElement("div");
-            sectionHeader.className = "section-header";
-            sectionHeader.setAttribute("data-section", section.id);
-            sectionHeader.innerHTML = `
-                        <h2 class="section-title">${section.id}: ${section.title}</h2>
-                        <span class="section-time">Total time: ${section.totalTime}</span>
+            // Process each section in the chapter
+            chapter.sections.forEach((section, sectionIndex) => {
+              const sectionElement = document.createElement("div");
+              sectionElement.className = "guide-section";
+
+              const sectionHeader = document.createElement("div");
+              sectionHeader.className = "section-header";
+              sectionHeader.setAttribute("data-section", `${chapterIndex + 1}.${sectionIndex + 1}`);
+              
+              const sectionId = `${chapterIndex + 1}.${sectionIndex + 1}`;
+              
+              sectionHeader.innerHTML = `
+                <h2 class="section-title">${section.title}</h2>
+                <span class="section-time"></span>
+              `;
+
+              const sectionContent = document.createElement("div");
+              sectionContent.className = "section-content";
+
+              // Process each step in the section
+              section.steps.forEach((step, stepIndex) => {
+                // Increment the chapter step count for each step
+                chapterStepCount++;
+                
+                const stepElement = document.createElement("div");
+                stepElement.className = "step";
+                stepElement.id = `step-${chapterIndex + 1}-${chapterStepCount}`;
+
+                const stepHeader = document.createElement("div");
+                stepHeader.className = "step-header";
+
+                // Get time from metadata
+                const timeDisplay = step.metadata && step.metadata.total_time ? 
+                  step.metadata.total_time : "";
+
+                stepHeader.innerHTML = `
+                  <div class="checkbox-container">
+                    <input type="checkbox" class="checkbox" id="check-${chapterIndex + 1}-${chapterStepCount}">
+                    <span class="step-number">Step ${chapterStepCount}</span>
+                  </div>
+                  <span class="step-time">Time: ${timeDisplay}</span>
+                `;
+
+                const stepContent = document.createElement("div");
+                stepContent.className = "step-content";
+
+                const description = document.createElement("div");
+                description.className = "step-description";
+                
+                // Process formatted content
+                if (step.content && Array.isArray(step.content)) {
+                  description.appendChild(renderFormattedContent(step.content));
+                  
+                  // Process nested content if available
+                  if (step.nestedContent && step.nestedContent.length > 0) {
+                    step.nestedContent.forEach(nested => {
+                      const nestedElement = document.createElement("div");
+                      nestedElement.className = `nested-content level-${nested.level}`;
+                      
+                      if (nested.content && Array.isArray(nested.content)) {
+                        nestedElement.appendChild(renderFormattedContent(nested.content));
+                      }
+                      
+                      description.appendChild(nestedElement);
+                    });
+                  }
+                }
+                
+                stepContent.appendChild(description);
+
+                // Handle metadata
+                if (step.metadata && Object.keys(step.metadata).length > 0) {
+                  const metaContainer = document.createElement("div");
+                  metaContainer.className = "step-meta";
+
+                  // Process metadata
+                  const metadata = step.metadata;
+
+                  for (const key in metadata) {
+                    // Skip total_time (already displayed in header)
+                    if (key === "total_time") continue;
+
+                    // Skip skills_quests_met
+                    if (key === "skills_quests_met") continue;
+
+                    // Format display names for specific keys
+                    let displayName;
+                    if (key === "gp_stack") {
+                      displayName = "GP Stack";
+                    } else if (key === "items_needed") {
+                      displayName = "Items Needed";
+                    } else {
+                      // For any other keys, use the default formatting
+                      displayName = key
+                        .replace(/_/g, " ")
+                        .replace(/\b\w/g, (l) => l.toUpperCase());
+                    }
+
+                    const metaItem = document.createElement("div");
+                    metaItem.className = "meta-item";
+
+                    const metaValue = metadata[key];
+
+                    metaItem.innerHTML = `
+                      <strong>${displayName}:</strong>
+                      <span>${metaValue}</span>
                     `;
+                    metaContainer.appendChild(metaItem);
+                  }
 
-            const sectionContent = document.createElement("div");
-            sectionContent.className = "section-content";
-
-            // sectionContent.classList.add("active");
-
-            section.steps.forEach((step) => {
-              const stepElement = document.createElement("div");
-              stepElement.className = "step";
-              stepElement.id = `step-${section.id}-${step.number}`;
-
-              const stepHeader = document.createElement("div");
-              stepHeader.className = "step-header";
-
-              const timeDisplay =
-                step.meta.total_time ||
-                step.meta.total_time_taken_during_step ||
-                "";
-
-              stepHeader.innerHTML = `
-                            <div class="checkbox-container">
-                                <input type="checkbox" class="checkbox" id="check-${section.id}-${step.number}">
-                                <span class="step-number">Step ${step.number}</span>
-                            </div>
-                            <span class="step-time">Total time: ${timeDisplay}</span>
-                        `;
-
-              const stepContent = document.createElement("div");
-              stepContent.className = "step-content";
-
-              const description = document.createElement("div");
-              description.className = "step-description";
-              description.innerHTML = formatStepContent(step.content);
-              stepContent.appendChild(description);
-
-              if (Object.keys(step.meta).length > 0) {
-                const metaContainer = document.createElement("div");
-                metaContainer.className = "step-meta";
-
-                for (const key in step.meta) {
-                  if (key === "skillsquests_met" || key === "total_time")
-                    continue;
-
-                  const displayName = key
-                    .replace(/_/g, " ")
-                    .replace(/\b\w/g, (l) => l.toUpperCase());
-
-                  const metaItem = document.createElement("div");
-                  metaItem.className = "meta-item";
-                  metaItem.innerHTML = `
-                                    <strong>${displayName}:</strong>
-                                    <span>${step.meta[key]}</span>
-                                `;
-                  metaContainer.appendChild(metaItem);
+                  if (metaContainer.children.length > 0) {
+                    stepContent.appendChild(metaContainer);
+                  }
                 }
 
-                if (metaContainer.children.length > 0) {
-                  stepContent.appendChild(metaContainer);
-                }
-              }
+                stepElement.appendChild(stepHeader);
+                stepElement.appendChild(stepContent);
+                sectionContent.appendChild(stepElement);
+              });
 
-              stepElement.appendChild(stepHeader);
-              stepElement.appendChild(stepContent);
-
-              sectionContent.appendChild(stepElement);
+              sectionElement.appendChild(sectionHeader);
+              sectionElement.appendChild(sectionContent);
+              chapterContent.appendChild(sectionElement);
             });
 
-            sectionElement.appendChild(sectionHeader);
-            sectionElement.appendChild(sectionContent);
-
-            guideContent.appendChild(sectionElement);
+            chapterElement.appendChild(chapterHeader);
+            chapterElement.appendChild(chapterContent);
+            guideContent.appendChild(chapterElement);
           });
 
+          // After loading content, attach event listeners and load saved progress
           attachEventListeners();
-
           loadProgress();
+          updateProgress();
         } catch (error) {
           console.error("Error loading guide data:", error);
           document.getElementById("guideContent").innerHTML = `
-                    <div class="error-message">
-                        <h2>Error Loading Guide Data</h2>
-                        <p>${error.message}</p>
-                    </div>
-                `;
+            <div class="error-message">
+              <p>Failed to load guide data. Please try refreshing the page.</p>
+              <p>Error: ${error.message}</p>
+            </div>
+          `;
+        }
+      }
+
+      // Function to render formatted content from the JSON
+      function renderFormattedContent(contentArray) {
+        const container = document.createElement("div");
+        
+        contentArray.forEach(item => {
+          // Check if the text contains a URL
+          const urlRegex = /(https?:\/\/[^\s]+)/g;
+          const hasUrl = urlRegex.test(item.text);
+          
+          if (hasUrl) {
+            // If text contains a URL, create an anchor element instead of a span
+            const urlMatches = item.text.match(urlRegex);
+            let remainingText = item.text;
+            
+            urlMatches.forEach(url => {
+              // Split the text at the URL
+              const parts = remainingText.split(url);
+              
+              // Add the text before the URL if it exists
+              if (parts[0]) {
+                const textSpan = document.createElement("span");
+                textSpan.textContent = parts[0];
+                applyFormatting(textSpan, item.formatting);
+                container.appendChild(textSpan);
+              }
+              
+              // Create the link for the URL
+              const link = document.createElement("a");
+              link.href = url;
+              link.textContent = url;
+              link.target = "_blank"; // Open in new tab
+              applyFormatting(link, item.formatting);
+              container.appendChild(link);
+              
+              // Update remaining text for next iteration
+              remainingText = parts.slice(1).join(url);
+            });
+            
+            // Add any remaining text after the last URL
+            if (remainingText) {
+              const textSpan = document.createElement("span");
+              textSpan.textContent = remainingText;
+              applyFormatting(textSpan, item.formatting);
+              container.appendChild(textSpan);
+            }
+          } else {
+            // No URL, create a regular span
+            const span = document.createElement("span");
+            span.textContent = item.text;
+            applyFormatting(span, item.formatting);
+            container.appendChild(span);
+          }
+        });
+        
+        return container;
+      }
+      
+      // Helper function to apply formatting to an element
+      function applyFormatting(element, formatting) {
+        if (!formatting) return;
+        
+        if (formatting.bold) element.style.fontWeight = "bold";
+        if (formatting.italic) element.style.fontStyle = "italic";
+        if (formatting.underline) element.style.textDecoration = "underline";
+        if (formatting.fontSize) element.style.fontSize = `${formatting.fontSize + 2}px`;
+        if (formatting.fontFamily) element.style.fontFamily = formatting.fontFamily;
+        
+        // Apply color if available
+        if (formatting.color) {
+          const color = formatting.color;
+          if (color.r !== undefined && color.g !== undefined && color.b !== undefined) {
+            element.style.color = `rgb(${Math.round(color.r * 255)}, ${Math.round(color.g * 255)}, ${Math.round(color.b * 255)})`;
+          }
         }
       }
 
       function attachEventListeners() {
+        // Section toggle
         document.querySelectorAll(".section-header").forEach((header) => {
           header.addEventListener("click", function () {
             const content = this.nextElementSibling;
-
             content.classList.toggle("active");
+            this.classList.toggle("active");
           });
         });
 
-        const firstSection = document.querySelector(".section-content");
-        if (firstSection) {
-          firstSection.classList.add("active");
-        }
+        // Chapter toggle
+        document.querySelectorAll(".chapter-title").forEach((header) => {
+          header.addEventListener("click", function () {
+            const content = this.nextElementSibling;
+            content.classList.toggle("active");
+            this.classList.toggle("active");
+          });
+        });
 
+        // Checkbox handling
         document.querySelectorAll(".checkbox").forEach((checkbox) => {
           checkbox.addEventListener("change", function () {
             const stepId = this.id.replace("check-", "");
-            const step = document.getElementById("step-" + stepId);
+            const stepElement = document.getElementById(`step-${stepId}`);
 
             if (this.checked) {
-              step.classList.add("completed");
+              stepElement.classList.add("completed");
             } else {
-              step.classList.remove("completed");
+              stepElement.classList.remove("completed");
             }
 
-            updateProgress();
             saveProgress();
-            showSaveToast();
+            updateProgress();
           });
         });
 
+        // Make step headers clickable to toggle checkboxes
         document.querySelectorAll(".step-header").forEach((header) => {
-          header.addEventListener("click", function (e) {
-            if (e.target.type !== "checkbox") {
-              const checkbox = this.querySelector(".checkbox");
+          header.addEventListener("click", function(e) {
+            // Don't toggle if the click was directly on the checkbox (it already handles its own state)
+            if (e.target.type !== 'checkbox') {
+              const checkbox = this.querySelector('.checkbox');
               checkbox.checked = !checkbox.checked;
-
-              const event = new Event("change");
-              checkbox.dispatchEvent(event);
+              
+              // Trigger the change event to update the UI
+              const changeEvent = new Event('change');
+              checkbox.dispatchEvent(changeEvent);
             }
           });
         });
 
+        // Filter buttons
         document.querySelectorAll(".filter-btn").forEach((btn) => {
           btn.addEventListener("click", function () {
-            const filter = this.getAttribute("data-filter");
-
             document.querySelectorAll(".filter-btn").forEach((b) => {
               b.classList.remove("active");
             });
             this.classList.add("active");
 
+            const filter = this.getAttribute("data-filter");
             const steps = document.querySelectorAll(".step");
+
             steps.forEach((step) => {
               if (filter === "all") {
                 step.style.display = "block";
@@ -264,253 +411,136 @@
           });
         });
 
-        document
-          .getElementById("searchInput")
-          .addEventListener("input", function () {
-            const searchTerm = this.value.toLowerCase();
-            const steps = document.querySelectorAll(".step");
+        // Search functionality
+        const searchInput = document.getElementById("searchInput");
+        searchInput.addEventListener("input", function () {
+          const searchTerm = this.value.toLowerCase();
+          const steps = document.querySelectorAll(".step");
 
-            steps.forEach((step) => {
-              const content = step.textContent.toLowerCase();
-              if (content.includes(searchTerm)) {
-                step.style.display = "block";
+          steps.forEach((step) => {
+            const content = step.querySelector(".step-description").textContent.toLowerCase();
+            const isVisible = content.includes(searchTerm);
+            step.style.display = isVisible ? "block" : "none";
+          });
 
-                const parentSection = step.closest(".section-content");
-                parentSection.classList.add("active");
-              } else {
-                step.style.display = "none";
-              }
-            });
-
-            if (searchTerm === "") {
-              const activeFilter = document
-                .querySelector(".filter-btn.active")
-                .getAttribute("data-filter");
-              document.querySelector(`[data-filter="${activeFilter}"]`).click();
+          // Show/hide sections based on whether they have visible steps
+          document.querySelectorAll(".guide-section").forEach((section) => {
+            const visibleSteps = Array.from(
+              section.querySelectorAll(".step")
+            ).some((step) => step.style.display !== "none");
+            
+            if (visibleSteps) {
+              section.style.display = "block";
+              section.querySelector(".section-content").classList.add("active");
+              section.querySelector(".section-header").classList.add("active");
+            } else {
+              section.style.display = "none";
             }
           });
+        });
       }
 
       function saveProgress() {
-        const completedSteps = {};
+        const progress = {};
         document.querySelectorAll(".checkbox").forEach((checkbox) => {
-          const stepId = checkbox.id.replace("check-", "");
-          completedSteps[stepId] = checkbox.checked;
+          progress[checkbox.id] = checkbox.checked;
         });
-
-        localStorage.setItem(
-          "ironmanGuideProgress",
-          JSON.stringify(completedSteps)
-        );
+        localStorage.setItem("guideProgress", JSON.stringify(progress));
+        showSaveToast();
       }
 
       function loadProgress() {
-        const savedProgress = localStorage.getItem("ironmanGuideProgress");
+        const savedProgress = localStorage.getItem("guideProgress");
         if (savedProgress) {
-          const completedSteps = JSON.parse(savedProgress);
-
-          for (const stepId in completedSteps) {
-            const checkbox = document.getElementById("check-" + stepId);
-            if (checkbox && completedSteps[stepId]) {
-              checkbox.checked = true;
-              const step = document.getElementById("step-" + stepId);
-              if (step) {
-                step.classList.add("completed");
+          const progress = JSON.parse(savedProgress);
+          for (const id in progress) {
+            const checkbox = document.getElementById(id);
+            if (checkbox) {
+              checkbox.checked = progress[id];
+              if (progress[id]) {
+                const stepId = id.replace("check-", "");
+                const stepElement = document.getElementById(`step-${stepId}`);
+                if (stepElement) {
+                  stepElement.classList.add("completed");
+                }
               }
             }
           }
-
-          updateProgress();
         }
       }
 
       function resetProgress() {
-        localStorage.removeItem("ironmanGuideProgress");
-
+        localStorage.removeItem("guideProgress");
         document.querySelectorAll(".checkbox").forEach((checkbox) => {
           checkbox.checked = false;
-          const stepId = checkbox.id.replace("check-", "");
-          const step = document.getElementById("step-" + stepId);
-          if (step) {
-            step.classList.remove("completed");
-          }
         });
-
+        document.querySelectorAll(".step").forEach((step) => {
+          step.classList.remove("completed");
+        });
         updateProgress();
         showSaveToast("Progress reset");
       }
 
       function updateProgress() {
         const totalSteps = document.querySelectorAll(".checkbox").length;
-        const completedSteps =
-          document.querySelectorAll(".checkbox:checked").length;
-        const progressPercentage = Math.round(
+        const completedSteps = document.querySelectorAll(
+          ".checkbox:checked"
+        ).length;
+        const progressPercent = Math.round(
           (completedSteps / totalSteps) * 100
         );
 
         const progressBar = document.getElementById("progressBar");
-        progressBar.style.width = progressPercentage + "%";
+        progressBar.style.width = `${progressPercent}%`;
+        progressBar.querySelector(".progress-text").textContent = `${progressPercent}%`;
 
-        const progressText = progressBar.querySelector(".progress-text");
-        progressText.textContent = progressPercentage + "%";
-
-        if (progressPercentage >= 5) {
-          progressText.style.display = "inline";
-        } else {
-          progressText.style.display = "none";
-        }
+        // Highlight the last completed step
+        highlightLastCompletedStep();
       }
 
       function showSaveToast(message = "Progress saved") {
         const toast = document.getElementById("saveToast");
         toast.textContent = message;
-        toast.classList.add("visible");
-
+        toast.classList.add("show");
         setTimeout(() => {
-          toast.classList.remove("visible");
+          toast.classList.remove("show");
         }, 2000);
       }
 
       function jumpToLastCompletedStep() {
         const completedSteps = document.querySelectorAll(".step.completed");
-
-        if (completedSteps.length === 0) {
-          showSaveToast("No completed steps found");
-          return;
+        if (completedSteps.length > 0) {
+          const lastCompletedStep = completedSteps[completedSteps.length - 1];
+          
+          // Ensure the section is expanded
+          const sectionContent = lastCompletedStep.closest(".section-content");
+          if (sectionContent) {
+            sectionContent.classList.add("active");
+            const sectionHeader = sectionContent.previousElementSibling;
+            if (sectionHeader) {
+              sectionHeader.classList.add("active");
+            }
+          }
+          
+          // Scroll to the step with a small delay to ensure the section is expanded
+          setTimeout(() => {
+            lastCompletedStep.scrollIntoView({ behavior: "smooth" });
+          }, 100);
         }
-
-        const lastCompletedStep = completedSteps[completedSteps.length - 1];
-
-        const parentSection = lastCompletedStep.closest(".section-content");
-        parentSection.classList.add("active");
-
-        lastCompletedStep.scrollIntoView({
-          behavior: "smooth",
-          block: "center",
-        });
-
-        lastCompletedStep.style.transition = "background-color 0.5s ease";
-        const originalBg = lastCompletedStep.style.backgroundColor;
-        lastCompletedStep.style.backgroundColor = "#ffeb3b";
-
-        setTimeout(() => {
-          lastCompletedStep.style.backgroundColor = originalBg;
-        }, 1500);
-
-        showSaveToast("Jumped to last completed step");
       }
 
-      function formatStepContent(content) {
-        if (!content) return "";
+      function highlightLastCompletedStep() {
+        // Remove previous highlight
+        document.querySelectorAll(".step.highlight").forEach((step) => {
+          step.classList.remove("highlight");
+        });
 
-        let formattedContent = content
-          // Convert links: [text](url) to <a href="url">text</a>
-          .replace(
-            /\[([^\]]+)\]\(([^)]+)\)/g,
-            '<a href="$2" target="_blank">$1</a>'
-          )
-          // Convert bold: **text** or __text__ to <strong>text</strong>
-          .replace(/(\*\*|__)(.*?)\1/g, "<strong>$2</strong>")
-          // Convert italic: *text* or _text_ to <em>text</em>
-          .replace(/(\*|_)(.*?)\1/g, "<em>$2</em>")
-          // Convert code: `text` to <code>text</code>
-          .replace(/`([^`]+)`/g, "<code>$1</code>")
-          // Convert escaped characters
-          .replace(/\\([\\`*_{}[\]()#+\-.!])/g, "$1");
-
-        if (formattedContent.match(/\s+\d+[\.\)]\s+/)) {
-          const lines = formattedContent.split("\n");
-          let result = "";
-          let inSubstep = false;
-          let currentLevel = 0;
-          let substepStack = [];
-
-          for (let i = 0; i < lines.length; i++) {
-            const line = lines[i];
-
-            // Check if this line is a substep
-            const substepMatch = line.match(/^(\s*)(\d+)[\.\)]\s+(.*)/);
-
-            if (substepMatch) {
-              // This is a substep
-              const indentation = substepMatch[1].length;
-              const number = substepMatch[2];
-              const text = substepMatch[3];
-
-              // Determine the nesting level based on indentation
-              const level = Math.floor(indentation / 4) + 1;
-
-              // Close any deeper level substeps
-              while (substepStack.length > level - 1) {
-                result += "</div>"; // Close substep div
-                substepStack.pop();
-              }
-
-              // Open new substep if needed
-              if (substepStack.length < level - 1) {
-                for (let j = substepStack.length; j < level - 1; j++) {
-                  result += '<div class="substep">'; // Open a new level
-                  substepStack.push(j + 1);
-                }
-              }
-
-              // Add this substep
-              result += `<div class="substep"><span class="substep-number">${number}.</span>${text}</div>`;
-
-              inSubstep = true;
-            } else {
-              // Regular content
-              if (inSubstep) {
-                // Close all open substeps
-                while (substepStack.length > 0) {
-                  result += "</div>"; // Close substep div
-                  substepStack.pop();
-                }
-                inSubstep = false;
-              }
-
-              // Add the regular content
-              result += line + " ";
-            }
-          }
-
-          // Close any remaining open substeps
-          while (substepStack.length > 0) {
-            result += "</div>"; // Close substep div
-            substepStack.pop();
-          }
-
-          return result;
+        // Find the last completed step
+        const completedSteps = document.querySelectorAll(".step.completed");
+        if (completedSteps.length > 0) {
+          const lastCompletedStep = completedSteps[completedSteps.length - 1];
+          lastCompletedStep.classList.add("highlight");
         }
-
-        // For content without complex substeps, use the simpler approach
-        // Split content by spaces that have a number followed by a period or parenthesis
-        const parts = formattedContent.split(/\s+(?=\d+[\.\)])/);
-
-        if (parts.length > 1) {
-          // If we have potential substeps
-          let result = parts[0]; // Start with the main content
-
-          // Process each potential substep
-          for (let i = 1; i < parts.length; i++) {
-            const part = parts[i];
-            const match = part.match(/^(\d+[\.\)])\s+(.*)/);
-
-            if (match) {
-              // This is a substep
-              const number = match[1];
-              const text = match[2];
-              result += `<div class="substep"><span class="substep-number">${number}</span>${text}</div>`;
-            } else {
-              // Not a substep, just append
-              result += " " + part;
-            }
-          }
-
-          return result;
-        }
-
-        return formattedContent;
       }
     </script>
   </body>

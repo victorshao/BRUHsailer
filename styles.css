@@ -33,8 +33,9 @@ body.dark-mode {
 }
 
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
+  //font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Liberation Serif";
+  line-height: 1.2;
   margin: 0;
   padding: 0;
   background-color: var(--bg-color);
@@ -42,10 +43,148 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+/* Add uniform line spacing for all text elements */
+p,
+li,
+ul,
+ol,
+div,
+span {
+  line-height: 1.2;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+a {
+  text-decoration: underline;
+  color: var(--secondary);
+}
+
+strong,
+b {
+  font-weight: bold;
+}
+
+em,
+i {
+  font-style: italic;
+}
+
+u {
+  text-decoration: underline;
+}
+
+[class^="c"] {
+  text-decoration: inherit !important;
+}
+
+.c23,
+.c19,
+.c25,
+.c28,
+.c42 {
+  text-decoration: underline !important;
+}
+
+[class*="-webkit-text-decoration-skip"] {
+  -webkit-text-decoration-skip: none !important;
+  text-decoration-skip-ink: none !important;
+}
+
+.c13,
+.c20 {
+  text-decoration: line-through !important;
+}
+
+.c9,
+.c12 {
+  text-decoration: inherit !important;
+}
+
+.c0,
+.c1,
+.c2,
+.c3,
+.c4,
+.c5,
+.c6,
+.c7,
+.c8,
+.c9,
+.c10 {
+}
+
+ul,
+ol {
+  padding-left: 1.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+.section-header {
+  background-color: var(--primary);
+  color: white;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.section-title {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.section-time {
+  font-size: 0.9rem;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.step-content {
+  padding: 10px;
+  line-height: 1.1;
+  background-color: var(--card-bg);
+}
+
+.step-description {
+  margin-bottom: 12px;
+  transition: color 0.3s ease;
+}
+
+.step-description p,
+.step-description ul,
+.step-description ol,
+.step-description li {
+  line-height: 1.1;
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+}
+
+.step-description * {
+  text-decoration: inherit;
+}
+
+.step-content p {
+  margin-bottom: 8px;
+}
+
 .container {
   max-width: 900px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 15px;
 }
 
 header {
@@ -77,10 +216,14 @@ nav a {
 
 .progress-bar {
   background-color: #eee;
-  height: 30px;
+  height: 25px;
   border-radius: 5px;
-  margin: 20px 0;
+  margin: 15px 0;
   overflow: hidden;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  border: none;
 }
 
 .progress {
@@ -93,10 +236,20 @@ nav a {
   justify-content: center;
   color: white;
   font-weight: bold;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
 }
 
 .progress-text {
   display: none;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
 }
 
 .progress[style*="width: 5%"] .progress-text,
@@ -112,29 +265,9 @@ nav a {
   background-color: var(--card-bg);
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   overflow: hidden;
   transition: background-color 0.3s ease;
-}
-
-.section-header {
-  background-color: var(--primary);
-  color: white;
-  padding: 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.section-title {
-  margin: 0;
-  font-size: 1.2rem;
-}
-
-.section-time {
-  font-size: 0.9rem;
 }
 
 .section-content {
@@ -146,15 +279,15 @@ nav a {
 
 .section-content.active {
   max-height: none;
-  padding: 15px;
+  padding: 12px;
 }
 
 .step {
   border-bottom: 1px solid var(--section-border);
-  padding: 10px 0;
-  margin-bottom: 15px;
-  transition: background-color 0.3s ease, color 0.3s ease;
-  border-radius: 8px;
+  padding: 0;
+  margin-bottom: 8px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  border-radius: 6px;
   border: 1px solid var(--section-border);
   overflow: hidden;
 }
@@ -164,24 +297,39 @@ nav a {
 }
 
 .step.completed {
-  background-color: var(--completed-bg);
+  border-color: var(--completed-text);
+  background-color: transparent;
 }
 
 .step.completed .step-description {
-  color: var(--completed-text);
+  /* color: var(--completed-text); - removed */
+}
+
+.step.completed .step-description * {
+  /* color: var(--completed-text); - removed */
 }
 
 .step.completed .step-meta {
   background-color: var(--completed-meta-bg);
+  border-color: var(--completed-text);
 }
 
 .step-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 15px;
+  padding: 7px 10px;
   cursor: pointer;
   border-bottom: 1px solid var(--section-border);
+  /*background-color: rgba(0, 0, 0, 0.03);*/
+  color: var(--text-color);
+  min-height: 30px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+body.dark-mode .step-header {
+  /*background-color: rgba(255, 255, 255, 0.03);*/
 }
 
 .checkbox-container {
@@ -190,42 +338,29 @@ nav a {
 }
 
 .checkbox {
-  margin-right: 10px;
-  width: 18px;
-  height: 18px;
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
 }
 
 .step-number {
   font-weight: bold;
+  color: var(--text-color);
+  font-size: 0.9rem;
 }
 
 .step-time {
-  font-size: 0.9rem;
-  color: var(--secondary);
-  padding-right: 5px;
+  font-size: 0.85rem;
+  color: var(--text-color);
+  padding-right: 3px;
   font-weight: bold;
-}
-
-.step-content {
-  padding: 15px;
-  line-height: 1.6;
-  background-color: var(--card-bg);
-}
-
-.step-description {
-  margin-bottom: 15px;
-  transition: color 0.3s ease;
-}
-
-.step-content p {
-  margin-bottom: 10px;
 }
 
 .step-meta {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 10px;
-  margin-top: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin-top: 12px;
   padding: 10px;
   border: 1px solid var(--meta-border);
   border-radius: 5px;
@@ -236,28 +371,40 @@ nav a {
 .meta-item {
   display: flex;
   flex-direction: column;
+  padding: 4px;
+}
+
+.meta-item strong {
+  margin-bottom: 4px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.meta-item span {
+  line-height: 1.1;
 }
 
 .filter-container {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   flex-wrap: wrap;
 }
 
 .filter-buttons {
   display: flex;
-  gap: 10px;
+  gap: 8px;
 }
 
 .filter-btn {
   background-color: var(--primary);
   color: white;
   border: none;
-  padding: 8px 15px;
+  padding: 6px 12px;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  font-size: 0.9rem;
 }
 
 .filter-btn.active {
@@ -299,7 +446,7 @@ nav a {
   z-index: 1000;
 }
 
-.save-toast.visible {
+.save-toast.show {
   opacity: 1;
 }
 
@@ -328,18 +475,19 @@ nav a {
 
 .utility-buttons {
   display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
+  gap: 8px;
+  margin-bottom: 15px;
 }
 
 .utility-btn {
   background-color: var(--primary);
   color: white;
   border: none;
-  padding: 8px 15px;
+  padding: 6px 12px;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  font-size: 0.9rem;
 }
 
 .utility-btn:hover {
@@ -378,4 +526,207 @@ nav a {
     margin-left: 0;
     margin-top: 10px;
   }
+}
+
+/* Remove all the style overrides for imported content */
+.step-description *[style*="color"] {
+  /* color: inherit !important; - removed */
+}
+
+body.dark-mode .step-description *:not([style*="color"]) {
+  /* color: var(--text-color); - removed */
+}
+
+body:not(.dark-mode) .step-description *:not([style*="color"]) {
+  /* color: var(--text-color); - removed */
+}
+
+/* Add specific rules to preserve text decoration in all contexts */
+.step-description *[style*="text-decoration"] {
+  text-decoration: inherit !important;
+}
+
+.step-description a[href] {
+  text-decoration: underline;
+}
+
+/* Ensure links in the step description have proper styling */
+.step-description a {
+  color: var(--secondary);
+}
+
+/* Ensure completed steps don't override text decoration */
+.step.completed .step-description * {
+  /* color: var(--completed-text); - removed */
+  text-decoration: inherit !important;
+}
+
+/* Fix for search input in dark mode */
+#searchInput::placeholder {
+  color: var(--text-color);
+  opacity: 0.7;
+}
+
+/* Ensure proper styling for the step header in completed steps */
+.step.completed .step-header {
+  color: var(--completed-text);
+  background-color: var(--completed-bg);
+}
+
+.step.completed .step-number {
+  color: var(--completed-text);
+}
+
+/* Ensure proper styling for the step time in completed steps */
+.step.completed .step-time {
+  color: var(--completed-text);
+}
+
+/* Add a subtle indicator for completed steps */
+.step.completed .checkbox-container {
+  color: var(--completed-text);
+}
+
+/* Add styles for chapter titles */
+.chapter-title {
+  background-color: var(--primary);
+  color: white;
+  padding: 15px;
+  margin: 0;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.chapter-title:hover {
+  background-color: var(--secondary);
+}
+
+.chapter-content {
+  display: none;
+  padding: 10px;
+  background-color: var(--bg-color);
+}
+
+.chapter-content.active {
+  display: block;
+}
+
+/* Improve chapter styling */
+.guide-chapter {
+  margin-bottom: 30px;
+  border: 1px solid var(--section-border);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* Adjust guide section styling to fit within chapter */
+.guide-section {
+  margin-bottom: 15px;
+  border: 1px solid var(--section-border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+/* Nested content styling */
+.nested-content {
+  margin-left: 20px;
+  padding-left: 15px;
+  border-left: 3px solid var(--secondary);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.nested-content.level-1 {
+  border-left-color: var(--secondary);
+}
+
+.nested-content.level-2 {
+  border-left-color: #ff9800;
+  margin-left: 40px;
+}
+
+.nested-content.level-3 {
+  border-left-color: #e91e63;
+  margin-left: 60px;
+}
+
+/* Highlight for the last completed step */
+.step.highlight {
+  border-left: 4px solid var(--secondary);
+  animation: pulse 2s;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: rgba(134, 179, 0, 0.1);
+  }
+  50% {
+    background-color: rgba(134, 179, 0, 0.3);
+  }
+  100% {
+    background-color: rgba(134, 179, 0, 0);
+  }
+}
+
+/* Improve step content spacing */
+.step-description > div {
+  margin-bottom: 10px;
+}
+
+/* Make sure spans don't break formatting */
+.step-description span {
+  display: inline;
+}
+
+/* Error message styling */
+.error-message {
+  background-color: #ffebee;
+  color: #c62828;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px 0;
+  border-left: 5px solid #c62828;
+}
+
+body.dark-mode .error-message {
+  background-color: #331111;
+  color: #ff6666;
+  border-left: 5px solid #ff6666;
+}
+
+/* Improve section header active state */
+.section-header.active {
+  background-color: var(--secondary);
+}
+
+/* Ensure section content is hidden by default */
+.section-content {
+  display: none;
+}
+
+.section-content.active {
+  display: block;
+}
+
+/* Improve guide section spacing */
+.guide-section {
+  margin-bottom: 15px;
+}
+
+/* Improve step meta styling */
+.step-meta {
+  background-color: var(--meta-bg);
+  border: 1px solid var(--meta-border);
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.meta-item {
+  margin-bottom: 5px;
+}
+
+.meta-item:last-child {
+  margin-bottom: 0;
 }
