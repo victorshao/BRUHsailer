@@ -190,20 +190,47 @@ li:last-child {
 header {
   background-color: var(--primary);
   color: white;
-  padding: 0.5rem 1rem;
+  padding: 0.7rem 1rem;
   text-align: center;
   transition: background-color 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
 }
 
 h1 {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
+  font-family: inherit;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 0.03em;
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.95);
+  font-family: inherit;
+}
+
+.byline {
+  margin: 0.1rem 0 0 0;
+  font-size: 1rem;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: normal;
+  text-align: center;
 }
 
 nav {
   background-color: var(--secondary);
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 10px 20px;
   transition: background-color 0.3s ease;
 }
