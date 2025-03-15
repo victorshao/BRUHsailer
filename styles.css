@@ -7,7 +7,7 @@
   --secondary: #86b300;
   --bg-color: #f5f5f5;
   --text-color: #333;
-  --completed-bg: #eeffee;
+  --completed-bg: #c8e6c8;
   --completed-text: #2c7a2c;
   --completed-meta-bg: #c8e6c8;
   --section-border: #ddd;
@@ -22,7 +22,7 @@ body.dark-mode {
   --secondary: #6c9c00;
   --bg-color: #121212;
   --text-color: #e0e0e0;
-  --completed-bg: #1e3a1e;
+  --completed-bg: #2c4c2c;
   --completed-text: #86b300;
   --completed-meta-bg: #2c4c2c;
   --section-border: #444;
@@ -33,7 +33,6 @@ body.dark-mode {
 }
 
 body {
-  //font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-family: "Liberation Serif";
   line-height: 1.2;
   margin: 0;
@@ -74,44 +73,9 @@ u {
   text-decoration: underline;
 }
 
-[class^="c"] {
-  text-decoration: inherit !important;
-}
-
-.c23,
-.c19,
-.c25,
-.c28,
-.c42 {
-  text-decoration: underline !important;
-}
-
 [class*="-webkit-text-decoration-skip"] {
   -webkit-text-decoration-skip: none !important;
   text-decoration-skip-ink: none !important;
-}
-
-.c13,
-.c20 {
-  text-decoration: line-through !important;
-}
-
-.c9,
-.c12 {
-  text-decoration: inherit !important;
-}
-
-.c0,
-.c1,
-.c2,
-.c3,
-.c4,
-.c5,
-.c6,
-.c7,
-.c8,
-.c9,
-.c10 {
 }
 
 ul,
@@ -185,6 +149,7 @@ li:last-child {
   max-width: 900px;
   margin: 0 auto;
   padding: 15px;
+  font-family: Arial, sans-serif;
 }
 
 header {
@@ -214,16 +179,16 @@ h1 {
   font-size: 1rem;
   font-weight: normal;
   color: rgba(255, 255, 255, 0.95);
-  font-family: inherit;
+  font-family: Arial, sans-serif;
 }
 
 .byline {
   margin: 0.1rem 0 0 0;
-  font-size: 1rem;
-  font-style: italic;
-  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.65);
   font-weight: normal;
   text-align: center;
+  font-family: Arial, sans-serif;
 }
 
 nav {
@@ -233,12 +198,14 @@ nav {
   align-items: center;
   padding: 10px 20px;
   transition: background-color 0.3s ease;
+  font-family: Arial, sans-serif;
 }
 
 nav a {
   color: white;
   text-decoration: none;
   font-weight: bold;
+  font-family: Arial, sans-serif;
 }
 
 .progress-bar {
@@ -251,6 +218,7 @@ nav a {
   box-sizing: border-box;
   position: relative;
   border: none;
+  font-family: Arial, sans-serif;
 }
 
 .progress {
@@ -269,6 +237,7 @@ nav a {
   margin: 0;
   padding: 0;
   border-radius: 5px;
+  font-family: Arial, sans-serif;
 }
 
 .progress-text {
@@ -277,6 +246,7 @@ nav a {
   z-index: 1;
   width: 100%;
   text-align: center;
+  font-family: Arial, sans-serif;
 }
 
 .progress[style*="width: 5%"] .progress-text,
@@ -756,4 +726,9 @@ body.dark-mode .error-message {
 
 .meta-item:last-child {
   margin-bottom: 0;
+}
+
+/* Header font styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, sans-serif;
 }
