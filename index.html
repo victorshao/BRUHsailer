@@ -266,7 +266,11 @@
             link.className = "drive-link";
             applyFormatting(link, item.formatting);
             container.appendChild(link);
-          } else if (item.formatting && item.formatting.url && item.formatting.isLink) {
+          } else if (
+            item.formatting &&
+            item.formatting.url &&
+            item.formatting.isLink
+          ) {
             const link = document.createElement("a");
             link.href = item.formatting.url;
             link.textContent = item.text;
