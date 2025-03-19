@@ -117,8 +117,9 @@ li:last-child {
 }
 
 .step-content {
+  font-size: 14px;
   padding: 10px;
-  line-height: 1.1;
+  line-height: 1.2;
   background-color: var(--card-bg);
 }
 
@@ -131,7 +132,7 @@ li:last-child {
 .step-description ul,
 .step-description ol,
 .step-description li {
-  line-height: 1.1;
+  line-height: 1.2;
   margin-top: 0.4em;
   margin-bottom: 0.4em;
 }
@@ -536,8 +537,8 @@ body:not(.dark-mode) .step-description *:not([style*="color"]) {
   /* color: var(--text-color); */
 }
 
-.step-description *[style*="text-decoration"] {
-  text-decoration: inherit !important;
+.step-description *[style*="color: rgb(0, 0, 0)"] {
+  color: var(--text-color) !important;
 }
 
 .step-description a[href] {
@@ -546,11 +547,6 @@ body:not(.dark-mode) .step-description *:not([style*="color"]) {
 
 .step-description a {
   color: var(--secondary);
-}
-
-.step.completed .step-description * {
-  /* color: var(--completed-text); */
-  text-decoration: inherit !important;
 }
 
 #searchInput::placeholder {
@@ -620,7 +616,7 @@ body:not(.dark-mode) .step-description *:not([style*="color"]) {
 }
 
 .footnotes-header-container:hover {
-  background-color: #f5f5f5;
+  background-color: var(--secondary);
 }
 
 .footnotes-title {
