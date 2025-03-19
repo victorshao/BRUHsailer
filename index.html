@@ -80,6 +80,12 @@
 
         if (localStorage.getItem("darkMode") === "true") {
           document.body.classList.add("dark-mode");
+        } else if (localStorage.getItem("darkMode") === "false") {
+          document.body.classList.remove("dark-mode");
+        } else {
+          if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+            document.body.classList.add("dark-mode");
+          }
         }
 
         document

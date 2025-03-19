@@ -110,6 +110,10 @@ li:last-child {
   color: rgba(255, 255, 255, 0.9);
 }
 
+.section-header:hover {
+  background-color: var(--secondary);
+}
+
 .section-time {
   font-size: 0.9rem;
   font-weight: normal;
@@ -405,6 +409,10 @@ body.dark-mode .step-header {
 }
 
 .filter-btn.active {
+  background-color: var(--secondary);
+}
+
+.filter-btn:hover {
   background-color: var(--secondary);
 }
 
