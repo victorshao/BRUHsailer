@@ -42,7 +42,6 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Add uniform line spacing for all text elements */
 p,
 li,
 ul,
@@ -299,11 +298,11 @@ nav a {
 }
 
 .step.completed .step-description {
-  /* color: var(--completed-text); - removed */
+  /* color: var(--completed-text); */
 }
 
 .step.completed .step-description * {
-  /* color: var(--completed-text); - removed */
+  /* color: var(--completed-text); */
 }
 
 .step.completed .step-meta {
@@ -318,7 +317,7 @@ nav a {
   padding: 7px 10px;
   cursor: pointer;
   border-bottom: 1px solid var(--section-border);
-  /*background-color: rgba(0, 0, 0, 0.03);*/
+  /* background-color: rgba(0, 0, 0, 0.03); */
   color: var(--text-color);
   min-height: 30px;
   border-top-left-radius: 5px;
@@ -326,7 +325,7 @@ nav a {
 }
 
 body.dark-mode .step-header {
-  /*background-color: rgba(255, 255, 255, 0.03);*/
+  /* background-color: rgba(255, 255, 255, 0.03); */
 }
 
 .checkbox-container {
@@ -525,20 +524,18 @@ body.dark-mode .step-header {
   }
 }
 
-/* Remove all the style overrides for imported content */
 .step-description *[style*="color"] {
-  /* color: inherit !important; - removed */
+  /* color: inherit !important; */
 }
 
 body.dark-mode .step-description *:not([style*="color"]) {
-  /* color: var(--text-color); - removed */
+  /* color: var(--text-color);  */
 }
 
 body:not(.dark-mode) .step-description *:not([style*="color"]) {
-  /* color: var(--text-color); - removed */
+  /* color: var(--text-color); */
 }
 
-/* Add specific rules to preserve text decoration in all contexts */
 .step-description *[style*="text-decoration"] {
   text-decoration: inherit !important;
 }
@@ -547,24 +544,20 @@ body:not(.dark-mode) .step-description *:not([style*="color"]) {
   text-decoration: underline;
 }
 
-/* Ensure links in the step description have proper styling */
 .step-description a {
   color: var(--secondary);
 }
 
-/* Ensure completed steps don't override text decoration */
 .step.completed .step-description * {
-  /* color: var(--completed-text); - removed */
+  /* color: var(--completed-text); */
   text-decoration: inherit !important;
 }
 
-/* Fix for search input in dark mode */
 #searchInput::placeholder {
   color: var(--text-color);
   opacity: 0.7;
 }
 
-/* Ensure proper styling for the step header in completed steps */
 .step.completed .step-header {
   color: var(--completed-text);
   background-color: var(--completed-bg);
@@ -574,17 +567,14 @@ body:not(.dark-mode) .step-description *:not([style*="color"]) {
   color: var(--completed-text);
 }
 
-/* Ensure proper styling for the step time in completed steps */
 .step.completed .step-time {
   color: var(--completed-text);
 }
 
-/* Add a subtle indicator for completed steps */
 .step.completed .checkbox-container {
   color: var(--completed-text);
 }
 
-/* Add styles for chapter titles */
 .chapter-title {
   background-color: var(--primary);
   color: white;
@@ -609,7 +599,54 @@ body:not(.dark-mode) .step-description *:not([style*="color"]) {
   display: block;
 }
 
-/* Improve chapter styling */
+.chapter-footnotes {
+  margin-top: 2rem;
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
+}
+
+.chapter-footnotes {
+  margin-top: 2rem;
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
+}
+
+.footnotes-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.5rem 0;
+}
+
+.footnotes-header-container:hover {
+  background-color: #f5f5f5;
+}
+
+.footnotes-title {
+  font-size: 1.2rem;
+  margin: 0;
+  color: #333;
+}
+
+.footnotes-toggle-icon {
+  color: #666;
+  font-size: 0.9rem;
+  transition: transform 0.2s ease;
+}
+
+.footnotes-content {
+  font-size: 0.9rem;
+  color: #555;
+  max-height: 1000px;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.footnotes-content.collapsed {
+  max-height: 0;
+}
+
 .guide-chapter {
   margin-bottom: 30px;
   border: 1px solid var(--section-border);
@@ -617,7 +654,6 @@ body:not(.dark-mode) .step-description *:not([style*="color"]) {
   overflow: hidden;
 }
 
-/* Adjust guide section styling to fit within chapter */
 .guide-section {
   margin-bottom: 15px;
   border: 1px solid var(--section-border);
@@ -625,7 +661,6 @@ body:not(.dark-mode) .step-description *:not([style*="color"]) {
   overflow: hidden;
 }
 
-/* Nested content styling */
 .nested-content {
   margin-left: 20px;
   padding-left: 15px;
@@ -648,7 +683,6 @@ body:not(.dark-mode) .step-description *:not([style*="color"]) {
   margin-left: 60px;
 }
 
-/* Highlight for the last completed step */
 .step.highlight {
   border-left: 4px solid var(--secondary);
   animation: pulse 2s;
@@ -666,17 +700,14 @@ body:not(.dark-mode) .step-description *:not([style*="color"]) {
   }
 }
 
-/* Improve step content spacing */
 .step-description > div {
   margin-bottom: 10px;
 }
 
-/* Make sure spans don't break formatting */
 .step-description span {
   display: inline;
 }
 
-/* Error message styling */
 .error-message {
   background-color: #ffebee;
   color: #c62828;
@@ -692,12 +723,10 @@ body.dark-mode .error-message {
   border-left: 5px solid #ff6666;
 }
 
-/* Improve section header active state */
 .section-header.active {
   background-color: var(--secondary);
 }
 
-/* Ensure section content is hidden by default */
 .section-content {
   display: none;
 }
@@ -706,12 +735,10 @@ body.dark-mode .error-message {
   display: block;
 }
 
-/* Improve guide section spacing */
 .guide-section {
   margin-bottom: 15px;
 }
 
-/* Improve step meta styling */
 .step-meta {
   background-color: var(--meta-bg);
   border: 1px solid var(--meta-border);
@@ -728,7 +755,11 @@ body.dark-mode .error-message {
   margin-bottom: 0;
 }
 
-/* Header font styles */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: Arial, sans-serif;
 }

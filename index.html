@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BRUHSailer</title>
+    <title>BRUHsailer</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -234,6 +234,32 @@
               sectionElement.appendChild(sectionContent);
               chapterContent.appendChild(sectionElement);
             });
+
+            if (chapter.footnotes && chapter.footnotes.length > 0) {
+              const footnotesSection = document.createElement("div");
+              footnotesSection.className = "guide-section footnotes-section";
+
+              const footnotesHeader = document.createElement("div");
+              footnotesHeader.className = "section-header footnotes-header";
+              footnotesHeader.innerHTML = `
+          <h2 class="section-title">End of chapter notes</h2>
+        `;
+
+              const footnotesContent = document.createElement("div");
+              footnotesContent.className = "section-content footnotes-content";
+
+              chapter.footnotes.forEach((footnote, footnoteIndex) => {
+                if (footnote.content && Array.isArray(footnote.content)) {
+                  footnotesContent.appendChild(
+                    renderFormattedContent(footnote.content)
+                  );
+                }
+              });
+
+              footnotesSection.appendChild(footnotesHeader);
+              footnotesSection.appendChild(footnotesContent);
+              chapterContent.appendChild(footnotesSection);
+            }
 
             chapterElement.appendChild(chapterHeader);
             chapterElement.appendChild(chapterContent);
