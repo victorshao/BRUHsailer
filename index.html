@@ -16,11 +16,14 @@
       <p class="byline">Web adaptation by kyyznn</p>
     </header>
     <nav>
-      <a
-        href="https://docs.google.com/document/d/1CBkFM70SnrW4hJXvHM2F1fYCuBF_fRnEXnTYgRnRkAE"
-        >Guide Docs</a
-      >
-      <a href="#" id="resetProgressBtn">Reset Progress</a>
+      <div class="nav-content">
+        <a
+          href="https://docs.google.com/document/d/1CBkFM70SnrW4hJXvHM2F1fYCuBF_fRnEXnTYgRnRkAE"
+          >Guide Docs</a
+        >
+        <div id="lastUpdated"></div>
+        <a href="#" id="resetProgressBtn">Reset Progress</a>
+      </div>
     </nav>
     <div class="container">
       <div class="progress-bar">
@@ -32,6 +35,9 @@
       <div class="utility-buttons">
         <button class="utility-btn" id="jumpToLastBtn">
           Jump to Last Completed Step
+        </button>
+        <button class="utility-btn" id="minimizeCompletedToggle">
+          Minimize Completed
         </button>
       </div>
 
@@ -93,6 +99,17 @@
           .addEventListener("click", function () {
             jumpToLastCompletedStep();
           });
+
+        document
+          .getElementById("minimizeCompletedToggle")
+          .addEventListener("click", function () {
+            this.classList.toggle("active");
+
+            const activeFilter = document
+              .querySelector(".filter-btn.active")
+              .getAttribute("data-filter");
+            applyCurrentFilter(activeFilter);
+          });
       });
 
       async function loadGuideData() {
@@ -107,13 +124,25 @@
 
           guideContent.innerHTML = "";
 
+          const lastUpdated = document.getElementById("lastUpdated");
+
+          lastUpdated.innerHTML = `
+            Last updated: ${guideData.updatedOn}
+          `;
+
           guideData.chapters.forEach((chapter, chapterIndex) => {
             const chapterElement = document.createElement("div");
             chapterElement.className = "guide-chapter";
 
             const chapterHeader = document.createElement("h2");
             chapterHeader.className = "chapter-title";
-            chapterHeader.textContent = chapter.title;
+            if (chapter.titleFormatted) {
+              chapterHeader.appendChild(
+                renderFormattedContent(chapter.titleFormatted)
+              );
+            } else {
+              chapterHeader.textContent = chapter.title;
+            }
 
             const chapterContent = document.createElement("div");
             chapterContent.className = "chapter-content";
@@ -355,13 +384,34 @@
       function applyFormatting(element, formatting) {
         if (!formatting) return;
 
-        if (formatting.bold) element.style.fontWeight = "bold";
+        if (formatting.bold) {
+          element.style.fontWeight = "bold";
+        } else {
+          element.style.fontWeight = "normal";
+        }
+
         if (formatting.italic) element.style.fontStyle = "italic";
-        if (formatting.underline) element.style.textDecoration = "underline";
-        if (formatting.fontSize)
+        else {
+          element.style.fontStyle = "normal";
+        }
+
+        let textDecoration = "";
+        if (formatting.underline) textDecoration += "underline ";
+        if (formatting.strikethrough) textDecoration += "line-through ";
+
+        if (textDecoration) {
+          element.style.textDecoration = textDecoration.trim();
+        } else {
+          element.style.textDecoration = "none";
+        }
+
+        if (formatting.fontSize) {
           element.style.fontSize = `${formatting.fontSize + 2}px`;
-        if (formatting.fontFamily)
+        }
+
+        if (formatting.fontFamily) {
           element.style.fontFamily = formatting.fontFamily;
+        }
 
         if (formatting.color) {
           const color = formatting.color;
@@ -578,8 +628,25 @@
       function applyCurrentFilter(filter) {
         const steps = document.querySelectorAll(".step");
         const lastCompletedStep = document.querySelector(".step.highlight");
+        const isMinimized = document
+          .getElementById("minimizeCompletedToggle")
+          .classList.contains("active");
+        const sections = document.querySelectorAll(".guide-section");
+        const chapters = document.querySelectorAll(".guide-chapter");
+
+        if (lastCompletedStep) {
+          lastCompletedStep.style.display = "block";
+
+          const parentSection = lastCompletedStep.closest(".guide-section");
+          const parentChapter = lastCompletedStep.closest(".guide-chapter");
+
+          if (parentSection) parentSection.style.display = "block";
+          if (parentChapter) parentChapter.style.display = "block";
+        }
 
         steps.forEach((step) => {
+          if (step === lastCompletedStep) return;
+
           if (filter === "all") {
             step.style.display = "block";
           } else if (filter === "completed") {
@@ -587,13 +654,64 @@
               ? "block"
               : "none";
           } else if (filter === "incomplete") {
-            const isIncomplete = !step.classList.contains("completed");
-            const isLastCompleted =
-              lastCompletedStep && step === lastCompletedStep;
-            step.style.display =
-              isIncomplete || isLastCompleted ? "block" : "none";
+            step.style.display = !step.classList.contains("completed")
+              ? "block"
+              : "none";
           }
         });
+
+        steps.forEach((step) => {
+          const stepContent = step.querySelector(".step-content");
+          const isCompleted = step.classList.contains("completed");
+          const isHighlighted = step.classList.contains("highlight");
+
+          if (stepContent) {
+            if (isMinimized && isCompleted) {
+              stepContent.style.display = "none";
+            } else {
+              stepContent.style.display = "block";
+            }
+          }
+        });
+
+        if (filter === "incomplete") {
+          sections.forEach((section) => {
+            if (lastCompletedStep && section.contains(lastCompletedStep))
+              return;
+
+            const sectionSteps = section.querySelectorAll(".step");
+            const allStepsCompleted = Array.from(sectionSteps).every((step) =>
+              step.classList.contains("completed")
+            );
+            const hasVisibleSteps = Array.from(sectionSteps).some(
+              (step) => step.style.display !== "none"
+            );
+
+            section.style.display =
+              allStepsCompleted || !hasVisibleSteps ? "none" : "block";
+          });
+
+          chapters.forEach((chapter) => {
+            if (lastCompletedStep && chapter.contains(lastCompletedStep))
+              return;
+
+            const chapterSections = chapter.querySelectorAll(".guide-section");
+            const visibleSections = Array.from(chapterSections).filter(
+              (section) => section.style.display !== "none"
+            );
+
+            chapter.style.display =
+              visibleSections.length === 0 ? "none" : "block";
+          });
+        } else {
+          sections.forEach((section) => {
+            section.style.display = "block";
+          });
+
+          chapters.forEach((chapter) => {
+            chapter.style.display = "block";
+          });
+        }
       }
     </script>
   </body>

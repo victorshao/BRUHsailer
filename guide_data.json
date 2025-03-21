@@ -1,4 +1,5 @@
 {
+  "updatedOn": "2025-03-20",
   "title": "BRUHsailer Complete Guide",
   "chapters": [
     {
@@ -1350,7 +1351,9 @@
                       "text": "Getting Rats for 2t Oaks",
                       "url": "https://www.youtube.com/watch?v=3ysPgln5qZ4&pp=ygUMb3NycyAydCBvYWtz",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": ", though keeping the rats in cycle while burning the logs may prove difficult.\n",
@@ -2325,22 +2328,7 @@
                   }
                 },
                 {
-                  "text": ". Buy 1600 soda ash and 10 buckets of slime.",
-                  "formatting": {}
-                },
-                {
-                  "text": " ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "S",
+                  "text": ". S",
                   "formatting": {}
                 },
                 {
@@ -3003,6 +2991,7 @@
                       "url": "https://www.youtube.com/watch?v=6wuG8IvxHbM",
                       "isLink": true,
                       "formatting": {
+                        "underline": true,
                         "fontFamily": "Arial"
                       }
                     },
@@ -3815,7 +3804,9 @@
                       "text": "OSRSRecklessLadHowDoesFoodWorkV2.png",
                       "url": "https://drive.google.com/file/d/1Xn4YfME8C4Gqm5A5qh-T9f0-XHN4_2CQ/view?usp=share_link",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": "\n",
@@ -4044,6 +4035,7 @@
                   "url": "https://www.youtube.com/watch?v=6wuG8IvxHbM",
                   "isLink": true,
                   "formatting": {
+                    "underline": true,
                     "fontFamily": "Arial"
                   }
                 },
@@ -6083,7 +6075,9 @@
                       "text": "Setting up gravestone with waterskins for low-level sandstone mining",
                       "url": "https://www.youtube.com/watch?v=rb5BKbVXuBo",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": " shows how to use a gravestone method to have access to more waterskins during mining. By keeping the gravestone interface open the timer doesn’t run down. This method shouldn’t be necessary for just 1600 sand though.\n",
@@ -6098,7 +6092,9 @@
                       "text": "3 tick sandstone mining at new spot (easier method)",
                       "url": "https://www.youtube.com/watch?v=hPQ-6aZdydI",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": "this is the modern spot for sandstone mining, ",
@@ -6109,6 +6105,7 @@
                       "url": "https://www.youtube.com/watch?v=ezql5TmeCCg",
                       "isLink": true,
                       "formatting": {
+                        "underline": true,
                         "fontFamily": "Arial"
                       }
                     },
@@ -7081,7 +7078,9 @@
                       "text": "Bird house run including banking",
                       "url": "https://www.youtube.com/watch?v=zK4L2aDUneg",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": ". A lot of guides get the pathing (in the valley) wrong or do not use a fifth clockwork!",
@@ -8482,7 +8481,9 @@
                       "text": "2t Woodcutting Prif with moving",
                       "url": "https://www.youtube.com/watch?v=klCxgZrmVe8",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": " shows how to move between trees without messing up the 2t setup. The same strategy works at Soul Wars.\n",
@@ -8501,29 +8502,12 @@
                       "text": "Getting Rats for 2t Oaks",
                       "url": "https://www.youtube.com/watch?v=3ysPgln5qZ4&pp=ygUMb3NycyAydCBvYWtz",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": ", though keeping the rats in cycle while burning the logs may prove difficult.\n",
-                      "formatting": {}
-                    }
-                  ]
-                },
-                {
-                  "level": 1,
-                  "content": [
-                    {
-                      "text": "If you want/need more Forestry rewards during or after this step, consider this world hop method: ",
-                      "formatting": {}
-                    },
-                    {
-                      "text": "NEW Forestry Guide - Fastest Method In-Game",
-                      "url": "https://www.youtube.com/watch?v=7yFn-BaaDo8",
-                      "isLink": true,
-                      "formatting": {}
-                    },
-                    {
-                      "text": ". At this level you will be limited to using Yew trees, but the approach is the \n",
                       "formatting": {}
                     }
                   ]
@@ -10441,7 +10425,7 @@
                   }
                 },
                 {
-                  "text": " and ",
+                  "text": ", ",
                   "formatting": {}
                 },
                 {
@@ -10456,11 +10440,11 @@
                   }
                 },
                 {
-                  "text": "d",
+                  "text": "d and the",
                   "formatting": {}
                 },
                 {
-                  "text": ", with seed box points optional.",
+                  "text": " seed box points.",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -10998,7 +10982,9 @@
                       "text": "Tithe Farm Updated (100 fruits in 19min 24sec - No Stams/Energy potions)",
                       "url": "https://www.youtube.com/watch?v=AImGJepWbkw",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": ". Despite the video title it is wise to carry several energy potions (because of your lower agility level). Unlike the video you ",
@@ -11046,7 +11032,8 @@
                       "isLink": true,
                       "formatting": {
                         "bold": true,
-                        "italic": true
+                        "italic": true,
+                        "underline": true
                       }
                     },
                     {
@@ -11462,7 +11449,9 @@
                       "text": "Low level earth orbs",
                       "url": "https://www.youtube.com/watch?v=L4uKH-MgLSM",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": " shows a video guide with all the steps for charging orbs. Buy Shantay passes to get into the desert from the Ruins of Unkah (you won’t be able to pass freely unlike in the video):\n",
@@ -11677,7 +11666,9 @@
                       "text": "Low level earth orbs",
                       "url": "https://www.youtube.com/watch?v=L4uKH-MgLSM",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": " shows a video guide with all the steps for charging orbs.",
@@ -11806,7 +11797,9 @@
                       "text": "Improved Gravestone Air Orb Charging",
                       "url": "https://www.youtube.com/watch?v=6PbkelK0bLA",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": "\n",
@@ -12501,7 +12494,9 @@
               "text": "BRUHsailer",
               "url": "https://docs.google.com/document/d/1CBkFM70SnrW4hJXvHM2F1fYCuBF_fRnEXnTYgRnRkAE/edit?usp=sharing",
               "isLink": true,
-              "formatting": {}
+              "formatting": {
+                "underline": true
+              }
             },
             {
               "text": " ",
@@ -12530,7 +12525,9 @@
               "text": "20250309Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
-              "formatting": {}
+              "formatting": {
+                "underline": true
+              }
             },
             {
               "text": "\n",
@@ -12551,7 +12548,9 @@
               "text": "20250309Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
-              "formatting": {}
+              "formatting": {
+                "underline": true
+              }
             },
             {
               "text": "\n",
@@ -12570,7 +12569,9 @@
               "text": "20250309Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
-              "formatting": {}
+              "formatting": {
+                "underline": true
+              }
             },
             {
               "text": "\n",
@@ -12589,7 +12590,9 @@
               "text": "20250309DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1XZ-3Kja7_QS4Rxj4mJXeATXHBP03lrdUSt46gO3pWHk/edit#gid=1506136399",
               "isLink": true,
-              "formatting": {}
+              "formatting": {
+                "underline": true
+              }
             },
             {
               "text": "\n",
@@ -12654,7 +12657,9 @@
               "text": "20210715Chapter1",
               "url": "https://docs.google.com/document/d/1W4CiIPnVMDS1eqBOYbMOwViDDlJsZTeMyEl_f-432EM/edit?usp=sharing",
               "isLink": true,
-              "formatting": {}
+              "formatting": {
+                "underline": true
+              }
             },
             {
               "text": "\n",
@@ -12673,7 +12678,9 @@
               "text": "20210715Chapter2",
               "url": "https://docs.google.com/document/d/1l9fp00nMLOA_eLBrPI7_2dzVW5MsAu8Qahmp7wEBnLw/edit?usp=sharing",
               "isLink": true,
-              "formatting": {}
+              "formatting": {
+                "underline": true
+              }
             },
             {
               "text": "\n",
@@ -12692,7 +12699,9 @@
               "text": "20210930Chapter3",
               "url": "https://docs.google.com/document/d/19UjEKjUL_7uuEiNAF2hrPIV4vqKb47Fo4rGyMmKKhWI/edit?usp=sharing",
               "isLink": true,
-              "formatting": {}
+              "formatting": {
+                "underline": true
+              }
             },
             {
               "text": "\n",
@@ -12711,7 +12720,9 @@
               "text": "20210930DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1BfGt4T3T7gKmtpjdLXmjengEpXjtodX0tsrjU4ToTto/edit?usp=sharing",
               "isLink": true,
-              "formatting": {}
+              "formatting": {
+                "underline": true
+              }
             },
             {
               "text": "\n",
@@ -12780,6 +12791,30 @@
             }
           ],
           "type": "chapter_footnote"
+        }
+      ],
+      "titleFormatted": [
+        {
+          "text": "Chapter 1: Get to da ",
+          "formatting": {
+            "bold": true,
+            "fontSize": 18
+          }
+        },
+        {
+          "text": "chopper",
+          "formatting": {
+            "bold": true,
+            "strikethrough": true,
+            "fontSize": 18
+          }
+        },
+        {
+          "text": " earth staves\n",
+          "formatting": {
+            "bold": true,
+            "fontSize": 18
+          }
         }
       ]
     },
@@ -12956,7 +12991,16 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Leave the final set of larders in the house. Also build a fancy range, oak shelves 2 and a pump and drain (requires 13 steel bars, 3 oak planks and 6 soft clay).",
+                      "text": "Leave the final set of larders in the house. Also build a fancy range, oak shelves 2 and a pump and drain (requires 13 steel bars, 3 oak planks and 6 soft clay).\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "If you have spare oak logs (or even planks), for example from wintertodt, use those first instead of chopping.",
                       "formatting": {}
                     },
                     {
@@ -13029,6 +13073,7 @@
                       "url": "https://youtu.be/A2dgu4ThJbE",
                       "isLink": true,
                       "formatting": {
+                        "underline": true,
                         "fontFamily": "Arial"
                       }
                     },
@@ -13048,6 +13093,19 @@
                       "formatting": {
                         "fontFamily": "Arial"
                       }
+                    },
+                    {
+                      "text": "\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "If you have spare oak logs (or even planks), for example from wintertodt, or teak logs (or even planks), for example from wintertodt or tempoross, use those first instead of chopping.",
+                      "formatting": {}
                     },
                     {
                       "text": "\n",
@@ -13729,7 +13787,9 @@
                   "text": "3 tick sandstone mining at new spot (easier method)",
                   "url": "https://www.youtube.com/watch?v=hPQ-6aZdydI",
                   "isLink": true,
-                  "formatting": {}
+                  "formatting": {
+                    "underline": true
+                  }
                 },
                 {
                   "text": ", the modern method ",
@@ -13739,7 +13799,9 @@
                   "text": "Binxy4SandstoneSpot.png",
                   "url": "https://drive.google.com/file/d/1En18zEdCPsmMSDFu70dPfa8TMR6X2hYd/view?usp=sharing",
                   "isLink": true,
-                  "formatting": {}
+                  "formatting": {
+                    "underline": true
+                  }
                 },
                 {
                   "text": " at this south spot shown by Binxy, until you are 10k xp away from level 60 mining (you don’t have to buy any sand for this. Feel free to get the level instead, if you want). Buy the ancient staff from Eblis. Once done, head south (rebank at the Ruins of Unkah if needed),",
@@ -13845,7 +13907,9 @@
                       "text": "3 tick sandstone mining at new spot (easier method)",
                       "url": "https://www.youtube.com/watch?v=hPQ-6aZdydI",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": "shows the 3t4s method (also linked above).\n",
@@ -13873,7 +13937,9 @@
                       "text": "20220129_09-16-40CrandorTilesSeeingBothFallenStars.png",
                       "url": "https://drive.google.com/file/d/1cWWMwFOprdByinP_a_6JsqkTinnhtv_D/view",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": "on Crandor is such a spot. Alternatively, use ",
@@ -14207,6 +14273,7 @@
                       "url": "https://docs.google.com/document/d/1rAnKmezSQmnqFOCti4RWze-kvMoW8i4Kyk5xswJ-9Qc/edit?usp=sharing",
                       "isLink": true,
                       "formatting": {
+                        "underline": true,
                         "fontFamily": "Arial"
                       }
                     },
@@ -15293,7 +15360,9 @@
                   "text": "imbue scroll via pvp arena - losing method",
                   "url": "https://www.youtube.com/watch?v=OORAXLhdZAg",
                   "isLink": true,
-                  "formatting": {}
+                  "formatting": {
+                    "underline": true
+                  }
                 },
                 {
                   "text": ". Next, a",
@@ -15676,7 +15745,9 @@
                       "text": "20230127LowLevelBarblore",
                       "url": "https://docs.google.com/document/d/157zVUeEu4fkuJxjWfhTjNajR39478bBoUVRVVDeAm-w/edit?usp=sharing",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": ". Warning: this document is several years out of date, and just covers the basic idea.\n",
@@ -17124,6 +17195,7 @@
                       "url": "https://drive.google.com/file/d/1MKP4-fvu9jv6iEeMSC36stdk96Gwj3tA/view?usp=share_link",
                       "isLink": true,
                       "formatting": {
+                        "underline": true,
                         "fontFamily": "Arial"
                       }
                     },
@@ -17143,6 +17215,7 @@
                       "url": "https://www.youtube.com/watch?v=2WiU4Z40CN0",
                       "isLink": true,
                       "formatting": {
+                        "underline": true,
                         "fontFamily": "Arial"
                       }
                     },
@@ -17168,6 +17241,7 @@
                       "url": "https://www.youtube.com/watch?v=y6oxLDGAkkY",
                       "isLink": true,
                       "formatting": {
+                        "underline": true,
                         "fontFamily": "Arial"
                       }
                     },
@@ -17424,7 +17498,9 @@
                       "text": "20230127LowLevelBarblore",
                       "url": "https://docs.google.com/document/d/157zVUeEu4fkuJxjWfhTjNajR39478bBoUVRVVDeAm-w/edit?usp=sharing",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": ". Warning: this document is several years out of date, and just covers the basic idea.\n",
@@ -17469,7 +17545,8 @@
                       "url": "https://www.youtube.com/watch?v=lg4tNw3ZjeI",
                       "isLink": true,
                       "formatting": {
-                        "italic": true
+                        "italic": true,
+                        "underline": true
                       }
                     },
                     {
@@ -17613,7 +17690,9 @@
                       "text": "imbue scroll via pvp arena - losing method",
                       "url": "https://www.youtube.com/watch?v=OORAXLhdZAg",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": ".\n",
@@ -18024,7 +18103,7 @@
                   "level": 2,
                   "content": [
                     {
-                      "text": "Teleport to Varrock, pray at the altar in the palace with smite active. Build three fossil display cases and speak with the information clerk for xp and Orlando Smith for the diary. Collect the Varrock hard diary reward, putting the lamp on herblore.\n",
+                      "text": "Teleport to Varrock, pray at the altar in the palace with smite active. Build three fossil display cases and speak with the information clerk for xp, with historian Minas for an xp lamp and Orlando Smith for the diary. Collect the Varrock hard diary reward, putting the lamp on herblore.\n",
                       "formatting": {}
                     }
                   ]
@@ -18107,7 +18186,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "You can now complete the Varrock hard diary, if you haven’t before already., Teleport to Varrock and speak with the information clerk for xp and Orlando Smith for the diary. Put the lamp on slayer or herblore as mentioned previously.",
+                      "text": "You can now complete the Varrock hard diary, if you haven’t before already., Teleport to Varrock and speak with the information clerk for xp, historian Minas for the Curse of the Empty Lord xp lamp and Orlando Smith for the diary. Put the lamps on slayer or herblore as mentioned previously.",
                       "formatting": {}
                     },
                     {
@@ -18205,7 +18284,9 @@
                       "text": "Osrs 1 Def Pure Chinning guide and Experience rates",
                       "url": "https://www.youtube.com/watch?v=6UuFi3OOQmg",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": " and ",
@@ -18215,7 +18296,9 @@
                       "text": "OSRS Pure Chinning Guide (Maximizing XP rates)",
                       "url": "https://www.youtube.com/watch?v=0kUYAVc4QVg",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": " show the mm1 tunnel method, though it is better to use a spot one curve deeper into the cave. The best location is shown (poorly) in ",
@@ -18322,7 +18405,9 @@
                       "text": "20240224_F3_Grapple_East.png",
                       "url": "https://drive.google.com/file/d/1C4mKTsH7Usv8Wtj0y69DXl-boUr215Bo",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": "). You may choose to loot these right from the start, but failing them loses a lot of time. If you collect the Hallowed grapple (costs 100 hallowed marks) it is optional but not recommended to loot these until level 82 to speed up getting other loot. \n",
@@ -18341,7 +18426,9 @@
                       "text": "20240224_F2_Grapple_West.png",
                       "url": "https://drive.google.com/file/d/1-mHEJrSrEDFlxy26XKRernodWjdk9dQl/view?usp=drive_link",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": "for floor 2 and see below for floor 1.\n",
@@ -18360,7 +18447,9 @@
                       "text": "20240224_F1_Bridge_Coffin_West.png",
                       "url": "https://drive.google.com/file/d/1lQE2JXt08migxFrMjDeey6oySzCA4Lsb/view?usp=drive_link",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": ") but not to cross it. Alternatively this is required if you are hunting the collection log slots.\n",
@@ -18554,7 +18643,9 @@
                   "text": "Hybrid ore UIM smelting",
                   "url": "https://www.youtube.com/watch?v=wfBdN77X130",
                   "isLink": true,
-                  "formatting": {}
+                  "formatting": {
+                    "underline": true
+                  }
                 },
                 {
                   "text": ") your mithril from MLM. Smelt your gold ore from MLM. Use the UIM gold method (",
@@ -18564,7 +18655,9 @@
                   "text": "Lazy UIM Gold",
                   "url": "https://www.youtube.com/watch?v=jLtU98HE1bA",
                   "isLink": true,
-                  "formatting": {}
+                  "formatting": {
+                    "underline": true
+                  }
                 },
                 {
                   "text": ") to train your smithing to level 70, getting permission from the foreman to use the blast furnace for free at level 60. Turn all your mithril bars into platebodies (Varrock west anvils, make 10 bars into 150 nails, make a mithril 2h sword for Devious Minds and ~5 bars into grapples along the way), then alch them (similar to before). Hybrid ore uim smelt your addy (buy coal as needed) into bars. Use UIM gold to train your smithing to (15,000 xp away from) level 74. Make sure to equip your ring of charos (a) until level 60 for reduced foreman costs.  Start and complete Defender of Varrock (there’s a free 5k xp lamp after the quest at Historian Minas in the Varrock Museum, put it on slayer if you aren’t level 58 yet and herblore otherwise). Make 4950 adamant nails (make sure to save an adamantite bar) with your bars at Varrock west anvils.\n",
@@ -18678,7 +18771,9 @@
                       "text": "20240224_F4_Bridge.png",
                       "url": "https://drive.google.com/file/d/1mukzsxluTSC_5_WFc5-L-N8cjQ0DtK4L/view?usp=drive_link",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": " so on 50% of all runs). With a Hallowed hammer you will never break nails while attempting to build this bridge, and it is highly recommended to buy this hammer before reaching level 82 agility.\n",
@@ -18707,7 +18802,9 @@
                       "text": "20240224_F4_Enchant_and_Bridge.png",
                       "url": "https://drive.google.com/file/d/1GAWKq9nYm73goXncshJlDBT658r71Bwd/view?usp=drive_link",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": " so on 50% of all runs). If you have (and continue to be) tick perfect this is ",
@@ -18736,7 +18833,9 @@
                       "text": "20240224_F5_Enchant.png",
                       "url": "https://drive.google.com/file/d/1-3bo0ZphU2vj83m3LqaO7ucVpUwLuRRv/view?usp=drive_link",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": ", a grapple obstacle ",
@@ -18746,7 +18845,9 @@
                       "text": "20240224_F5_Grapple.png",
                       "url": "https://drive.google.com/file/d/1aqPi5c_nvITWZFejwzsVsO7VzE90IUYU/view?usp=drive_link",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": " and a bridge obstacle ",
@@ -18756,7 +18857,9 @@
                       "text": "20240224_F5_Bridge.png",
                       "url": "https://drive.google.com/file/d/1oOIRFIRyMkpPOnYR1sRhgZcwQs8IyANk/view?usp=drive_link",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": ", followed by a grand coffin ",
@@ -18766,7 +18869,9 @@
                       "text": "20240224_F5_Grand_Coffin.png",
                       "url": "https://drive.google.com/file/d/1vV-j1q8sf_gpyVn56z8Dr9tb9H9zq5bb/view?usp=drive_link",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": ". Every single one of these is efficient to loot.\n",
@@ -18785,7 +18890,9 @@
                       "text": "20240224_F1_Bridge_Coffin_West.png",
                       "url": "https://drive.google.com/file/d/1lQE2JXt08migxFrMjDeey6oySzCA4Lsb/view?usp=drive_link",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": ") but not to cross it.\n",
@@ -19064,7 +19171,9 @@
                       "text": "20240115 Hallowed Sepulchre: Looting",
                       "url": "https://docs.google.com/spreadsheets/d/1orNUuGmhMWQamytxwrVyZI_c6fLWZH4J0yJX1nRLgXM/edit?usp=sharing",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": " to check your loot, xp, material requirements etc. and customise your strategy. A few notes:\n",
@@ -19101,7 +19210,9 @@
                       "text": "20240224_F4_Ash_Coffin.png",
                       "url": "https://drive.google.com/file/d/1XBB2mAIQwKKakNe62b0fx9gP46q8LGiE/view?usp=drive_link",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": ", is not recommended as it is not efficient to collect the ash in the first place. If you already have some this is the best use for it though, after buying the hallowed symbol.",
@@ -19256,7 +19367,9 @@
                       "text": "OSRSRecklessLadHowDoesFoodWorkV2.png",
                       "url": "https://drive.google.com/file/d/1Xn4YfME8C4Gqm5A5qh-T9f0-XHN4_2CQ/view?usp=share_link",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": "for information on how food works.",
@@ -19832,7 +19945,8 @@
                       "url": "https://www.youtube.com/watch?v=7kccSC5VM8s",
                       "isLink": true,
                       "formatting": {
-                        "italic": true
+                        "italic": true,
+                        "underline": true
                       }
                     },
                     {
@@ -19862,6 +19976,7 @@
                       "url": "https://docs.google.com/document/d/1y4fh4-oWjLiIRKht3mt_MOG5M-GQJiw9RtLEZhwYEjQ/edit#",
                       "isLink": true,
                       "formatting": {
+                        "underline": true,
                         "fontFamily": "Arial"
                       }
                     },
@@ -19879,144 +19994,216 @@
                 "items_needed": "follow the wiki; the entire quest line is basically linear (no choice)",
                 "skills_quests_met": "yes",
                 "total_time": "35d18h"
-              },
-              "additionalContent": [
-                [
-                  {
-                    "text": "Quests missing for quest cape:",
-                    "formatting": {
-                      "underline": true,
-                      "fontSize": 12
-                    }
-                  },
-                  {
-                    "text": " ",
-                    "formatting": {
-                      "fontSize": 12
-                    }
-                  },
-                  {
-                    "text": "\n",
-                    "formatting": {}
-                  }
-                ],
-                [
-                  {
-                    "text": "Dragon Slayer II \n",
-                    "formatting": {
-                      "fontSize": 12
-                    }
-                  }
-                ],
-                [
-                  {
-                    "text": "Monkey Madness II \n",
-                    "formatting": {
-                      "fontSize": 12
-                    }
-                  }
-                ],
-                [
-                  {
-                    "text": "The Fremennik Exiles\n",
-                    "formatting": {
-                      "fontSize": 12
-                    }
-                  }
-                ],
-                [
-                  {
-                    "text": "A Night at the Theatre\n",
-                    "formatting": {}
-                  }
-                ],
-                [
-                  {
-                    "text": "Beneath Cursed Sands\n",
-                    "formatting": {}
-                  }
-                ],
-                [
-                  {
-                    "text": "Devious Minds\n",
-                    "formatting": {}
-                  }
-                ],
-                [
-                  {
-                    "text": "Secrets of the North\n",
-                    "formatting": {}
-                  }
-                ],
-                [
-                  {
-                    "text": "Desert Treasure II\n",
-                    "formatting": {}
-                  }
-                ],
-                [
-                  {
-                    "text": "While Guthix Sleeps\n",
-                    "formatting": {}
-                  }
-                ],
-                [
-                  {
-                    "text": "Miniquests missing:\n",
-                    "formatting": {
-                      "underline": true
-                    }
-                  }
-                ],
-                [
-                  {
-                    "text": "The Enchanted Key\n",
-                    "formatting": {}
-                  }
-                ],
-                [
-                  {
-                    "text": "Family Pest\n",
-                    "formatting": {}
-                  }
-                ],
-                [
-                  {
-                    "text": "The Frozen Door\n",
-                    "formatting": {}
-                  }
-                ],
-                [
-                  {
-                    "text": "In Search of Knowledge\n",
-                    "formatting": {}
-                  }
-                ],
-                [
-                  {
-                    "text": "Into the Tombs\n",
-                    "formatting": {}
-                  }
-                ],
-                [
-                  {
-                    "text": "His Faithful Servants\n",
-                    "formatting": {}
-                  }
-                ],
-                [
-                  {
-                    "text": "Hopespear’s Will\n",
-                    "formatting": {}
-                  }
-                ]
-              ]
+              }
             }
           ],
           "footnotes": []
         }
       ],
       "footnotes": [
+        {
+          "content": [
+            {
+              "text": "Quests missing for quest cape:",
+              "formatting": {
+                "underline": true,
+                "fontSize": 12
+              }
+            },
+            {
+              "text": " ",
+              "formatting": {
+                "fontSize": 12
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Dragon Slayer II \n",
+              "formatting": {
+                "fontSize": 12
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Monkey Madness II \n",
+              "formatting": {
+                "fontSize": 12
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "The Fremennik Exiles\n",
+              "formatting": {
+                "fontSize": 12
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "A Night at the Theatre\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Beneath Cursed Sands\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Devious Minds\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Secrets of the North\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Desert Treasure II\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "While Guthix Sleeps\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Miniquests missing:\n",
+              "formatting": {
+                "underline": true
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "The Enchanted Key\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Family Pest\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "The Frozen Door\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "In Search of Knowledge\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Into the Tombs\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "His Faithful Servants\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Hopespear’s Will\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "\n",
+              "formatting": {
+                "fontSize": 12
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
         {
           "content": [
             {
@@ -20707,7 +20894,9 @@
               "text": "BRUHsailer",
               "url": "https://docs.google.com/document/d/1CBkFM70SnrW4hJXvHM2F1fYCuBF_fRnEXnTYgRnRkAE/edit?usp=sharing",
               "isLink": true,
-              "formatting": {}
+              "formatting": {
+                "underline": true
+              }
             },
             {
               "text": " \n",
@@ -20726,7 +20915,9 @@
               "text": "20250309Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
-              "formatting": {}
+              "formatting": {
+                "underline": true
+              }
             },
             {
               "text": "\n",
@@ -20745,7 +20936,9 @@
               "text": "20250309Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
-              "formatting": {}
+              "formatting": {
+                "underline": true
+              }
             },
             {
               "text": "\n",
@@ -20764,7 +20957,9 @@
               "text": "20250309Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
-              "formatting": {}
+              "formatting": {
+                "underline": true
+              }
             },
             {
               "text": "\n",
@@ -20783,7 +20978,9 @@
               "text": "20250309DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1XZ-3Kja7_QS4Rxj4mJXeATXHBP03lrdUSt46gO3pWHk/edit#gid=1506136399",
               "isLink": true,
-              "formatting": {}
+              "formatting": {
+                "underline": true
+              }
             },
             {
               "text": "\n",
@@ -20848,7 +21045,9 @@
               "text": "20210715Chapter1",
               "url": "https://docs.google.com/document/d/1W4CiIPnVMDS1eqBOYbMOwViDDlJsZTeMyEl_f-432EM/edit?usp=sharing",
               "isLink": true,
-              "formatting": {}
+              "formatting": {
+                "underline": true
+              }
             },
             {
               "text": "\n",
@@ -20867,7 +21066,9 @@
               "text": "20210715Chapter2",
               "url": "https://docs.google.com/document/d/1l9fp00nMLOA_eLBrPI7_2dzVW5MsAu8Qahmp7wEBnLw/edit?usp=sharing",
               "isLink": true,
-              "formatting": {}
+              "formatting": {
+                "underline": true
+              }
             },
             {
               "text": "\n",
@@ -20886,7 +21087,9 @@
               "text": "20210930Chapter3",
               "url": "https://docs.google.com/document/d/19UjEKjUL_7uuEiNAF2hrPIV4vqKb47Fo4rGyMmKKhWI/edit?usp=sharing",
               "isLink": true,
-              "formatting": {}
+              "formatting": {
+                "underline": true
+              }
             },
             {
               "text": "\n",
@@ -20905,7 +21108,9 @@
               "text": "20210930DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1BfGt4T3T7gKmtpjdLXmjengEpXjtodX0tsrjU4ToTto/edit?usp=sharing",
               "isLink": true,
-              "formatting": {}
+              "formatting": {
+                "underline": true
+              }
             },
             {
               "text": "\n",
@@ -20985,6 +21190,15 @@
           ],
           "type": "chapter_footnote"
         }
+      ],
+      "titleFormatted": [
+        {
+          "text": "Chapter 2: Quests, so many quests\n",
+          "formatting": {
+            "bold": true,
+            "fontSize": 18
+          }
+        }
       ]
     },
     {
@@ -21003,7 +21217,9 @@
                   "text": "Gravestone Double Soft Clay (2400/hr)",
                   "url": "https://www.youtube.com/watch?v=gEYQuCf56Q0",
                   "isLink": true,
-                  "formatting": {}
+                  "formatting": {
+                    "underline": true
+                  }
                 },
                 {
                   "text": ". You will have to make soft clay bracelets first. Go to NMZ (optionally as an afk activity) to collect redirection scrolls as necessary. It is recommended to collect a good stack (i.e. 500 tabs and 250 scrolls). Also make Catherby tabs for herb runs.\n",
@@ -21013,7 +21229,7 @@
               "nestedContent": [],
               "metadata": {
                 "gp_stack": "21m",
-                "items_needed": "none",
+                "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
               }
@@ -21023,14 +21239,12 @@
                 {
                   "text": "Optional but recommended: go to the Mage Training Arena and collect the Mage’s book and the infinity boots. \n",
                   "formatting": {}
-                },
-                {
-                  "text": "Items needed:"
                 }
               ],
               "nestedContent": [],
               "metadata": {
                 "gp_stack": "21m",
+                "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
               }
@@ -21135,7 +21349,7 @@
               ],
               "metadata": {
                 "gp_stack": "16m",
-                "items_needed": "none",
+                "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
               }
@@ -21190,7 +21404,7 @@
               ],
               "metadata": {
                 "gp_stack": "16m",
-                "items_needed": "none",
+                "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
               }
@@ -21205,7 +21419,9 @@
                   "text": "imbue scroll via pvp arena - losing method",
                   "url": "https://www.youtube.com/watch?v=OORAXLhdZAg",
                   "isLink": true,
-                  "formatting": {}
+                  "formatting": {
+                    "underline": true
+                  }
                 },
                 {
                   "text": ") or nightmare zone. An example setup (except for the black mask and expeditious bracelets, obviously) is",
@@ -21215,7 +21431,9 @@
                   "text": "cave-horrors.png",
                   "url": "https://drive.google.com/file/d/11QY9VWu3uEXwlBvIVnRpSfQLiKpdiQeZ/view?usp=drive_link",
                   "isLink": true,
-                  "formatting": {}
+                  "formatting": {
+                    "underline": true
+                  }
                 },
                 {
                   "text": ". The recommended spot is ",
@@ -21225,7 +21443,9 @@
                   "text": "cave-horrors.png",
                   "url": "https://drive.google.com/file/d/1zlpzRkYsRHNBEEwzd8nMzB5sclLYpNM5/view?usp=drive_link",
                   "isLink": true,
-                  "formatting": {}
+                  "formatting": {
+                    "underline": true
+                  }
                 },
                 {
                   "text": "(northwest from the entrance).\n",
@@ -21235,7 +21455,7 @@
               "nestedContent": [],
               "metadata": {
                 "gp_stack": "16m",
-                "items_needed": "none",
+                "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
               }
@@ -21369,7 +21589,9 @@
                       "text": "20241231SlayerGuide",
                       "url": "https://docs.google.com/document/d/1kBMW2uRI8b4NBcYn9PmsedTnZ3yW7fuGwdzsRQSCNkk/edit?usp=sharing",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": " for advice on efficient slayer at this point.\n",
@@ -21469,7 +21691,9 @@
                       "text": "0 HP XP Kalphite Queen (Thralls) OSRS",
                       "url": "https://www.youtube.com/watch?v=6xWt3ze0SCU",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": "or ",
@@ -21479,7 +21703,9 @@
                       "text": "OSRS 'Prayer Smasher' Elite Combat Achievement - Without Verac's Flail",
                       "url": "https://www.youtube.com/watch?v=OZBA2BEQfTI",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": "for example kills. Keep in mind you need to ",
@@ -21527,7 +21753,9 @@
                       "text": "Shopscape Karambwans",
                       "url": "https://www.youtube.com/watch?v=k76D_ps2ur0",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": ". Do the Kourend & Kebos Hard diary (lamp on RC), then cook the karambwans at your convenience (1t cooking at the Hosidius range is best, cooking gauntlets do not work on karambwans).\n",
@@ -21585,7 +21813,8 @@
                       "url": "https://docs.google.com/spreadsheets/d/1DYmWr1ka-BLWccgFy6C4zhpDmpuZh_rbCBBmiQq3F9k/edit?usp=sharing",
                       "isLink": true,
                       "formatting": {
-                        "bold": true
+                        "bold": true,
+                        "underline": true
                       }
                     },
                     {
@@ -21599,7 +21828,8 @@
                       "url": "https://docs.google.com/document/d/199VVet0wIavN67O5LlTOqyslMVA8q0kuKV2VuXnpD8M/edit?usp=sharing",
                       "isLink": true,
                       "formatting": {
-                        "bold": true
+                        "bold": true,
+                        "underline": true
                       }
                     },
                     {
@@ -21622,7 +21852,7 @@
               ],
               "metadata": {
                 "gp_stack": "13m",
-                "items_needed": "none",
+                "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
               }
@@ -21641,7 +21871,7 @@
               "nestedContent": [],
               "metadata": {
                 "gp_stack": "500k",
-                "items_needed": "none",
+                "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
               }
@@ -21682,6 +21912,7 @@
                   "url": "https://www.youtube.com/watch?v=JCD8mwJVygI",
                   "isLink": true,
                   "formatting": {
+                    "underline": true,
                     "fontFamily": "Arial"
                   }
                 },
@@ -21708,7 +21939,7 @@
               "nestedContent": [],
               "metadata": {
                 "gp_stack": "52m",
-                "items_needed": "none",
+                "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
               }
@@ -21728,7 +21959,9 @@
                       "text": "Guardians of the Rift - multiskilling",
                       "url": "https://youtu.be/vAKese2xurs?list=PL1YmaQEbqW1jX9evljFu_CaJ-w-fueXUs",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": " - this video shows a simple example of multiskill Guardians of the Rift - you still make combination runes, but focus on skilling rather than participating throughout most of the game (in fact, you only enter the west essence mine when it opens and ignore all other opportunities to collect essence). ",
@@ -21758,7 +21991,7 @@
               ],
               "metadata": {
                 "gp_stack": "52m",
-                "items_needed": "none",
+                "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
               }
@@ -21899,7 +22132,9 @@
                       "text": "Red chinchompa calculator",
                       "url": "https://docs.google.com/spreadsheets/d/122rSf8dpivoZBG5tFNcS7B2DZAdYfi95bt2TJ4N6zPU/edit?usp=sharing",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": "for checking the numbers.\n",
@@ -21989,7 +22224,9 @@
                       "text": "DPS Calculator",
                       "url": "https://docs.google.com/spreadsheets/d/1wBXIlvAmqoQpu5u9XBfD4B0PW7D8owyO_CnRDiTHBKQ",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": " has a tab for NMZ DPS on set 1, so verify for yourself. Generally the recommended list of enemies is:\n",
@@ -22164,6 +22401,7 @@
                       "url": "https://www.youtube.com/watch?v=OxCcXZuwqno",
                       "isLink": true,
                       "formatting": {
+                        "underline": true,
                         "fontFamily": "Arial"
                       }
                     },
@@ -22221,6 +22459,7 @@
                       "url": "https://drive.google.com/file/d/1Xn4YfME8C4Gqm5A5qh-T9f0-XHN4_2CQ/view?usp=share_link",
                       "isLink": true,
                       "formatting": {
+                        "underline": true,
                         "fontFamily": "Arial"
                       }
                     },
@@ -22240,6 +22479,7 @@
                       "url": "https://docs.google.com/document/d/12ousKIqC2E7U4bPe6glZH1pkOO1ik52friBPqtIsmws/edit?usp=sharing.",
                       "isLink": true,
                       "formatting": {
+                        "underline": true,
                         "fontFamily": "Arial"
                       }
                     },
@@ -22259,6 +22499,7 @@
                       "url": "https://www.youtube.com/watch?v=ylFlK65isQ4",
                       "isLink": true,
                       "formatting": {
+                        "underline": true,
                         "fontFamily": "Arial"
                       }
                     },
@@ -22316,7 +22557,9 @@
                       "text": "Guardians of the Rift - multiskilling",
                       "url": "https://youtu.be/vAKese2xurs?list=PL1YmaQEbqW1jX9evljFu_CaJ-w-fueXUs",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": " - this video shows a simple example of multiskill Guardians of the Rift - you still make combination runes, but focus on skilling rather than participating throughout most of the game (in fact, you only enter the west essence mine when it opens and ignore all other opportunities to collect essence). ",
@@ -22341,7 +22584,9 @@
                       "text": "Guardians of the Rift - mass world, 4 pouches, combination runes",
                       "url": "https://www.youtube.com/watch?v=4YT20KdV_mg",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": " (the same method as before).\n",
@@ -22380,7 +22625,7 @@
               "nestedContent": [],
               "metadata": {
                 "gp_stack": "55m",
-                "items_needed": "none",
+                "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
               }
@@ -22441,7 +22686,7 @@
               ],
               "metadata": {
                 "gp_stack": "57m",
-                "items_needed": "none",
+                "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
               }
@@ -22457,12 +22702,6 @@
                   "formatting": {
                     "bold": true
                   }
-                },
-                {
-                  "text": "Items needed:"
-                },
-                {
-                  "text": "Total time:"
                 }
               ],
               "nestedContent": [
@@ -22496,7 +22735,9 @@
               ],
               "metadata": {
                 "gp_stack": "85m",
-                "skills_quests_met": "yes"
+                "items_needed": "tbd",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
               }
             },
             {
@@ -22504,12 +22745,6 @@
                 {
                   "text": "Get a fire cape off task (if you don’t have one yet).\n",
                   "formatting": {}
-                },
-                {
-                  "text": "Items needed:"
-                },
-                {
-                  "text": "Total time:"
                 }
               ],
               "nestedContent": [
@@ -22608,7 +22843,9 @@
               ],
               "metadata": {
                 "gp_stack": "85m",
-                "skills_quests_met": "yes"
+                "items_needed": "tbd",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
               }
             },
             {
@@ -22616,12 +22853,6 @@
                 {
                   "text": "Get a dragon pickaxe (if you intend on going for at least partial completion of the Combat Achievements then just hop bosses while going for kc at each of them). If you plan on getting a Voidwaker later you will most likely get multiple dragon pickaxes along the way - the recommended bosses for that are Artio, Spindel and Vet’ion. Alternatively you may wish to postpone it for when you go for the Kq head, hoping to get one along the way.\n",
                   "formatting": {}
-                },
-                {
-                  "text": "Items needed:"
-                },
-                {
-                  "text": "Total time:"
                 }
               ],
               "nestedContent": [
@@ -22650,7 +22881,9 @@
               ],
               "metadata": {
                 "gp_stack": "85m",
-                "skills_quests_met": "yes"
+                "items_needed": "tbd",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
               }
             },
             {
@@ -22658,12 +22891,6 @@
                 {
                   "text": "Cash your banked herblore XP, using MOGs force spawning at Ardy. Make some staminas for future use.\n",
                   "formatting": {}
-                },
-                {
-                  "text": "Items needed:"
-                },
-                {
-                  "text": "Total time:"
                 }
               ],
               "nestedContent": [
@@ -22704,7 +22931,9 @@
                       "text": "Force spawning marks of grace on Ardy rooftop",
                       "url": "https://youtu.be/3f6agYAVUGY",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": " and ",
@@ -22714,7 +22943,9 @@
                       "text": "Force Spawning Marks of Grace [Explanation + Example]",
                       "url": "https://youtu.be/1vmsLIOTjc0",
                       "isLink": true,
-                      "formatting": {}
+                      "formatting": {
+                        "underline": true
+                      }
                     },
                     {
                       "text": " show the basics of force spawning marks of grace. However, we have since learned of the exact mechanics of spawning marks (",
@@ -22782,7 +23013,9 @@
               ],
               "metadata": {
                 "gp_stack": "85m",
-                "skills_quests_met": "yes"
+                "items_needed": "tbd",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
               }
             },
             {
@@ -22790,18 +23023,14 @@
                 {
                   "text": "Complete the remaining tasks for the Falador and Kandarin Elite diaries if you have the herblore level required (boostable 81 and 86 respectively).\n",
                   "formatting": {}
-                },
-                {
-                  "text": "Items needed:"
-                },
-                {
-                  "text": "Total time:"
                 }
               ],
               "nestedContent": [],
               "metadata": {
                 "gp_stack": "85m",
-                "skills_quests_met": "yes"
+                "items_needed": "tbd",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
               }
             },
             {
@@ -22809,12 +23038,6 @@
                 {
                   "text": "3s1g mine 30k sand (for level 93 crafting) or 80k sand (for level 99 crafting), buying all the sand (buy bucket packs first to match the amount required). Super glassmake all the sand with previously farmed giant seaweed. Arteglass blow molten glass into light orbs for crafting xp to 91 thieving (this won’t nearly use all your glass).\n",
                   "formatting": {}
-                },
-                {
-                  "text": "Items needed:"
-                },
-                {
-                  "text": "Total time:"
                 }
               ],
               "nestedContent": [
@@ -22830,7 +23053,9 @@
               ],
               "metadata": {
                 "gp_stack": "84m",
-                "skills_quests_met": "yes"
+                "items_needed": "tbd",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
               }
             },
             {
@@ -22855,12 +23080,6 @@
                 {
                   "text": " unlocked and the full raiments of the eye set, there is almost nothing holding you back from training runecrafting, e.g. with spellbook swap Vile Vigour fletching (multiskill) ZMI runecrafting (or non-spellbook swap stamina potions). It is macroefficient to complete level 95 runecrafting sooner rather than later, to have access to ample wrath runes for offering spells during slayer. Weave in the runecrafting grind at your own convenience, immediately is recommended. Blow glass while ZMI crafting, then when out of glass swap over to fletching instead (buy broad arrowhead packs and arrow shafts as needed).\n",
                   "formatting": {}
-                },
-                {
-                  "text": "Items needed:"
-                },
-                {
-                  "text": "Total time:"
                 }
               ],
               "nestedContent": [
@@ -22876,7 +23095,9 @@
               ],
               "metadata": {
                 "gp_stack": "65m",
-                "skills_quests_met": "yes"
+                "items_needed": "tbd",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
               }
             },
             {
@@ -22884,12 +23105,6 @@
                 {
                   "text": "If you only went for one sceptre earlier, do Pyramid Plunder for a second sceptre. Compared to last time the only things that changed are:\n",
                   "formatting": {}
-                },
-                {
-                  "text": "Items needed:"
-                },
-                {
-                  "text": "Total time:"
                 }
               ],
               "nestedContent": [
@@ -22960,7 +23175,9 @@
               ],
               "metadata": {
                 "gp_stack": "65m",
-                "skills_quests_met": "yes"
+                "items_needed": "tbd",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
               }
             },
             {
@@ -22968,12 +23185,6 @@
                 {
                   "text": "Once you have enough mahogany planks from Misc (or chop teaks at your own convenience), train construction to level 83 with mahogany benches (or tables, slightly lower xp but also lower effort). This takes approximately 10.5k mahogany logs (47 days of Misc at 10 workers). Once done, build/upgrade the following:\n",
                   "formatting": {}
-                },
-                {
-                  "text": "Items needed:"
-                },
-                {
-                  "text": "Total time:"
                 }
               ],
               "nestedContent": [
@@ -23065,7 +23276,9 @@
               ],
               "metadata": {
                 "gp_stack": "46m",
-                "skills_quests_met": "yes"
+                "items_needed": "tbd",
+                "skills_quests_met": "yes",
+                "total_time": "1200 hours (rough estimate)"
               }
             }
           ],
@@ -23111,7 +23324,9 @@
               "text": "20220312SlayerGuide",
               "url": "https://docs.google.com/document/d/1kBMW2uRI8b4NBcYn9PmsedTnZ3yW7fuGwdzsRQSCNkk/edit?usp=sharing",
               "isLink": true,
-              "formatting": {}
+              "formatting": {
+                "underline": true
+              }
             },
             {
               "text": "\n",
@@ -23157,7 +23372,9 @@
               "text": "20240131CombatAchievementPointReworkCA",
               "url": "https://docs.google.com/spreadsheets/d/1DYmWr1ka-BLWccgFy6C4zhpDmpuZh_rbCBBmiQq3F9k/edit?usp=sharing",
               "isLink": true,
-              "formatting": {}
+              "formatting": {
+                "underline": true
+              }
             },
             {
               "text": "\n",
@@ -23188,6 +23405,15 @@
           "content": [
             {
               "text": "\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "https://madssb.github.io/InteractiveGearProg/index.html\n",
               "formatting": {}
             }
           ],
@@ -24088,7 +24314,9 @@
               "text": "BRUHsailer",
               "url": "https://docs.google.com/document/d/1CBkFM70SnrW4hJXvHM2F1fYCuBF_fRnEXnTYgRnRkAE/edit?usp=sharing",
               "isLink": true,
-              "formatting": {}
+              "formatting": {
+                "underline": true
+              }
             },
             {
               "text": " \n",
@@ -24107,7 +24335,9 @@
               "text": "20250309Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit?usp=sharing",
               "isLink": true,
-              "formatting": {}
+              "formatting": {
+                "underline": true
+              }
             },
             {
               "text": "\n",
@@ -24126,7 +24356,9 @@
               "text": "20250309Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit?usp=sharing",
               "isLink": true,
-              "formatting": {}
+              "formatting": {
+                "underline": true
+              }
             },
             {
               "text": "\n",
@@ -24145,7 +24377,9 @@
               "text": "20250309Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
-              "formatting": {}
+              "formatting": {
+                "underline": true
+              }
             },
             {
               "text": "\n",
@@ -24164,7 +24398,9 @@
               "text": "20250309DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1XZ-3Kja7_QS4Rxj4mJXeATXHBP03lrdUSt46gO3pWHk/edit?usp=sharing",
               "isLink": true,
-              "formatting": {}
+              "formatting": {
+                "underline": true
+              }
             },
             {
               "text": "\n",
@@ -24229,7 +24465,9 @@
               "text": "20210715Chapter1",
               "url": "https://docs.google.com/document/d/1W4CiIPnVMDS1eqBOYbMOwViDDlJsZTeMyEl_f-432EM/edit?usp=sharing",
               "isLink": true,
-              "formatting": {}
+              "formatting": {
+                "underline": true
+              }
             },
             {
               "text": "\n",
@@ -24248,7 +24486,9 @@
               "text": "20210715Chapter2",
               "url": "https://docs.google.com/document/d/1l9fp00nMLOA_eLBrPI7_2dzVW5MsAu8Qahmp7wEBnLw/edit?usp=sharing",
               "isLink": true,
-              "formatting": {}
+              "formatting": {
+                "underline": true
+              }
             },
             {
               "text": "\n",
@@ -24267,7 +24507,9 @@
               "text": "20210930Chapter3",
               "url": "https://docs.google.com/document/d/19UjEKjUL_7uuEiNAF2hrPIV4vqKb47Fo4rGyMmKKhWI/edit?usp=sharing",
               "isLink": true,
-              "formatting": {}
+              "formatting": {
+                "underline": true
+              }
             },
             {
               "text": "\n",
@@ -24286,7 +24528,9 @@
               "text": "20210930DetailedStepsGuide",
               "url": "https://docs.google.com/spreadsheets/d/1BfGt4T3T7gKmtpjdLXmjengEpXjtodX0tsrjU4ToTto/edit?usp=sharing",
               "isLink": true,
-              "formatting": {}
+              "formatting": {
+                "underline": true
+              }
             },
             {
               "text": "\n",
@@ -26037,6 +26281,15 @@
             }
           ],
           "type": "chapter_footnote"
+        }
+      ],
+      "titleFormatted": [
+        {
+          "text": "Chapter 3: The longest home stretch you’ve ever seen\n",
+          "formatting": {
+            "bold": true,
+            "fontSize": 18
+          }
         }
       ]
     }
