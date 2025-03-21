@@ -118,9 +118,6 @@
         document
           .getElementById("minimizeCompletedToggle")
           .addEventListener("click", function () {
-            e.preventDefault();
-            e.stopPropagation();
-
             if (this.classList.contains("active")) {
               this.classList.remove("active");
             } else {
