@@ -513,8 +513,10 @@ body.dark-mode .step-header {
   background-color: var(--secondary);
 }
 
-.utility-btn:hover {
-  background-color: var(--secondary);
+@media (hover: hover) {
+  .utility-btn:hover {
+    background-color: var(--secondary);
+  }
 }
 
 .dark-mode-toggle {
@@ -548,6 +550,18 @@ body.dark-mode .step-header {
     max-width: 100%;
     margin-left: 0;
     margin-top: 10px;
+  }
+
+  .utility-btn:hover {
+    background-color: var(--primary);
+  }
+
+  .utility-btn.active {
+    background-color: var(--secondary) !important;
+  }
+
+  .utility-btn:active {
+    background-color: var(--secondary);
   }
 }
 
