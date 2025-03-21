@@ -80,6 +80,7 @@
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         loadGuideData();
+        loadFilterState();
 
         document
           .getElementById("resetProgressBtn")
@@ -119,6 +120,8 @@
           .addEventListener("click", function () {
             this.classList.toggle("active");
 
+            saveFilterState();
+
             const activeFilter = document
               .querySelector(".filter-btn.active")
               .getAttribute("data-filter");
@@ -141,8 +144,8 @@
           const lastUpdated = document.getElementById("lastUpdated");
 
           lastUpdated.innerHTML = `
-            Last updated: ${guideData.updatedOn}
-          `;
+      Last updated: ${guideData.updatedOn}
+    `;
 
           guideData.chapters.forEach((chapter, chapterIndex) => {
             const chapterElement = document.createElement("div");
@@ -177,9 +180,9 @@
               const sectionId = `${chapterIndex + 1}.${sectionIndex + 1}`;
 
               sectionHeader.innerHTML = `
-                <h2 class="section-title">${section.title}</h2>
-                <span class="section-time"></span>
-              `;
+          <h2 class="section-title">${section.title}</h2>
+          <span class="section-time"></span>
+        `;
 
               const sectionContent = document.createElement("div");
               sectionContent.className = "section-content";
@@ -200,14 +203,14 @@
                     : "";
 
                 stepHeader.innerHTML = `
-                  <div class="checkbox-container">
-                    <input type="checkbox" class="checkbox" id="check-${
-                      chapterIndex + 1
-                    }-${chapterStepCount}">
-                    <span class="step-number">Step ${chapterStepCount}</span>
-                  </div>
-                  <span class="step-time">Time: ${timeDisplay}</span>
-                `;
+            <div class="checkbox-container">
+              <input type="checkbox" class="checkbox" id="check-${
+                chapterIndex + 1
+              }-${chapterStepCount}">
+              <span class="step-number">Step ${chapterStepCount}</span>
+            </div>
+            <span class="step-time">Time: ${timeDisplay}</span>
+          `;
 
                 const stepContent = document.createElement("div");
                 stepContent.className = "step-content";
@@ -263,9 +266,9 @@
                     const metaValue = metadata[key];
 
                     metaItem.innerHTML = `
-                      <strong>${displayName}:</strong>
-                      <span>${metaValue}</span>
-                    `;
+                <strong>${displayName}:</strong>
+                <span>${metaValue}</span>
+              `;
                     metaContainer.appendChild(metaItem);
                   }
 
@@ -291,8 +294,8 @@
               const footnotesHeader = document.createElement("div");
               footnotesHeader.className = "section-header footnotes-header";
               footnotesHeader.innerHTML = `
-          <h2 class="section-title">End of chapter notes</h2>
-        `;
+    <h2 class="section-title">End of chapter notes</h2>
+  `;
 
               const footnotesContent = document.createElement("div");
               footnotesContent.className = "section-content footnotes-content";
@@ -318,14 +321,19 @@
           attachEventListeners();
           loadProgress();
           updateProgress();
+
+          const activeFilter = document
+            .querySelector(".filter-btn.active")
+            .getAttribute("data-filter");
+          applyCurrentFilter(activeFilter);
         } catch (error) {
           console.error("Error loading guide data:", error);
           document.getElementById("guideContent").innerHTML = `
-            <div class="error-message">
-              <p>Failed to load guide data. Please try refreshing the page.</p>
-              <p>Error: ${error.message}</p>
-            </div>
-          `;
+      <div class="error-message">
+        <p>Failed to load guide data. Please try refreshing the page.</p>
+        <p>Error: ${error.message}</p>
+      </div>
+    `;
         }
       }
 
@@ -465,8 +473,24 @@
 
             if (this.checked) {
               stepElement.classList.add("completed");
+
+              const isMinimized = document
+                .getElementById("minimizeCompletedToggle")
+                .classList.contains("active");
+
+              if (isMinimized) {
+                const stepContent = stepElement.querySelector(".step-content");
+                if (stepContent) {
+                  stepContent.style.display = "none";
+                }
+              }
             } else {
               stepElement.classList.remove("completed");
+
+              const stepContent = stepElement.querySelector(".step-content");
+              if (stepContent) {
+                stepContent.style.display = "block";
+              }
             }
 
             saveProgress();
@@ -475,9 +499,7 @@
             const activeFilter = document
               .querySelector(".filter-btn.active")
               .getAttribute("data-filter");
-            if (activeFilter === "completed" || activeFilter === "incomplete") {
-              applyCurrentFilter(activeFilter);
-            }
+            applyCurrentFilter(activeFilter);
           });
         });
 
@@ -639,7 +661,53 @@
         }
       }
 
+      function loadFilterState() {
+        const savedFilter = localStorage.getItem("guideFilter");
+        if (savedFilter) {
+          const { filter, minimized } = JSON.parse(savedFilter);
+
+          document.querySelectorAll(".filter-btn").forEach((btn) => {
+            if (btn.getAttribute("data-filter") === filter) {
+              btn.classList.add("active");
+            } else {
+              btn.classList.remove("active");
+            }
+          });
+
+          if (minimized) {
+            document
+              .getElementById("minimizeCompletedToggle")
+              .classList.add("active");
+          } else {
+            document
+              .getElementById("minimizeCompletedToggle")
+              .classList.remove("active");
+          }
+
+          applyCurrentFilter(filter);
+        }
+      }
+
+      function saveFilterState() {
+        const filter = document
+          .querySelector(".filter-btn.active")
+          .getAttribute("data-filter");
+        const isMinimized = document
+          .getElementById("minimizeCompletedToggle")
+          .classList.contains("active");
+        localStorage.setItem(
+          "guideFilter",
+          JSON.stringify({ filter: filter, minimized: isMinimized })
+        );
+      }
+
       function applyCurrentFilter(filter) {
+        if (!filter) {
+          filter = document
+            .querySelector(".filter-btn.active")
+            .getAttribute("data-filter");
+        }
+
         const steps = document.querySelectorAll(".step");
         const lastCompletedStep = document.querySelector(".step.highlight");
         const isMinimized = document
@@ -650,34 +718,42 @@
 
         if (lastCompletedStep) {
           lastCompletedStep.style.display = "block";
-
           const parentSection = lastCompletedStep.closest(".guide-section");
           const parentChapter = lastCompletedStep.closest(".guide-chapter");
-
-          if (parentSection) parentSection.style.display = "block";
-          if (parentChapter) parentChapter.style.display = "block";
+          if (parentSection) {
+            parentSection.style.display = "block";
+            parentSection
+              .querySelector(".section-content")
+              .classList.add("active");
+            parentSection
+              .querySelector(".section-header")
+              .classList.add("active");
+          }
+          if (parentChapter) {
+            parentChapter.style.display = "block";
+            parentChapter
+              .querySelector(".chapter-content")
+              .classList.add("active");
+          }
         }
 
         steps.forEach((step) => {
           if (step === lastCompletedStep) return;
 
+          const isCompleted = step.classList.contains("completed");
+
           if (filter === "all") {
             step.style.display = "block";
           } else if (filter === "completed") {
-            step.style.display = step.classList.contains("completed")
-              ? "block"
-              : "none";
+            step.style.display = isCompleted ? "block" : "none";
           } else if (filter === "incomplete") {
-            step.style.display = !step.classList.contains("completed")
-              ? "block"
-              : "none";
+            step.style.display = !isCompleted ? "block" : "none";
           }
         });
 
         steps.forEach((step) => {
           const stepContent = step.querySelector(".step-content");
           const isCompleted = step.classList.contains("completed");
-          const isHighlighted = step.classList.contains("highlight");
 
           if (stepContent) {
             if (isMinimized && isCompleted) {
@@ -688,49 +764,46 @@
           }
         });
 
-        if (filter === "incomplete") {
-          sections.forEach((section) => {
-            if (lastCompletedStep && section.contains(lastCompletedStep))
-              return;
+        sections.forEach((section) => {
+          if (lastCompletedStep && section.contains(lastCompletedStep)) return;
 
-            const sectionSteps = section.querySelectorAll(".step");
-            const allStepsCompleted = Array.from(sectionSteps).every((step) =>
-              step.classList.contains("completed")
-            );
-            const hasVisibleSteps = Array.from(sectionSteps).some(
-              (step) => step.style.display !== "none"
-            );
+          const sectionSteps = section.querySelectorAll(".step");
+          const visibleSteps = Array.from(sectionSteps).filter(
+            (step) => step.style.display !== "none"
+          );
+          const allStepsCompleted = Array.from(sectionSteps).every((step) =>
+            step.classList.contains("completed")
+          );
 
-            // Add exclusion for footnotes-section
-            if (!section.classList.contains("footnotes-section")) {
-              section.style.display =
-                allStepsCompleted || !hasVisibleSteps ? "none" : "block";
-            } else {
-              section.style.display = "block"; // Always show footnotes
-            }
-          });
-
-          chapters.forEach((chapter) => {
-            if (lastCompletedStep && chapter.contains(lastCompletedStep))
-              return;
-
-            const chapterSections = chapter.querySelectorAll(".guide-section");
-            const visibleSections = Array.from(chapterSections).filter(
-              (section) => section.style.display !== "none"
-            );
-
-            chapter.style.display =
-              visibleSections.length === 0 ? "none" : "block";
-          });
-        } else {
-          sections.forEach((section) => {
+          if (section.classList.contains("footnotes-section")) {
             section.style.display = "block";
-          });
+          } else {
+            if (filter === "incomplete" && allStepsCompleted) {
+              section.style.display = "none";
+            } else {
+              section.style.display =
+                visibleSteps.length > 0 ? "block" : "none";
+            }
+          }
+        });
 
-          chapters.forEach((chapter) => {
-            chapter.style.display = "block";
-          });
-        }
+        chapters.forEach((chapter) => {
+          if (lastCompletedStep && chapter.contains(lastCompletedStep)) return;
+
+          const chapterSections = Array.from(
+            chapter.querySelectorAll(".guide-section")
+          ).filter(
+            (section) => !section.classList.contains("footnotes-section")
+          );
+
+          const visibleSections = chapterSections.filter(
+            (section) => section.style.display !== "none"
+          );
+
+          chapter.style.display = visibleSections.length > 0 ? "block" : "none";
+        });
+
+        saveFilterState();
       }
     </script>
   </body>
