@@ -11,9 +11,9 @@ Intuitive web interface to keep track of your BRUHsailer ironman guide progress.
 
 ## Features
 
-- **Progress Tracking:** Log and view your progress throughout your Ironman journey
+- **Progress Tracking:** Log and view your progress throughout your Ironman journey, utilizes local storage for data persistance
 - **Interactive UI:** A clean, user-friendly interface built with HTML, CSS, and JavaScript
-- **Data Management:** Utilizes local data to persist your progress (see the `/data` folder)
+- **Current Guide Data:** The originating google docs data is converted to JSON and sanitized as the data source for all steps loaded, this is an automated process. (see the `/data` folder)
 
 ## Installation
 
