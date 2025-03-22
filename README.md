@@ -1,7 +1,7 @@
 # BRUHsailer
 
-**Web version of the OSRS Ironman guide.**  
-Keep track of your progress easier with this interactive web version of BRUHsailer. 
+**Web version for the BRUHsailer guide.**  
+Keep track of your progress easier with this interactive web version. 
 
 [Access it here](https://umkyzn.github.io/BRUHsailer/)
 
