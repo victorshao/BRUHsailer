@@ -4,7 +4,7 @@
 
 :root {
   --primary: #c0a080;
-  --primary-dark: #a88c6c;
+  --primary-dark: #605443;
   --secondary: #d5bea6;
   --secondary-dark: #c0a080;
   --bg-color: #f8f4f0;
@@ -54,7 +54,7 @@ body {
 header,
 .section-header,
 .chapter-title {
-  background-color: var(--primary);
+  background-color: var(--primary-dark);
   color: white;
   transition: background-color 0.3s ease;
 }
@@ -269,8 +269,6 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 20px;
-  padding-right: 20px;
   font-family: Arial, sans-serif;
 }
 
@@ -280,6 +278,8 @@ nav .nav-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 nav a,
@@ -379,6 +379,7 @@ header > * {
 .step.completed {
   border-color: var(--completed-text);
   background-color: transparent;
+  opacity: 0.75;
 }
 
 .step.completed .step-header {
