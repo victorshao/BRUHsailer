@@ -40,5 +40,3 @@ For any questions or issues, please open an issue in the repository
 ## Acknowledgements
 Big thanks to So Iron BRUH and ParasailerOSRS for permission to make this based on their guide, and for testing. Additional thanks to the ironman community as a whole, projects like these wouldn't exist without the great community.
 
-## License
-MIT License
