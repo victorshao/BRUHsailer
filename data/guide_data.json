@@ -1,5 +1,5 @@
 {
-  "updatedOn": "2025-03-20",
+  "updatedOn": "2025-03-30",
   "title": "BRUHsailer Complete Guide",
   "chapters": [
     {
@@ -12499,18 +12499,34 @@
               }
             },
             {
-              "text": " ",
+              "text": " \n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "Interactive version with checkboxes: ",
               "formatting": {}
             },
             {
-              "text": "\n",
+              "text": "https://umkyzn.github.io/BRUHsailer/",
               "formatting": {
+                "underline": true,
                 "color": {
-                  "r": 0.023529412,
-                  "g": 0.6039216,
-                  "b": 0.18039216
-                }
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "url": "https://umkyzn.github.io/BRUHsailer/",
+                "isLink": true
               }
+            },
+            {
+              "text": "\n",
+              "formatting": {}
             }
           ],
           "type": "chapter_footnote"
@@ -12522,7 +12538,7 @@
               "formatting": {}
             },
             {
-              "text": "20250309Chapter1",
+              "text": "20250321Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
               "formatting": {
@@ -12545,7 +12561,7 @@
               "formatting": {}
             },
             {
-              "text": "20250309Chapter2",
+              "text": "20250321Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
               "formatting": {
@@ -12566,7 +12582,7 @@
               "formatting": {}
             },
             {
-              "text": "20250309Chapter3",
+              "text": "20250321Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -19789,6 +19805,10 @@
                   }
                 },
                 {
+                  "text": ". This third method is recommended",
+                  "formatting": {}
+                },
+                {
                   "text": "). Do the entire elf quest line",
                   "formatting": {
                     "fontSize": 12
@@ -20908,11 +20928,37 @@
         {
           "content": [
             {
+              "text": "Interactive version with checkboxes: ",
+              "formatting": {}
+            },
+            {
+              "text": "https://umkyzn.github.io/BRUHsailer/",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "url": "https://umkyzn.github.io/BRUHsailer/",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
               "text": "Chapter 1: ",
               "formatting": {}
             },
             {
-              "text": "20250309Chapter1",
+              "text": "20250321Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
               "formatting": {
@@ -20933,7 +20979,7 @@
               "formatting": {}
             },
             {
-              "text": "20250309Chapter2",
+              "text": "20250321Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
               "formatting": {
@@ -20954,7 +21000,7 @@
               "formatting": {}
             },
             {
-              "text": "20250309Chapter3",
+              "text": "20250321Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -21172,17 +21218,6 @@
                 "isLink": true
               }
             },
-            {
-              "text": "\n",
-              "formatting": {
-                "fontSize": 13
-              }
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
             {
               "text": "\n",
               "formatting": {}
@@ -23413,7 +23448,20 @@
         {
           "content": [
             {
-              "text": "https://madssb.github.io/InteractiveGearProg/index.html\n",
+              "text": "Ladlor's Interactive Progression Chart",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "url": "https://madssb.github.io/InteractiveGearProg/index.html",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
               "formatting": {}
             }
           ],
@@ -23422,8 +23470,15 @@
         {
           "content": [
             {
+              "text": "(along with the older version: ",
+              "formatting": {
+                "italic": true
+              }
+            },
+            {
               "text": "Ladlor's gear progression V4, showing a recommended route of gear progression for irons.",
               "formatting": {
+                "italic": true,
                 "underline": true,
                 "color": {
                   "r": 0.06666667,
@@ -23435,21 +23490,15 @@
               }
             },
             {
-              "text": "\n",
-              "formatting": {}
-            }
-          ],
-          "type": "chapter_footnote"
-        },
-        {
-          "content": [
-            {
-              "text": "Accompanied with a ",
-              "formatting": {}
+              "text": " accompanied with a ",
+              "formatting": {
+                "italic": true
+              }
             },
             {
               "text": "list of the item names",
               "formatting": {
+                "italic": true,
                 "underline": true,
                 "color": {
                   "r": 0.06666667,
@@ -23461,8 +23510,10 @@
               }
             },
             {
-              "text": ".\n",
-              "formatting": {}
+              "text": ").\n",
+              "formatting": {
+                "italic": true
+              }
             }
           ],
           "type": "chapter_footnote"
@@ -23479,7 +23530,7 @@
         {
           "content": [
             {
-              "text": "For an older and outdated version see ",
+              "text": "For an even older and outdated version see ",
               "formatting": {
                 "italic": true
               }
@@ -24328,11 +24379,37 @@
         {
           "content": [
             {
+              "text": "Interactive version with checkboxes: ",
+              "formatting": {}
+            },
+            {
+              "text": "https://umkyzn.github.io/BRUHsailer/",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "url": "https://umkyzn.github.io/BRUHsailer/",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
               "text": "Chapter 1: ",
               "formatting": {}
             },
             {
-              "text": "20250309Chapter1",
+              "text": "20250321Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -24353,7 +24430,7 @@
               "formatting": {}
             },
             {
-              "text": "20250309Chapter2",
+              "text": "20250321Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -24374,7 +24451,7 @@
               "formatting": {}
             },
             {
-              "text": "20250309Chapter3",
+              "text": "20250321Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
