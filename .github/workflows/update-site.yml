@@ -11,25 +11,25 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           persist-credentials: false
 
       - name: Set up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
-          node-version: "16"
+          node-version: "20"
 
       - name: Install dependencies
         run: npm install googleapis fs-extra
 
-      - name: Download markdown files
+      - name: Download source JSON files from Drive
         run: node .github/scripts/download-files.js
         env:
           GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
           FOLDER_ID: ${{ github.event.client_payload.folder_id }}
 
-      - name: Convert to JSON
+      - name: Transform and merge JSON to final data.json
         run: node conversion-script.js
 
       - name: Commit and push

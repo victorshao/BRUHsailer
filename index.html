@@ -21,7 +21,29 @@
     gtag("config", "G-CD7NXW27XT");
   </script>
   <body>
-    <button class="dark-mode-toggle" id="darkModeToggle">🌓</button>
+    <div class="top-right-controls">
+      <div class="highlight-control-wrapper">
+        <button class="highlight-toggle" id="highlightToggle">🖍️</button>
+        <div class="highlight-color-picker" id="highlightColorPicker">
+          <button
+            class="color-picker-btn"
+            data-color="yellow"
+            style="background-color: yellow"
+          ></button>
+          <button
+            class="color-picker-btn"
+            data-color="blue"
+            style="background-color: lightblue"
+          ></button>
+          <button
+            class="color-picker-btn"
+            data-color="pink"
+            style="background-color: lightpink"
+          ></button>
+        </div>
+      </div>
+      <button class="dark-mode-toggle" id="darkModeToggle">🌓</button>
+    </div>
     <header>
       <h1>BRUHsailer</h1>
       <h3 class="subtitle">
@@ -52,6 +74,9 @@
         </button>
         <button class="utility-btn" id="minimizeCompletedToggle">
           Minimize Completed
+        </button>
+        <button class="utility-btn" id="removeAllHighlightsBtn">
+          Remove All Highlights
         </button>
       </div>
 
