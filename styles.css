@@ -61,6 +61,14 @@ span {
   margin-bottom: 0.5em;
 }
 
+div .step-header {
+  margin-top: 0em;
+}
+
+div .step-content {
+  margin-bottom: 0em;
+}
+
 a {
   color: var(--secondary-dark);
   text-decoration: underline;
@@ -288,6 +296,10 @@ nav div {
   transition: background-color 0.3s ease;
 }
 
+.chapter-content .guide-section:last-child {
+  margin-bottom: 0;
+}
+
 .section-header {
   padding: 12px 15px;
   display: flex;
@@ -295,6 +307,8 @@ nav div {
   align-items: center;
   cursor: pointer;
   border-radius: 4px 4px 0 0;
+  padding: 20px;
+  margin: 0;
 }
 
 .section-title {
@@ -323,7 +337,7 @@ nav div {
   border: 1px solid var(--section-border);
   border-radius: 6px;
   padding: 0;
-  margin-bottom: 8px;
+  margin-bottom: 25px;
   overflow: hidden;
   transition: background-color 0.3s ease, border-color 0.3s ease;
 }
