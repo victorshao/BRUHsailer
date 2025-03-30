@@ -1,12 +1,12 @@
 const UIManager = {
   isHighlightModeActive: false,
-  highlightColor: "yellow",
+  highlightColor: "green",
 
   getHighlightColorStorageKey: function () {
     return "highlightColorPreference";
   },
   setHighlightColor: function (color) {
-    const validColors = ["yellow", "blue", "pink"];
+    const validColors = ["green", "yellow", "blue", "pink"];
     if (validColors.includes(color)) {
       this.highlightColor = color;
       localStorage.setItem(this.getHighlightColorStorageKey(), color);
@@ -35,31 +35,40 @@ const UIManager = {
 
     document.querySelectorAll(".section-header").forEach((header) => {
       header.addEventListener("click", function () {
-        const sectionElement = this.closest('.guide-section'); // Find parent section
+        const sectionElement = this.closest(".guide-section");
         if (sectionElement) {
-          const content = sectionElement.querySelector('.section-content'); // Find content within parent
+          const content = sectionElement.querySelector(".section-content");
           if (content) {
-            content.classList.toggle('active');
-            this.classList.toggle('active'); // Toggle header active state as well
+            content.classList.toggle("active");
+            this.classList.toggle("active");
           } else {
-            console.warn("Could not find .section-content within section:", sectionElement);
+            console.warn(
+              "Could not find .section-content within section:",
+              sectionElement
+            );
           }
         } else {
-          console.warn("Could not find parent .guide-section for header:", this);
+          console.warn(
+            "Could not find parent .guide-section for header:",
+            this
+          );
         }
       });
     });
 
     document.querySelectorAll(".chapter-title").forEach((header) => {
       header.addEventListener("click", function () {
-        const chapterElement = this.closest('.guide-chapter'); // Find parent chapter
+        const chapterElement = this.closest(".guide-chapter");
         if (chapterElement) {
-          const content = chapterElement.querySelector('.chapter-content'); // Find content within parent
+          const content = chapterElement.querySelector(".chapter-content");
           if (content) {
-            content.classList.toggle('active');
-            this.classList.toggle('active'); // Toggle header active state as well
+            content.classList.toggle("active");
+            this.classList.toggle("active");
           } else {
-            console.warn("Could not find .chapter-content within chapter:", chapterElement);
+            console.warn(
+              "Could not find .chapter-content within chapter:",
+              chapterElement
+            );
           }
         } else {
           console.warn("Could not find parent .guide-chapter for title:", this);
@@ -191,9 +200,7 @@ const UIManager = {
         const button = document.getElementById("highlightToggle");
         if (!button) return;
 
-        const buttonRect = button.getBoundingClientRect();
-        const wrapperRect = highlightControlWrapper.getBoundingClientRect();
-        highlightColorPicker.classList.add("visible"); // Add this line to show the picker
+        highlightColorPicker.classList.add("visible");
       });
 
       const hidePicker = () => {
@@ -210,7 +217,6 @@ const UIManager = {
     }
   },
 
-  // --- Highlight Storage ---
   getHighlightStorageKey: function () {
     return "userHighlights";
   },
@@ -247,7 +253,6 @@ const UIManager = {
       this.getHighlightStorageKey(),
       JSON.stringify(highlights)
     );
-    console.log("Highlights saved:", highlights.length);
   },
 
   loadHighlights: function () {
@@ -255,8 +260,6 @@ const UIManager = {
       localStorage.getItem(this.getHighlightStorageKey()) || "[]"
     );
     if (!savedHighlights.length) return;
-
-    console.log("Loading highlights:", savedHighlights.length);
     savedHighlights.forEach((highlightData) => {
       const parentElement = document.getElementById(highlightData.parentId);
       if (!parentElement) {
@@ -285,12 +288,9 @@ const UIManager = {
             range.setEnd(node, index + highlightData.htmlContent.length);
 
             const span = document.createElement("span");
-            const colorToApply = highlightData.color || "yellow";
+            const colorToApply = highlightData.color || "green";
             span.className = `highlighted-text highlight-${colorToApply}`;
             range.surroundContents(span);
-            console.log(
-              `Highlight re-applied in ${highlightData.parentId} with color ${colorToApply}`
-            );
             break;
           } catch (e) {
             console.error("Error re-applying highlight:", e, highlightData);
@@ -311,11 +311,9 @@ const UIManager = {
     parent.normalize();
 
     this.saveHighlights();
-    console.log("Highlight removed.");
   },
 
   removeAllHighlights: function () {
-    // Select by base class
     document
       .querySelectorAll("#guideContent .highlighted-text")
       .forEach((span) => {
@@ -326,8 +324,7 @@ const UIManager = {
         parent.removeChild(span);
         parent.normalize();
       });
-    localStorage.removeItem(this.getHighlightStorageKey()); // Clear storage
-    console.log("All highlights removed.");
+    localStorage.removeItem(this.getHighlightStorageKey());
   },
   showSaveToast: function (message = "Progress saved") {
     Utils.showToast(message);
@@ -372,7 +369,6 @@ const UIManager = {
         this.isHighlightModeActive
       );
     }
-    console.log("Highlight mode:", this.isHighlightModeActive ? "ON" : "OFF");
     document.body.classList.toggle(
       "highlight-cursor-active",
       this.isHighlightModeActive
@@ -391,7 +387,6 @@ const UIManager = {
       !guideContent ||
       !guideContent.contains(range.commonAncestorContainer)
     ) {
-      console.log("Selection outside guide content or guideContent not found.");
       return;
     }
 

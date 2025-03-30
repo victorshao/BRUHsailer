@@ -640,6 +640,12 @@ nav div {
   transition: background-color 0.2s ease;
 }
 
+.highlighted-text.highlight-green {
+  background-color: rgba(144, 238, 144, 0.5);
+  color: var(--text-color);
+  box-shadow: 0 0 0 1px rgba(144, 238, 144, 0.7);
+}
+
 .highlighted-text.highlight-yellow {
   background-color: rgba(255, 255, 0, 0.5);
   color: var(--text-color);
@@ -656,6 +662,11 @@ nav div {
   background-color: rgba(255, 182, 193, 0.5);
   color: var(--text-color);
   box-shadow: 0 0 0 1px rgba(255, 182, 193, 0.7);
+}
+
+body.dark-mode .highlighted-text.highlighted-green {
+  background-color: rgba(80, 255, 80, 0.4);
+  box-shadow: 0 0 0 1px rgba(80, 255, 80, 0.6);
 }
 
 body.dark-mode .highlighted-text.highlight-yellow {
