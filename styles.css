@@ -821,3 +821,25 @@ body.dark-mode .error-message {
     background-color: var(--active-btn);
   }
 }
+
+.nested-content {
+  margin-left: 20px;
+  padding-left: 15px;
+  border-left: 3px solid var(--secondary);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.nested-content.level-1 {
+  border-left-color: var(--secondary);
+}
+
+.nested-content.level-2 {
+  border-left-color: #ff9800;
+  margin-left: 40px;
+}
+
+.nested-content.level-3 {
+  border-left-color: #e91e63;
+  margin-left: 60px;
+}
