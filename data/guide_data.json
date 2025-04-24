@@ -1,5 +1,5 @@
 {
-  "updatedOn": "2025-03-30",
+  "updatedOn": "2025-04-13",
   "title": "BRUHsailer Complete Guide",
   "chapters": [
     {
@@ -241,7 +241,26 @@
                   "formatting": {}
                 },
                 {
-                  "text": " times) and take the portal to Soul Wars (northeast, in the cave). Bank your items, grab a knife, jug of water, bronze axe, steel axe, tinderbox, leather gloves, ",
+                  "text": " times) and take the portal to Soul Wars (northeast, in the cave). ",
+                  "formatting": {
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "Optional: only grab 2 iron bar",
+                  "formatting": {
+                    "italic": true,
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "s and get the rest on Aldarin later.",
+                  "formatting": {
+                    "italic": true
+                  }
+                },
+                {
+                  "text": " Bank your items, grab a knife, jug of water, bronze axe, steel axe, tinderbox, leather gloves, ",
                   "formatting": {
                     "fontSize": 12
                   }
@@ -3104,7 +3123,7 @@
                   }
                 },
                 {
-                  "text": "h and 10 buckets of slime (if it is competitive or bought out, charter to Catherby and buy them there).",
+                  "text": "h and 10 buckets of slime (if it is competitive or bought out, charter to Catherby and buy them there), 10/world at a time.",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -3154,7 +3173,7 @@
                   }
                 },
                 {
-                  "text": "We recommend buying 250/world to save hopping",
+                  "text": "We recommend buying 250 tips/world to save hopping",
                   "formatting": {
                     "underline": true,
                     "color": {
@@ -3889,7 +3908,21 @@
                   }
                 },
                 {
-                  "text": " Death on the Isle. Collect the costume needle and the icon after the quest, using the icon to unlock the teleport on the pendant of ates. Minigame teleport back to Barbarian Assault and resume barbarian fishing to level 50 agility. Also start barbarian farming (if possible). ",
+                  "text": " Death on the Isle. Collect the costume needle and the icon after the quest, using the icon to unlock the teleport on the pendant of ates. ",
+                  "formatting": {}
+                },
+                {
+                  "text": "If you only collected 2 iron bars earlier, collect 5 more upstairs in the Shields of Mistrock store.",
+                  "formatting": {
+                    "italic": true
+                  }
+                },
+                {
+                  "text": " ",
+                  "formatting": {}
+                },
+                {
+                  "text": "Minigame teleport back to Barbarian Assault and resume barbarian fishing to level 50 agility. Also start barbarian farming (if possible). ",
                   "formatting": {}
                 },
                 {
@@ -5664,7 +5697,7 @@
               "nestedContent": [],
               "metadata": {
                 "gp_stack": "670151 gp",
-                "items_needed": "ring of dueling, necklace of passage, notes, adamant/bronze pickaxe, 25 bones, steel axe, 3 balls of wool, 1 rope, 1 yellow dye, 1 redberries, 1 ashes, 1 bucket of water, 1 soft clay, 8 woad leaves, steel axe",
+                "items_needed": "ring of dueling, necklace of passage, notes, adamant/bronze pickaxe, 25 bones, steel axe, 3 balls of wool, 1 rope, 1 yellow dye, 1 redberries, 1 ashes, 1 bucket of water, 1 soft clay, 8 woad leaves",
                 "skills_quests_met": "yes",
                 "total_time": "5d15h"
               }
@@ -5948,7 +5981,37 @@
             {
               "content": [
                 {
-                  "text": "Use your ring of dueling to teleport to Al-Kharid, speak with the gem trader and Avan for Family Crest, mine iron ore in the Al-kharid mine for the diary , get the key for Prince Ali Rescue from Osman. Do a lap of the agility course, rebank to grab quest items, then run south and fish some anchovies south of the bank for the diary, then start The Shadow of the Storm until you have the sigil mould and tome (take the carpet to Uzer the first time for a diary step) using your necklace of passage when convenient.",
+                  "text": "Use your ring of dueling to teleport to Al-Kharid, speak with the gem trader and Avan for Family Crest, mine iron ore in the Al-kharid mine for the diary, ",
+                  "formatting": {
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0
+                    },
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "give the items",
+                  "formatting": {}
+                },
+                {
+                  "text": " for Prince Ali Rescue ",
+                  "formatting": {
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0
+                    },
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "to",
+                  "formatting": {}
+                },
+                {
+                  "text": " Osman. Do a lap of the agility course, rebank to grab quest items, then run south and fish some anchovies south of the bank for the diary, then start The Shadow of the Storm until you have the sigil mould and tome (take the carpet to Uzer the first time for a diary step) using your necklace of passage when convenient.",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -6175,7 +6238,7 @@
                   "formatting": {}
                 },
                 {
-                  "text": " of your gold bars into digsite pendants. Make two fishbowls.\n",
+                  "text": " of your gold bars into digsite pendants. Make two fishbowls.",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -6184,19 +6247,13 @@
                     },
                     "fontSize": 12
                   }
-                }
-              ],
-              "nestedContent": [
+                },
                 {
-                  "level": 1,
-                  "content": [
-                    {
-                      "text": "Some quests further down the line require molten glass or glassblowing items, so don’t turn all 1600 glass into orbs even if a future step mistakenly says so. Just keep ~20 glass in the back pocket just in case and ignore the differences.\n",
-                      "formatting": {}
-                    }
-                  ]
+                  "text": "\n",
+                  "formatting": {}
                 }
               ],
+              "nestedContent": [],
               "metadata": {
                 "gp_stack": "535070 gp",
                 "items_needed": "1600 soda ash, 1600 buckets of sand, chisel, uncut sapphires/emeralds/rubies, matching gold bars for the gems, glassblowing pipe",
@@ -6917,7 +6974,22 @@
             {
               "content": [
                 {
-                  "text": "Chronicle teleport to Varrock, speak with Dreven at the bush patch and the Guildmaster to progress Dragon Slayer I (go through all dialogue options, get the maze key). Run south and speak with Vasquen at the hops patch. Plant barley in the patch (make sure to pay the farmer with 3 regular compost, also use compost on the patch itself. Keep the weeds.). Run around and hop over the fence for the diary, kill a ram in the for the ram skull. Grab two cadava berries and mine an iron ore in the southeast Varrock mine for the diary. Grab the Rag and Bone Man I items (including axe and tinderbox, no logs because of inv space), 4 oak logs, saw, hammer and an iron bar. Use a digsite pendant, speak with the Lead Navigator for Bone ",
+                  "text": "Chronicle teleport to Varrock, speak with Dreven at the bush patch and the Guildmaster to progress Dragon Slayer I (go through all dialogue options, get the maze key). Run south and speak with Vasquen at the hops patch. Plant barley in the patch (make sure to pay the farmer with 3 regular compost, also use compost on the patch itself. Keep the weeds.). Run around and hop over the fence for the diary, kill a ram in the for the ram skull. Grab two cadava berries and mine an iron ore in the southeast Varrock mine for the diary. Grab the Rag and Bone Man I items (including axe and tinderbox, no logs because of inv space - put the bones in the vinegar",
+                  "formatting": {
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0
+                    },
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": " while bankstanding",
+                  "formatting": {}
+                },
+                {
+                  "text": "), 4 oak logs, saw, hammer and an iron bar. Use a digsite pendant, speak with the Lead Navigator for Bone ",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -7779,7 +7851,7 @@
             {
               "content": [
                 {
-                  "text": "If you have not collected the item for Forgettable Tale… by now, go get it. Continue Forgettable Tale…, get the third kelda seed from the Rowdy Dwarf in the Laughing Miner and the fourth from Gauss, then continue the quest until you have planted your kelda hops. Bank and grab items for the next steps. ",
+                  "text": "If you have not collected the item for Forgettable Tale… by now, go get it. Continue Forgettable Tale…, get the third kelda seed from the Rowdy Dwarf in the Laughing Miner (also pick up a beer to get an empty glass) and the fourth from Gauss, then continue the quest until you have planted your kelda hops. Bank and grab items for the next steps. ",
                   "formatting": {}
                 },
                 {
@@ -7906,7 +7978,11 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Run to Shayzien",
+                      "text": "Take the minecart",
+                      "formatting": {}
+                    },
+                    {
+                      "text": " to Shayzien",
                       "formatting": {
                         "color": {
                           "r": 0,
@@ -7941,7 +8017,11 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Run to Arceuus, speak with Ganala and find The Envoy To Varlamore for The Depths of Despair and read it and find Soul Journey along the way. In there, hand in a book for the diary (XP on magic). Speak with Mori to start The Ascent of Arceuus. Run south, pick the lock on the chest in Councillor Hughes’ home to find the letter for The Queen of Thieves. Head to the castle, speak with Councillor Andrews to progress Ascent of Arceuus, pray at the altar for the diary. Grab your willow shortbow with steel arrows, wind strikes, a rune shortsword, some food, a games necklace and your coin stack.\n",
+                      "text": "Run",
+                      "formatting": {}
+                    },
+                    {
+                      "text": " to Arceuus, speak with Ganala and find The Envoy To Varlamore for The Depths of Despair and read it and find Soul Journey along the way. In there, hand in a book for the diary (XP on magic). Speak with Mori to start The Ascent of Arceuus. Run south, pick the lock on the chest in Councillor Hughes’ home to find the letter for The Queen of Thieves. Head to the castle, speak with Councillor Andrews to progress Ascent of Arceuus, pray at the altar for the diary. Grab your willow shortbow with steel arrows, wind strikes, a rune shortsword, some food, a games necklace and your coin stack.\n",
                       "formatting": {}
                     }
                   ]
@@ -8511,6 +8591,15 @@
                       "formatting": {}
                     }
                   ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "At your own convenience (recommended: right now) chop 300 oak and willow logs and purchase the log basket from the forestry shop.\n",
+                      "formatting": {}
+                    }
+                  ]
                 }
               ],
               "metadata": {
@@ -8706,7 +8795,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Fishing Trawler minigame teleport, charter a ship to Catherby, plant some harralanders, obtain a pet fish from Harry for the diary and speak with Dantaera (",
+                      "text": "Fishing Trawler minigame teleport, charter a ship to Catherby, plant some harralanders, obtain a pet fish from Harry for the diary (requires seaweed and a fishbowl with water) and speak with Dantaera (",
                       "formatting": {
                         "color": {
                           "r": 0,
@@ -8886,7 +8975,37 @@
                       "formatting": {}
                     },
                     {
-                      "text": " and your rune shortsword. Pickpocket a master farmer for the diary, then run to the farming patch and speak with Kragen. Plant a harralander and the cabbages. Run northwest and find Lollk in the cave for Dwarf Cannon. Run back to Captain Lawgof and continue Dwarf Cannon. Teleport to Fenkenstrain, run to Lyra. Plant the harralander and the onions.",
+                      "text": " and your rune shortsword. Pickpocket a master farmer for the diary, then run to the farming patch and speak with Kragen. Plant a harralander and the cabbages. Run northwest and find Lollk in the cave for Dwarf Cannon. Run back to Captain Lawgof and continue Dwarf Cannon. Teleport to Fenkenstrain, run to Lyra. Plant the harralander and on",
+                      "formatting": {
+                        "color": {
+                          "r": 0,
+                          "g": 0,
+                          "b": 0
+                        },
+                        "fontSize": 12
+                      }
+                    },
+                    {
+                      "text": "ions ",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "and ",
+                      "formatting": {
+                        "color": {
+                          "r": 0,
+                          "g": 0,
+                          "b": 0
+                        },
+                        "fontSize": 12
+                      }
+                    },
+                    {
+                      "text": "speak with her to progress the quest",
+                      "formatting": {}
+                    },
+                    {
+                      "text": ".",
                       "formatting": {
                         "color": {
                           "r": 0,
@@ -8905,7 +9024,7 @@
               ],
               "metadata": {
                 "gp_stack": "290836 gp",
-                "items_needed": "11716 gp, earth runes, water staff, law runes, soul runes, ring of charos, 1 marigold seed, 3 harralander seeds, seed dibber, rake, fly fishing rod, 20 feathers, 2 soft clay, 1 cabbage, rune axe, magic secateurs, 1 gardening trowel, 1 plant pot, 6 cabbage seeds, 6 onion seeds, compost, spade, iron chainbody, watering can, raw swordfish, raw chicken",
+                "items_needed": "11716 gp, earth runes, water staff, law runes, soul runes, ring of charos, seaweed, fishbowl (with water), 1 marigold seed, 3 harralander seeds, seed dibber, rake, fly fishing rod, 20 feathers, 2 soft clay, 1 cabbage, rune axe, magic secateurs, 1 gardening trowel, 1 plant pot, 6 cabbage seeds, 6 onion seeds, compost, spade, iron chainbody, watering can, raw swordfish, raw chicken",
                 "skills_quests_met": "yes",
                 "total_time": "7d7h"
               }
@@ -9760,7 +9879,7 @@
               "nestedContent": [],
               "metadata": {
                 "gp_stack": "231004 gp",
-                "items_needed": "50 gp, bronze axe (Step 2), bronze pickaxe (Step 43), ring of dueling, 25 pure essence, rune sword, salmon",
+                "items_needed": "‘perfect’ necklace, ‘perfect’ ring, 50 gp, bronze axe (Step 2), bronze pickaxe (Step 43), ring of dueling, 25 pure essence, rune sword, salmon",
                 "skills_quests_met": "yes",
                 "total_time": "7d17h"
               }
@@ -10189,7 +10308,7 @@
                   }
                 },
                 {
-                  "text": "to make 1590 orbs",
+                  "text": "to make 1580 unpowered orbs",
                   "formatting": {}
                 },
                 {
@@ -10253,10 +10372,47 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "If you are not yet level 78 thieving, consider staying here for level 78 (pickpocket a dorgesh-kaan rich chest). Alternatively, collect a temporary boost (for example, Sq’irk juice) at your own convenience.\n",
+                      "text": "If you are not yet level 78 thieving, consider staying here for level 78 (pickpocket a dorgesh-kaan rich chest). Alternatively, collect a temporary boost (for example, Sq’irk juice) at your own convenience.",
                       "formatting": {
                         "italic": true
                       }
+                    },
+                    {
+                      "text": "\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "Here is the best arteglass guide ",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "Stealing Artefacts + Multiskill Guide 2023/2024",
+                      "url": "https://www.youtube.com/watch?v=StgC4H2eN6s",
+                      "isLink": true,
+                      "formatting": {
+                        "underline": true
+                      }
+                    },
+                    {
+                      "text": ", with a low level alternative here ",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "Early game Arteglass Thieving & Crafting",
+                      "url": "https://www.youtube.com/watch?v=VfilJ8ktOc8",
+                      "isLink": true,
+                      "formatting": {
+                        "underline": true
+                      }
+                    },
+                    {
+                      "text": "\n",
+                      "formatting": {}
                     }
                   ]
                 }
@@ -10979,6 +11135,28 @@
                       "formatting": {}
                     },
                     {
+                      "text": "25x4 Half-Replant Gricoller's Tithe Farm! Fastest XP (~120k xp/hr)",
+                      "url": "https://www.youtube.com/watch?v=FJxLs_-SR9g",
+                      "isLink": true,
+                      "formatting": {
+                        "underline": true
+                      }
+                    },
+                    {
+                      "text": "but using regular watering cans - no need to buy Gricoller’s can. Also ",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "you can left click to water the plants, it is not necessary to manual click water",
+                      "formatting": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "text": ". This may use energy potions at your agility level, despite the agility rework making it much more doable. As an alternative there is 20x5: ",
+                      "formatting": {}
+                    },
+                    {
                       "text": "Tithe Farm Updated (100 fruits in 19min 24sec - No Stams/Energy potions)",
                       "url": "https://www.youtube.com/watch?v=AImGJepWbkw",
                       "isLink": true,
@@ -10987,26 +11165,7 @@
                       }
                     },
                     {
-                      "text": ". Despite the video title it is wise to carry several energy potions (because of your lower agility level). Unlike the video you ",
-                      "formatting": {}
-                    },
-                    {
-                      "text": "cannot",
-                      "formatting": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "text": " replant as you harvest because you have to refill your watering cans first.\n",
-                      "formatting": {}
-                    }
-                  ]
-                },
-                {
-                  "level": 2,
-                  "content": [
-                    {
-                      "text": "Now that grown plants in Tithe no longer die it is possible to do the 20x5 method.\n",
+                      "text": ". \n",
                       "formatting": {}
                     }
                   ]
@@ -11409,7 +11568,7 @@
               ],
               "metadata": {
                 "gp_stack": "227287 gp",
-                "items_needed": "650 gp, dramen staff, butterfly net, several impling jars, rune pickaxe, swordfish, karambwans, knife, 20 limpwurt roots, candle (or FM cape/bruma torch), lockpick, air runes, law runes, fire runes, boots of lightness, many Shantay passes, 12 magic logs, 6 steel bars, 6 molten glass, 1 ashes, charcoal, 1 blood rune, 1 bones, 1 silver bar, garlic, pestle/mortar, spice, small fishing net, rope, chocolate cake, spiked climbing boots, facemask, tinderbox, many lockpicks, prayer potions, fire staff, death runes (use blast spells except for Kamil)",
+                "items_needed": "650 gp, dramen staff, butterfly net, several impling jars, rune pickaxe, swordfish, karambwans, knife, 20 limpwurt roots, candle (or FM cape/bruma torch), lockpick, air runes, law runes, fire runes, boots of lightness, many Shantay passes, 12 magic logs, 6 steel bars, 6 molten glass, 1 ashes, charcoal, 1 blood rune, 1 bones, 1 silver bar, garlic, pestle/mortar, spice, small fishing net, rope, sled, chocolate cake, spiked climbing boots, facemask, tinderbox, many lockpicks, prayer potions, fire staff, death runes (use blast spells except for Kamil)",
                 "skills_quests_met": "yes",
                 "total_time": "9d4h"
               }
@@ -12538,7 +12697,7 @@
               "formatting": {}
             },
             {
-              "text": "20250321Chapter1",
+              "text": "20250413Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
               "formatting": {
@@ -12561,7 +12720,7 @@
               "formatting": {}
             },
             {
-              "text": "20250321Chapter2",
+              "text": "20250413Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
               "formatting": {
@@ -12582,7 +12741,7 @@
               "formatting": {}
             },
             {
-              "text": "20250321Chapter3",
+              "text": "20250413Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -12795,9 +12954,33 @@
                   "g": 0.33333334,
                   "b": 0.8
                 },
-                "fontSize": 11,
                 "fontFamily": "Arial",
                 "url": "https://drive.google.com/file/d/1Wk1p1nKr_MiRvSy-oXAAYY2VjCEPppok/view?usp=sharing",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {
+                "fontSize": 14
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20250413ChangelogBRUHsailer.txt",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "fontFamily": "Arial",
+                "url": "https://drive.google.com/file/d/1aZlJ7SGZE4VfgDzrJUAtoNE5KmNqVieW/view?usp=drive_link",
                 "isLink": true
               }
             },
@@ -13016,8 +13199,19 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "If you have spare oak logs (or even planks), for example from wintertodt, use those first instead of chopping.",
+                      "text": "If you have spare oak logs (or even planks), for example from wintertodt, use those first instead of chopping.\n",
                       "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "Optional but recommended: when in Ardougne, charter a ship to Aldarin and buy an adamant kiteshield from Shields of Mistrock for tank gear for Rex.",
+                      "formatting": {
+                        "italic": true
+                      }
                     },
                     {
                       "text": "\n",
@@ -13527,7 +13721,7 @@
               "nestedContent": [],
               "metadata": {
                 "gp_stack": "1.6m gp",
-                "items_needed": "1330 gp, ice gloves",
+                "items_needed": "1330 gp, ice gloves, blunt axe",
                 "skills_quests_met": "yes",
                 "total_time": "10d3h"
               }
@@ -14386,7 +14580,7 @@
                   }
                 },
                 {
-                  "text": "Buy 11 furs from Baraek. Return to the west anvils and smith a steel longsword, 2 shortswords, 1 mace, 1 warhammer, 1 dagger, 2 med helms and 1 full helm. World hop to find Bob for A Tail of Two Cats. ",
+                  "text": "Buy 11 furs from Baraek. Return to the west anvils and smith a steel longsword, 2 shortswords, 1 mace, 1 warhammer, 1 dagger, 2 med helms and 1 full helm.",
                   "formatting": {
                     "fontSize": 12
                   }
@@ -15324,6 +15518,17 @@
                   "content": [
                     {
                       "text": "The tome, cape and helm can be downgraded without issue. Use steel gloves over mystic gloves.\n",
+                      "formatting": {
+                        "fontFamily": "Arial"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "level": 2,
+                  "content": [
+                    {
+                      "text": "If you bought an adamant kiteshield earlier, that is a good alternative to the tome of fire (in fact, it’s slightly better).\n",
                       "formatting": {
                         "fontFamily": "Arial"
                       }
@@ -17422,7 +17627,7 @@
                 "gp_stack": "225k gp",
                 "items_needed": "cash stack, 10 mist runes, 10 lava runes, 5 blood runes, airtight pot, rune pickaxe, rune axe, tinderbox, hammer, ring of charos(a), dramen staff, Ardy Cloak 1, melee gear, prayer pots, swordfish, yellow dye, swamp tar, necklace of passage, rope, energy pots, teasing stick, box trap, rabbit snare, law runes, soul runes",
                 "skills_quests_met": "yes",
-                "total_time": "17d17h"
+                "total_time": "17d1h"
               }
             },
             {
@@ -18052,6 +18257,15 @@
                   "content": [
                     {
                       "text": "This will get your defence to 70 (and, once you use the bones on the Chaos Altar, also prayer to 70), unlocking Piety.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "At some point your stats are high enough you might be within reach of completing the easy tier of the Combat Achievements, giving you a quick 5k xp lamp for a skill of your choice (probably herblore).\n",
                       "formatting": {}
                     }
                   ]
@@ -19388,7 +19602,7 @@
                       }
                     },
                     {
-                      "text": "for information on how food works.",
+                      "text": "for information on how food works. Without the barrel, feel free to ignore this.",
                       "formatting": {}
                     },
                     {
@@ -19429,7 +19643,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "After completing the minigame you can high alch the staff.\n",
+                      "text": "The staff is necessary for the wilderness hard diary. After this you can high alch the staff for some gp, if you want.\n",
                       "formatting": {}
                     }
                   ]
@@ -20958,7 +21172,7 @@
               "formatting": {}
             },
             {
-              "text": "20250321Chapter1",
+              "text": "20250413Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit",
               "isLink": true,
               "formatting": {
@@ -20979,7 +21193,7 @@
               "formatting": {}
             },
             {
-              "text": "20250321Chapter2",
+              "text": "20250413Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit",
               "isLink": true,
               "formatting": {
@@ -21000,7 +21214,7 @@
               "formatting": {}
             },
             {
-              "text": "20250321Chapter3",
+              "text": "20250413Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -21215,6 +21429,31 @@
                 },
                 "fontFamily": "Arial",
                 "url": "https://drive.google.com/file/d/1Wk1p1nKr_MiRvSy-oXAAYY2VjCEPppok/view?usp=sharing",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {
+                "fontSize": 13
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20250413ChangelogBRUHsailer.txt",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "fontFamily": "Arial",
+                "url": "https://drive.google.com/file/d/1aZlJ7SGZE4VfgDzrJUAtoNE5KmNqVieW/view?usp=drive_link",
                 "isLink": true
               }
             },
@@ -21781,7 +22020,7 @@
                       }
                     },
                     {
-                      "text": ") to get 100k trading sticks. In total this takes 520 cut opals, 520 cut jades and 52 red topazes (keep additional red topaz and a good amount of opals for slayer bracelets. Buy 10k karambwans at Tiadeche (using a Ring of Endurance, Vile Vigour and three client hopping for the best rates), banking with Rionasta’s parcel service. Video: ",
+                      "text": ") to get 100k trading sticks. In total this takes 520 cut opals, 520 cut jades and 52 red topazes (keep additional red topaz and a good amount of opals for slayer bracelets. Buy to a total of 10k karambwans at Tiadeche (using a Ring of Endurance, Vile Vigour and three client hopping for the best rates), banking with Rionasta’s parcel service. Video: ",
                       "formatting": {}
                     },
                     {
@@ -21794,6 +22033,15 @@
                     },
                     {
                       "text": ". Do the Kourend & Kebos Hard diary (lamp on RC), then cook the karambwans at your convenience (1t cooking at the Hosidius range is best, cooking gauntlets do not work on karambwans).\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 4,
+                  "content": [
+                    {
+                      "text": "If you previously bought bwans in Chapter 2, you won’t need as many now. Only buy the difference (or postpone it for later, if you wish).\n",
                       "formatting": {}
                     }
                   ]
@@ -22565,7 +22813,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "52m gp",
+                "gp_stack": "44m gp",
                 "items_needed": "none (!!!)",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -22640,7 +22888,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "52m",
+                "gp_stack": "44m",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -22659,7 +22907,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "55m",
+                "gp_stack": "47m",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -22720,7 +22968,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "57m",
+                "gp_stack": "49m",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -22769,7 +23017,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "85m",
+                "gp_stack": "77m",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -22877,7 +23125,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "85m",
+                "gp_stack": "77m",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -22915,7 +23163,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "85m",
+                "gp_stack": "77m",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -23047,7 +23295,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "85m",
+                "gp_stack": "77m",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -23062,7 +23310,7 @@
               ],
               "nestedContent": [],
               "metadata": {
-                "gp_stack": "85m",
+                "gp_stack": "77m",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -23087,7 +23335,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "84m",
+                "gp_stack": "77m",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -23129,7 +23377,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "65m",
+                "gp_stack": "58m",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -23209,7 +23457,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "65m",
+                "gp_stack": "58m",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
@@ -23310,7 +23558,7 @@
                 }
               ],
               "metadata": {
-                "gp_stack": "46m",
+                "gp_stack": "39m",
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "1200 hours (rough estimate)"
@@ -23356,7 +23604,7 @@
         {
           "content": [
             {
-              "text": "20220312SlayerGuide",
+              "text": "20250309SlayerGuide",
               "url": "https://docs.google.com/document/d/1kBMW2uRI8b4NBcYn9PmsedTnZ3yW7fuGwdzsRQSCNkk/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -24409,7 +24657,7 @@
               "formatting": {}
             },
             {
-              "text": "20250321Chapter1",
+              "text": "20250413Chapter1",
               "url": "https://docs.google.com/document/d/1gCez5XG5FA1kmmBYydur3RaI_cr-dYNJlnigRrByEX8/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -24430,7 +24678,7 @@
               "formatting": {}
             },
             {
-              "text": "20250321Chapter2",
+              "text": "20250413Chapter2",
               "url": "https://docs.google.com/document/d/1YQiZ6curEYPpgm3DtjZcWHPoEEkGpYdXZ-I0gCM5p10/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -24451,7 +24699,7 @@
               "formatting": {}
             },
             {
-              "text": "20250321Chapter3",
+              "text": "20250413Chapter3",
               "url": "https://docs.google.com/document/d/1O1VeAkwS6VAzGVy0GT205GqiNaOAbw17H5uyuMwz39o/edit?usp=sharing",
               "isLink": true,
               "formatting": {
@@ -24666,6 +24914,31 @@
                 },
                 "fontFamily": "Arial",
                 "url": "https://drive.google.com/file/d/1Wk1p1nKr_MiRvSy-oXAAYY2VjCEPppok/view?usp=sharing",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {
+                "fontSize": 13
+              }
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20250413ChangelogBRUHsailer.txt",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "fontFamily": "Arial",
+                "url": "https://drive.google.com/file/d/1aZlJ7SGZE4VfgDzrJUAtoNE5KmNqVieW/view?usp=drive_link",
                 "isLink": true
               }
             },
