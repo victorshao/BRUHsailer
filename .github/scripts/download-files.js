@@ -29,6 +29,27 @@ async function downloadFiles() {
   const dataDir = path.join(process.cwd(), "data");
   await fs.ensureDir(dataDir);
 
+  let archivedFolderId;
+  const archivedFolderName = "archived";
+  const archivedSearch = await drive.files.list({
+    q: `'${folderId}' in parents and name='${archivedFolderName}' and mimeType='application/vnd.google-apps.folder' and trashed = false`,
+    fields: "files(id, name)",
+  });
+  if (archivedSearch.data.files && archivedSearch.data.files.length > 0) {
+    archivedFolderId = archivedSearch.data.files[0].id;
+  } else {
+    const createFolderRes = await drive.files.create({
+      resource: {
+        name: archivedFolderName,
+        mimeType: "application/vnd.google-apps.folder",
+        parents: [folderId],
+      },
+      fields: "id",
+    });
+    archivedFolderId = createFolderRes.data.id;
+    console.log(`Created archived folder with ID: ${archivedFolderId}`);
+  }
+
   for (const file of files) {
     console.log(`Downloading ${file.name}`);
 
@@ -60,10 +81,15 @@ async function downloadFiles() {
     });
 
     try {
-      await drive.files.delete({ fileId: file.id });
-      console.log(`Deleted ${file.name} from Google Drive.`);
-    } catch (deleteErr) {
-      console.error(`Failed to delete ${file.name}:`, deleteErr.message);
+      await drive.files.update({
+        fileId: file.id,
+        addParents: archivedFolderId,
+        removeParents: folderId,
+        fields: "id, parents"
+      });
+      console.log(`Archived ${file.name} to the 'archived' folder in Google Drive.`);
+    } catch (archiveErr) {
+      console.error(`Failed to archive ${file.name}:`, archiveErr.message);
     }
   }
 
