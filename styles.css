@@ -235,6 +235,11 @@ nav div {
   border-radius: 1px;
 }
 
+.progress-text {
+  
+  display: none;
+}
+
 .progress-bar {
   height: 25px;
   border-radius: 5px;
@@ -267,24 +272,17 @@ nav div {
   font-family: Arial, sans-serif;
   background-color: var(--secondary);
   transition: width 0.3s ease, background-color 0.3s ease;
+  z-index: 1;
 }
 
 .progress-text {
-  display: none;
+  display: none; /* might change this in the future */
   position: relative;
   z-index: 1;
   width: 100%;
   text-align: center;
   font-family: Arial, sans-serif;
-}
-
-.progress[style*="width: 5%"] .progress-text,
-.progress[style*="width: 6%"] .progress-text,
-.progress[style*="width: 7%"] .progress-text,
-.progress[style*="width: 8%"] .progress-text,
-.progress[style*="width: 9%"] .progress-text,
-.progress[style*="width: 1"] .progress-text {
-  display: inline;
+  white-space: nowrap;
 }
 
 .guide-section {
@@ -801,6 +799,21 @@ body.dark-mode .error-message {
   color: #ff8c8c;
   border-left: 5px solid #ff8c8c;
 }
+
+.search-highlight {
+  background-color: rgba(255, 220, 0, 0.6); /* Yellow highlight */
+  color: #333; /* Darker text for contrast on yellow */
+  padding: 0.1em 0;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba(255, 220, 0, 0.8);
+}
+
+body.dark-mode .search-highlight {
+  background-color: rgba(255, 230, 80, 0.5); /* Slightly adjusted yellow for dark mode */
+  color: #eee; /* Lighter text for dark mode */
+  box-shadow: 0 0 0 1px rgba(255, 230, 80, 0.7);
+}
+
 
 @media (max-width: 600px) {
   .filter-container {

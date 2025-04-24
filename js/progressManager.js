@@ -50,7 +50,7 @@ const ProgressManager = {
     progressBar.style.width = `${progressPercent}%`;
     progressBar.querySelector(
       ".progress-text"
-    ).textContent = `${progressPercent}%`;
+    ).textContent = `${progressPercent}% Complete`;
 
     this.highlightLastCompletedStep();
   },
