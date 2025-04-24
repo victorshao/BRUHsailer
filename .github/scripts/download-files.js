@@ -58,6 +58,13 @@ async function downloadFiles() {
           resolve();
         });
     });
+
+    try {
+      await drive.files.delete({ fileId: file.id });
+      console.log(`Deleted ${file.name} from Google Drive.`);
+    } catch (deleteErr) {
+      console.error(`Failed to delete ${file.name}:`, deleteErr.message);
+    }
   }
 
   console.log("All JSON files downloaded successfully.");
