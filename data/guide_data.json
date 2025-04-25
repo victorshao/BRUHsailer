@@ -2018,10 +2018,100 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Optionally: do a small group kill on a separate world for 3000 or more points in one game for the Combat Achievement.\n",
+                      "text": "Optionally: do a small group kill on a separate world for 3000 or more points in one game for the Combat Achievement.",
                       "formatting": {
                         "italic": true
                       }
+                    },
+                    {
+                      "text": "\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "Quite a few people worry about minmaxing the crate loot. It doesn’t matter that much, training skills up for better loot is ",
+                      "formatting": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "text": "not",
+                      "formatting": {
+                        "bold": true,
+                        "underline": true
+                      }
+                    },
+                    {
+                      "text": " worth it. The optimal way to open crates is:\n",
+                      "formatting": {
+                        "bold": true
+                      }
+                    }
+                  ]
+                },
+                {
+                  "level": 2,
+                  "content": [
+                    {
+                      "text": "Wait until 60 woodcutting to open any crates",
+                      "formatting": {
+                        "underline": true
+                      }
+                    },
+                    {
+                      "text": ". If you are not staying at todt until 60wc instead open them as late as possible (when you leave todt). If you do wait until 60wc, open all but 30-50 of them.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 2,
+                  "content": [
+                    {
+                      "text": "If you have remaining crates after the above step, wait until you have completed the Digsite quest to open the rest.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 2,
+                  "content": [
+                    {
+                      "text": "Do not wait for other levels (herblore, farming, etc.) with opening the crates. If you have more crates open them ",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "as soon as you can use the rewards",
+                      "formatting": {
+                        "italic": true
+                      }
+                    },
+                    {
+                      "text": ". In particular, do not wait for ‘breakpoints’ in levels to increase your loot, just open them for money to reduce time spent blackjacking. You can optionally decide to wait for completion of step 93 (tithe farming) to increase the seed yield, but this is not best.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "After opening all of the crates, we assume that you have exactly 128k GP as a baseline, as well as the money for 46 fletching. HCIM will need a bit more (get 200k to be safe).",
+                      "formatting": {
+                        "color": {
+                          "r": 1,
+                          "g": 0.21960784,
+                          "b": 0.21960784
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n",
+                      "formatting": {}
                     }
                   ]
                 }
@@ -2031,135 +2121,7 @@
                 "items_needed": "4 pieces of warm clothing, steel axe, tinderbox, cakes",
                 "skills_quests_met": "yes",
                 "total_time": "2 days 10 hours"
-              },
-              "additionalContent": [
-                [
-                  {
-                    "text": "After opening all of the crates, we assume that you have exactly ",
-                    "formatting": {
-                      "color": {
-                        "r": 1,
-                        "g": 0.21960784,
-                        "b": 0.21960784
-                      },
-                      "fontSize": 12
-                    }
-                  },
-                  {
-                    "text": "128k",
-                    "formatting": {
-                      "color": {
-                        "r": 1,
-                        "g": 0.21960784,
-                        "b": 0.21960784
-                      }
-                    }
-                  },
-                  {
-                    "text": " GP as a baseline, as well as the money for 46 fletching. HCIM will need a bit more (get ",
-                    "formatting": {
-                      "color": {
-                        "r": 1,
-                        "g": 0.21960784,
-                        "b": 0.21960784
-                      },
-                      "fontSize": 12
-                    }
-                  },
-                  {
-                    "text": "20",
-                    "formatting": {
-                      "color": {
-                        "r": 1,
-                        "g": 0.21960784,
-                        "b": 0.21960784
-                      }
-                    }
-                  },
-                  {
-                    "text": "0k to be safe).\n",
-                    "formatting": {
-                      "color": {
-                        "r": 1,
-                        "g": 0.21960784,
-                        "b": 0.21960784
-                      },
-                      "fontSize": 12
-                    }
-                  }
-                ],
-                [
-                  {
-                    "text": "Quite a few people worry about minmaxing the crate loot. It doesn’t matter that much, training skills up for better loot is ",
-                    "formatting": {
-                      "bold": true
-                    }
-                  },
-                  {
-                    "text": "not",
-                    "formatting": {
-                      "bold": true,
-                      "underline": true
-                    }
-                  },
-                  {
-                    "text": " worth it. The optimal way to open crates is:\n",
-                    "formatting": {
-                      "bold": true
-                    }
-                  }
-                ]
-              ]
-            },
-            {
-              "content": [
-                {
-                  "text": "Wait until 60 woodcutting to open any crates",
-                  "formatting": {
-                    "underline": true
-                  }
-                },
-                {
-                  "text": ". If you are not staying at todt until 60wc instead open them as late as possible (when you leave todt). If you do wait until 60wc, open all but 30-50 of them.\n",
-                  "formatting": {}
-                }
-              ],
-              "nestedContent": [],
-              "metadata": {}
-            },
-            {
-              "content": [
-                {
-                  "text": "If you have remaining crates after the above step, wait until you have completed the Digsite quest to open the rest.\n",
-                  "formatting": {}
-                }
-              ],
-              "nestedContent": [],
-              "metadata": {}
-            },
-            {
-              "content": [
-                {
-                  "text": "Do not wait for other levels (herblore, farming, etc.) with opening the crates. If you have more crates open them ",
-                  "formatting": {}
-                },
-                {
-                  "text": "as soon as you can use the rewards",
-                  "formatting": {
-                    "italic": true
-                  }
-                },
-                {
-                  "text": ". In particular, do not wait for ‘breakpoints’ in levels to increase your loot, just open them for money to reduce time spent blackjacking. You can optionally decide to wait for completion of step 93 (tithe farming) to increase the seed yield, but this is not best.",
-                  "formatting": {}
-                },
-                {
-                  "text": "\n",
-                  "formatting": {}
-                }
-              ],
-              "nestedContent": [],
-              "metadata": {}
+              }
             }
           ],
           "footnotes": []
