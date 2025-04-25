@@ -1,5 +1,5 @@
 {
-  "updatedOn": "2025-04-13",
+  "updatedOn": "2025-04-25",
   "title": "BRUHsailer Complete Guide",
   "chapters": [
     {
@@ -2090,25 +2090,76 @@
                 ],
                 [
                   {
-                    "text": "If you get more crates than strictly needed, for example if you decide to resume todt to high (99) firemaking, the best way to open your crates is ",
-                    "formatting": {}
-                  },
-                  {
-                    "text": "as soon as you can use the rewards",
+                    "text": "Quite a few people worry about minmaxing the crate loot. It doesn’t matter that much, training skills up for better loot is ",
                     "formatting": {
-                      "italic": true
+                      "bold": true
                     }
                   },
                   {
-                    "text": ". In particular, do not wait for ‘breakpoints’ in levels to increase your loot, just open them for money to reduce time spent blackjacking. You can optionally decide to wait for completion of step 93 (tithe farming) to increase the seed yield, but this is not best.",
-                    "formatting": {}
+                    "text": "not",
+                    "formatting": {
+                      "bold": true,
+                      "underline": true
+                    }
                   },
                   {
-                    "text": "\n",
-                    "formatting": {}
+                    "text": " worth it. The optimal way to open crates is:\n",
+                    "formatting": {
+                      "bold": true
+                    }
                   }
                 ]
               ]
+            },
+            {
+              "content": [
+                {
+                  "text": "Wait until 60 woodcutting to open any crates",
+                  "formatting": {
+                    "underline": true
+                  }
+                },
+                {
+                  "text": ". If you are not staying at todt until 60wc instead open them as late as possible (when you leave todt). If you do wait until 60wc, open all but 30-50 of them.\n",
+                  "formatting": {}
+                }
+              ],
+              "nestedContent": [],
+              "metadata": {}
+            },
+            {
+              "content": [
+                {
+                  "text": "If you have remaining crates after the above step, wait until you have completed the Digsite quest to open the rest.\n",
+                  "formatting": {}
+                }
+              ],
+              "nestedContent": [],
+              "metadata": {}
+            },
+            {
+              "content": [
+                {
+                  "text": "Do not wait for other levels (herblore, farming, etc.) with opening the crates. If you have more crates open them ",
+                  "formatting": {}
+                },
+                {
+                  "text": "as soon as you can use the rewards",
+                  "formatting": {
+                    "italic": true
+                  }
+                },
+                {
+                  "text": ". In particular, do not wait for ‘breakpoints’ in levels to increase your loot, just open them for money to reduce time spent blackjacking. You can optionally decide to wait for completion of step 93 (tithe farming) to increase the seed yield, but this is not best.",
+                  "formatting": {}
+                },
+                {
+                  "text": "\n",
+                  "formatting": {}
+                }
+              ],
+              "nestedContent": [],
+              "metadata": {}
             }
           ],
           "footnotes": []
@@ -6238,7 +6289,22 @@
                   "formatting": {}
                 },
                 {
-                  "text": " of your gold bars into digsite pendants. Make two fishbowls.",
+                  "text": " of your gold bars into digsite pendants (note: this is 0-1 gold bars, unless you got extra from Tempoross. Don",
+                  "formatting": {
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0
+                    },
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "’t worry if you can’t make any pendants here",
+                  "formatting": {}
+                },
+                {
+                  "text": "). Make two fishbowls.",
                   "formatting": {
                     "color": {
                       "r": 0,
@@ -13379,7 +13445,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "At this point you only need a mithril grapple for completing the Ardougne medium diary (along with several other diaries down the road). If you want to finish these to get access to the perks you can kill barbarian spirits for one, although it is not recommended. We smith grapples naturally on step 73 of this chapter.\n",
+                      "text": "At this point you only need a mithril grapple for completing the Ardougne medium diary (along with several other diaries down the road). If you want to finish these to get access to the perks you can kill barbarian spirits for one, although it is not recommended. We smith grapples naturally on step 74 of this chapter.\n",
                       "formatting": {}
                     }
                   ]
@@ -13397,14 +13463,12 @@
                 {
                   "text": "POH teleport and exit the house, head east and enter the Keldagrim mine and start Between a Rock… at Dondakan (bring gp for the ferry). Continue until the step where you talk to Rolad, buy a gold leaf at the stonemason. Buy 5 silk at the clothes stall. \n",
                   "formatting": {}
-                },
-                {
-                  "text": "Items needed:"
                 }
               ],
               "nestedContent": [],
               "metadata": {
                 "gp_stack": "1.7m gp",
+                "items_needed": "law rune, earth rune, air rune, coins",
                 "skills_quests_met": "yes",
                 "total_time": "10d1h"
               }
@@ -13414,9 +13478,6 @@
                 {
                   "text": "Mine 112 soft clay in the Varrock West mine, using the chronicle to get there, rings of dueling to bank and bracelets of clay. Teleport to your POH and make tea in a porcelain cup for a +2 construction boost, use the boost and crystal saw to build a Mahogany eagle lectern in your POH. Make up to 106 teleport to house tablets, having your butler bring you soft clay from the bank while you stand at the lectern. Make sure to leave two soft clay in the bank.\n",
                   "formatting": {}
-                },
-                {
-                  "text": "Items needed:"
                 }
               ],
               "nestedContent": [
@@ -13441,6 +13502,7 @@
               ],
               "metadata": {
                 "gp_stack": "1.7m gp",
+                "items_needed": "pickaxe, chronicle, ring of dueling, bracelets of clay, law runes, earth runes, air runes, crystal saw, 2 mahogany planks, gold leaf, coins",
                 "skills_quests_met": "yes",
                 "total_time": "10d1h"
               }
@@ -13909,7 +13971,47 @@
             {
               "content": [
                 {
-                  "text": "Do Another Slice of H.A.M., doing the Tears of Guthix quest (don’t participate in the minigame yet) while in the Lumbridge Swamp Cave. Buy two moving-over-distance spheres from Oldak (2 noted molten glass and 4 law runes). Kill Cave Goblins for Rag and Bone Man II. Take the train to Keldagrim for the diar",
+                  "text": "Do Another Slice of H.A.M., doing the Tears of Guthix quest (don’t participate in the minigame yet) while in the Lumbridge Swamp Cave. Buy ",
+                  "formatting": {
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "one",
+                  "formatting": {}
+                },
+                {
+                  "text": " moving-over-distance sphere from Oldak to Dorges",
+                  "formatting": {
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "h-Kaan ",
+                  "formatting": {}
+                },
+                {
+                  "text": "(",
+                  "formatting": {
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "1",
+                  "formatting": {}
+                },
+                {
+                  "text": " noted molten glass and ",
+                  "formatting": {
+                    "fontSize": 12
+                  }
+                },
+                {
+                  "text": "2",
+                  "formatting": {}
+                },
+                {
+                  "text": " law runes). Kill Cave Goblins for Rag and Bone Man II. Take the train to Keldagrim for the diar",
                   "formatting": {
                     "fontSize": 12
                   }
@@ -18482,7 +18584,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Second optional alternative: after getting 50 ranging with either method, do A Night at the Theatre to lamp Ranging three times (60k xp total), then use either method to train to level 62 after. You will probably need someone to carry you for A Night at the Theatre, but this is going to be true even if you go at some later point.\n",
+                      "text": "Second optional alternative: after getting 50 ranging with either method, do A Night at the Theatre to lamp Ranging four times (80k xp total), then use either method to train to level 62 after. You will probably need someone to carry you for A Night at the Theatre, but this is going to be true even if you go at some later point.\n",
                       "formatting": {
                         "italic": true
                       }
@@ -18824,7 +18926,7 @@
               ],
               "metadata": {
                 "gp_stack": "3.6m gp",
-                "items_needed": "crossbow, Sara items, hammer, fire staff, nature runes, a lot of money (obtained during the step, spent during the step).",
+                "items_needed": "green/blue d’hides, box traps, knife, teak log, salve amulet(ei), whatever other ranged gear you can scrounge up, crossbow, Sara items, hammer, fire staff, nature runes, a lot of money (obtained during the step, spent during the step).",
                 "skills_quests_met": "yes",
                 "total_time": "25d4h"
               },
