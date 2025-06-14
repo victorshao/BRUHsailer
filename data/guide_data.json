@@ -13030,6 +13030,46 @@
             }
           ],
           "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20250614BRUHsailerChangelog.txt",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "url": "https://drive.google.com/file/d/1-SVYpmuSexvNBz_0IVeIWFASDCQN3ptI/view?usp=sharing",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
         }
       ],
       "titleFormatted": [
@@ -21669,6 +21709,28 @@
             }
           ],
           "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20250614BRUHsailerChangelog.txt",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "url": "https://drive.google.com/file/d/1-SVYpmuSexvNBz_0IVeIWFASDCQN3ptI/view?usp=sharing",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
         }
       ],
       "titleFormatted": [
@@ -25145,6 +25207,28 @@
                 },
                 "fontFamily": "Arial",
                 "url": "https://drive.google.com/file/d/1aZlJ7SGZE4VfgDzrJUAtoNE5KmNqVieW/view?usp=drive_link",
+                "isLink": true
+              }
+            },
+            {
+              "text": "\n",
+              "formatting": {}
+            }
+          ],
+          "type": "chapter_footnote"
+        },
+        {
+          "content": [
+            {
+              "text": "20250614BRUHsailerChangelog.txt",
+              "formatting": {
+                "underline": true,
+                "color": {
+                  "r": 0.06666667,
+                  "g": 0.33333334,
+                  "b": 0.8
+                },
+                "url": "https://drive.google.com/file/d/1-SVYpmuSexvNBz_0IVeIWFASDCQN3ptI/view?usp=sharing",
                 "isLink": true
               }
             },
