@@ -10,51 +10,55 @@
           "steps": [
             {
               "content": [
-                {
-                  "text": "Choose a swag look for your account (older guides will mention that you need to start as a female character - ",
-                  "formatting": {}
-                },
-                {
-                  "text": "this is no longer required",
-                  "formatting": {
-                    "bold": true
+                [
+                  {
+                    "text": "Choose a swag look for your account (older guides will mention that you need to start as a female character - "
+                  },
+                  {
+                    "text": "this is no longer required",
+                    "formatting": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "text": "). "
                   }
-                },
-                {
-                  "text": ")",
-                  "formatting": {}
-                },
-                {
-                  "text": ". ",
-                  "formatting": {}
-                },
-                {
-                  "text": "Make sure you have two step authenticator enabled. For most of the guide it is assumed you carry your GP stack. ",
-                  "formatting": {
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Make sure you have two step authenticator enabled. For most of the guide it is assumed you carry your GP stack. "
+                  },
+                  {
+                    "text": "All lamps, unless mentioned otherwise, go on Herblore until the end of Chapter 2 (Song Of The Elves completed). ",
+                    "formatting": {
+                      "color": {
+                        "r": 1,
+                        "g": 0.21960784,
+                        "b": 0.21960784
+                      }
+                    }
                   }
-                },
-                {
-                  "text": "All lamps, unless mentioned otherwise, go on Herblore until the end of Chapter 2 (Song Of The Elves completed). ",
-                  "formatting": {
-                    "color": {
-                      "r": 1,
-                      "g": 0.21960784,
-                      "b": 0.21960784
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Grab a knife, jug and fill it with water, 2 buckets (hop once), cabbage, leather boots."
                   }
-                },
-                {
-                  "text": "Grab a knife, jug and fill it with water, 2 buckets (hop once), cabbage, leather boots. Talk to Duke Horacio to start Rune Mysteries, burn logs to 15 firemaking, bank 5 ashes. Grab 110 logs and bank them.",
-                  "formatting": {
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Talk to Duke Horacio to start Rune Mysteries."
                   }
-                },
-                {
-                  "text": "\n",
-                  "formatting": {}
-                }
+                ],
+                [
+                  {
+                    "text": "Burn logs to 15 firemaking, bank 5 ashes."
+                  }
+                ],
+                [
+                  {
+                    "text": "Grab 110 logs and bank them."
+                  }
+                ]
               ],
               "nestedContent": [],
               "metadata": {

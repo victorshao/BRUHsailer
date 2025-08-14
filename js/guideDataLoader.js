@@ -85,13 +85,27 @@ const GuideDataLoader = {
             const stepContent = document.createElement("div");
             stepContent.className = "step-content";
 
-            const description = document.createElement("div");
+            const description = document.createElement("ul");
             description.className = "step-description";
 
             if (step.content && Array.isArray(step.content)) {
-              description.appendChild(
-                this.renderFormattedContent(step.content)
-              );
+              if (Array.isArray(step.content[0])) {
+                let substepCount = 0;
+                step.content.forEach((substep) => {
+                  const substepContainer = document.createElement("li");
+                  const checkbox = document.createElement("input");
+                  checkbox.type = "checkbox";
+                  checkbox.id = `step-${chapterIndex + 1}-${chapterStepCount}-${substepCount}`;
+                  substepContainer.appendChild(checkbox);
+                  const label = this.renderFormattedContent(substep, "label");
+                  label.htmlFor = `step-${chapterIndex + 1}-${chapterStepCount}-${substepCount}`;
+                  substepContainer.appendChild(label);
+                  description.append(substepContainer);
+                  substepCount++;
+                });
+              } else {
+                description.appendChild(this.renderFormattedContent(step.content));
+              }
 
               if (step.nestedContent && step.nestedContent.length > 0) {
                 step.nestedContent.forEach((nested) => {
@@ -214,10 +228,14 @@ const GuideDataLoader = {
    * @param {Array} contentArray - Array of content items
    * @returns {HTMLElement} - Container with formatted content
    */
-  renderFormattedContent(contentArray) {
-    const container = document.createElement("div");
+  renderFormattedContent(contentArray, containerElem = "div") {
+    const container = document.createElement(containerElem);
 
     contentArray.forEach((item) => {
+      if (item.paragraph) {
+        container.appendChild(document.createElement("br"));
+      }
+      
       if (item.url && item.isLink) {
         const link = document.createElement("a");
         link.href = item.url;
