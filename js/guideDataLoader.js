@@ -207,11 +207,6 @@ const GuideDataLoader = {
       UIManager.attachEventListeners();
       ProgressManager.loadProgress();
       ProgressManager.updateProgress();
-
-      const activeFilter = document
-        .querySelector(".filter-btn.active")
-        .getAttribute("data-filter");
-      FilterManager.applyCurrentFilter(activeFilter);
     } catch (error) {
       console.error("Error loading guide data:", error);
       document.getElementById("guideContent").innerHTML = `
@@ -235,7 +230,7 @@ const GuideDataLoader = {
       if (item.paragraph) {
         container.appendChild(document.createElement("br"));
       }
-      
+
       if (item.url && item.isLink) {
         const link = document.createElement("a");
         link.href = item.url;
