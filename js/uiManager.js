@@ -77,6 +77,12 @@ const UIManager = {
       });
     });
 
+    document.querySelectorAll(".substep-checkbox").forEach((checkbox) => {
+      checkbox.addEventListener("change", function () {
+        ProgressManager.saveSubstepProgress();
+      });
+    });
+
     document.querySelectorAll(".checkbox").forEach((checkbox) => {
       checkbox.addEventListener("change", function () {
         const stepId = this.id.replace("check-", "");

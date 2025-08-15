@@ -95,6 +95,7 @@ const GuideDataLoader = {
                   const substepContainer = document.createElement("li");
                   const checkbox = document.createElement("input");
                   checkbox.type = "checkbox";
+                  checkbox.className = "substep-checkbox";
                   checkbox.id = `step-${chapterIndex + 1}-${chapterStepCount}-${substepCount}`;
                   substepContainer.appendChild(checkbox);
                   const label = this.renderFormattedContent(substep, "label");
@@ -206,6 +207,7 @@ const GuideDataLoader = {
 
       UIManager.attachEventListeners();
       ProgressManager.loadProgress();
+      ProgressManager.loadSubstepProgress();
       ProgressManager.updateProgress();
     } catch (error) {
       console.error("Error loading guide data:", error);

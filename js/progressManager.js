@@ -8,6 +8,16 @@ const ProgressManager = {
     UIManager.showSaveToast();
   },
 
+  saveSubstepProgress: function() {
+    const progress = {};
+    document.querySelectorAll(".substep-checkbox").forEach((checkbox) => {
+      if (checkbox.checked) {
+        progress[checkbox.id] = true;
+      }
+    });
+    localStorage.setItem("substepProgress", JSON.stringify(progress));
+  },
+
   loadProgress: function () {
     const savedProgress = localStorage.getItem("guideProgress");
     if (savedProgress) {
@@ -23,6 +33,19 @@ const ProgressManager = {
               stepElement.classList.add("completed");
             }
           }
+        }
+      }
+    }
+  },
+
+  loadSubstepProgress: function() {
+    const savedProgress = localStorage.getItem("substepProgress");
+    if (savedProgress) {
+      const progress = JSON.parse(savedProgress);
+      for (const id in progress) {
+        const checkbox = document.getElementById(id);
+        if (checkbox) {
+          checkbox.checked = true;
         }
       }
     }
