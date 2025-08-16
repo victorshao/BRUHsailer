@@ -96,10 +96,10 @@ const GuideDataLoader = {
                   const checkbox = document.createElement("input");
                   checkbox.type = "checkbox";
                   checkbox.className = "substep-checkbox";
-                  checkbox.id = `step-${chapterIndex + 1}-${chapterStepCount}-${substepCount}`;
+                  checkbox.id = `check-${chapterIndex + 1}-${chapterStepCount}-${substepCount}`;
                   substepContainer.appendChild(checkbox);
                   const label = this.renderFormattedContent(substep, "label");
-                  label.htmlFor = `step-${chapterIndex + 1}-${chapterStepCount}-${substepCount}`;
+                  label.htmlFor = `check-${chapterIndex + 1}-${chapterStepCount}-${substepCount}`;
                   substepContainer.appendChild(label);
                   description.append(substepContainer);
                   substepCount++;

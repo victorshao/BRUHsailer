@@ -79,6 +79,22 @@ const UIManager = {
 
     document.querySelectorAll(".substep-checkbox").forEach((checkbox) => {
       checkbox.addEventListener("change", function () {
+        const stepId = this.id.slice(0, this.id.lastIndexOf('-')).replace("check", "step");
+        const stepElement = document.getElementById(stepId);
+        const substepCheckboxes = stepElement.querySelectorAll('.substep-checkbox');
+        let stepDone = true;
+        substepCheckboxes.forEach(checkbox => {
+          stepDone = stepDone && checkbox.checked;
+        });
+        if (stepDone) {
+          substepCheckboxes.forEach(checkbox => {
+            checkbox.checked = false;
+          });
+          const stepCheckbox = document.getElementById(this.id.slice(0, this.id.lastIndexOf('-')));
+          stepCheckbox.checked = true;
+          stepCheckbox.dispatchEvent(new Event('change'));
+        }
+
         ProgressManager.saveSubstepProgress();
       });
     });
@@ -89,6 +105,11 @@ const UIManager = {
         const stepElement = document.getElementById(`step-${stepId}`);
 
         if (this.checked) {
+          const substepCheckboxes = stepElement.querySelectorAll('.substep-checkbox');
+          substepCheckboxes.forEach(checkbox => {
+            checkbox.checked = false;
+          });
+
           stepElement.classList.add("completed");
 
           const isMinimized = document
