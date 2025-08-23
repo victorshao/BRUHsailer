@@ -56,6 +56,9 @@ const ProgressManager = {
     document.querySelectorAll(".checkbox").forEach((checkbox) => {
       checkbox.checked = false;
     });
+    document.querySelectorAll(".substep-checkbox").forEach((checkbox) => {
+      checkbox.checked = false;
+    });
     document.querySelectorAll(".step").forEach((step) => {
       step.classList.remove("completed");
     });
