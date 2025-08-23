@@ -4045,32 +4045,12 @@
                 ],
                 [
                   {
-                    "text": "Bring food along with the items needed below (check the list below!)."
+                    "text": "Grab premade gnome food/your best food, a knife, a dramen branch, your recoil rings, a ring of dueling and POH teleport runes (no staff). "
                   }
                 ],
                 [
                   {
-                    "text": "Run to Galahad’s house and obtain the holy table napkin (Holy Grail) and have him make you a cup of tea (diary)."
-                  }
-                ],
-                [
-                  {
-                    "text": "Cross the coal truck log shortcut and mine a coal for the diary."
-                  }
-                ],
-                [
-                  {
-                    "text": "House teleport, buy a workshop and build a crafting table 2, make five clockworks."
-                  }
-                ],
-                [
-                  {
-                    "text": "Drop your dramen branch, knife, recoil rings, dueling ring, food, have Peer the Seer bank the rest of your items, pick it all up."
-                  }
-                ],
-                [
-                  {
-                    "text": "Do the Thorvald/Koschei fight converting one of the dramen branches into a staff "
+                    "text": "House teleport. Do the Thorvald/Koschei fight converting one of the dramen branches into a staff "
                   },
                   {
                     "text": "during",
@@ -4085,7 +4065,27 @@
                 ],
                 [
                   {
-                    "text": "Do the Peer the Seer step (juggle dueling or home teleport after)."
+                    "text": "Teleport to clan wars. Grab Camelot teleport runes and the items needed below (check the list below!). "
+                  }
+                ],
+                [
+                  {
+                    "text": "Teleport to Camelot. Run to Galahad’s house and obtain the holy table napkin (Holy Grail) and have him make you a cup of tea (diary)."
+                  }
+                ],
+                [
+                  {
+                    "text": "Cross the coal truck log shortcut and mine a coal for the diary."
+                  }
+                ],
+                [
+                  {
+                    "text": "House teleport, buy a workshop and build a crafting table 2, make five clockworks."
+                  }
+                ],
+                [
+                  {
+                    "text": "Have Peer the Seer bank all your items except juggle a dueling ring for speed if you want, then do the Peer the Seer step (juggle dueling or home teleport after)."
                   }
                 ],
                 [
@@ -6647,6 +6647,11 @@
                   {
                     "text": "Go to the farming guild (games neck to wintertodt into minecart), get your first contract and preplant all other patches (if necessary go pickpocket master farmers for seeds). Maintain farming contracts as much as possible. You will need a whiteberry soon, so make sure to grow a whiteberry bush."
                   }
+                ],
+                [
+                  {
+                    "text": "The first time you go to the farming guild, grab six yellow dyes and seven red dyes from the shelves in the Getting Ahead farm. Mix one yellow and red dye to make an orange dye. "
+                  }
                 ]
               ],
               "nestedContent": [
@@ -6735,15 +6740,6 @@
                       "formatting": {
                         "italic": true
                       }
-                    }
-                  ]
-                },
-                {
-                  "level": 1,
-                  "content": [
-                    {
-                      "text": "The first time you go to the farming guild, grab six yellow dyes and seven red dyes from the shelves in the Getting Ahead farm. Mix one yellow and red dye to make an orange dye.\n",
-                      "formatting": {}
                     }
                   ]
                 },
@@ -7711,7 +7707,17 @@
               "content": [
                 [
                   {
-                    "text": "Buy cosmic runes at the mage arena (the usual clan wars/dueling teleport to Ferox to get to Edgeville) until you have 4900 total."
+                    "text": "Teleport to Varrock, then run to the quetzal to travel to Civitas illa Fortis. Start and complete Twilight’s Promise - this requires two combat styles (mage and melee recommended). "
+                  }
+                ],
+                [
+                  {
+                    "text": "From this point on you can include the Kastori fruit tree and calquat tree patch in your tree runs (if you have the appropriate farming level and spare seeds). Travel to Tal Teklan by quetzal. If you have at least 37 construction, start and complete Scrambled!. "
+                  }
+                ],
+                [
+                  {
+                    "text": "Buy cosmic runes at the Tal Teklan Rune Shop until you have 4900 total. "
                   }
                 ],
                 [
