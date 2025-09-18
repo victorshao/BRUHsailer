@@ -9036,7 +9036,16 @@
                   "formatting": {}
                 }
               ],
-              "nestedContent": [],
+              "nestedContent": [
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "Editor's note. I was about halfway to 57 crafting at this step, so I stayed in Yanille making staves until I hit 58, using 3 1/2 mushroom pies."
+                    }
+                  ]
+                }
+              ],
               "metadata": {
                 "gp_stack": "162k gp",
                 "items_needed": "cash stack, 100 earth orbs,",
@@ -9046,10 +9055,46 @@
             },
             {
               "content": [
-                {
-                  "text": "Run artefacts in Piscarillius while attaching the staves to the orbs and alching them while running, using your Kharedst’s memoirs for transportation and dueling rings to Ferox Enclave to bank and/or restore run energy as needed. Repeat this process of buying staves in Yanille, attaching and alching orbs while running artefacts until all 1590 have been processed. Also buy 500 law runes and 500 soul runes (50 per world) in Yanille in between buying battlestaves. Grab coins, a rope, antipoison, barcrawl card, 15 oak logs, digsite teleport and run to the sawmill, make them into planks and buy 1 iron and 300 steel nails (if you have spares from Tempoross you can skip those items) as well as five bolts of cloth. Head to the Jolly Boar Inn, complete the barcrawl and speak with the third brother for Family Crest. Games’ necklace teleport to the barbarian outpost, show the barcrawl card to the Barbarian Guard to complete the barcrawl. Toggle vial smashing. Teleport to your POH and buy two bedrooms, then build a bed in each (Oak or Wooden is fine). Next buy a dining room and build a rope bell-pull. Teleport to Ardougne, pay the estate agent to swap your POH location to Rimmington, then hire the highest tier servant possible at the Servant’s Guild - Cook for levels 39 and below, Butler for levels 40 and up (you shouldn’t be level 50+ construction yet but if you are: good for you, and hire the Demon Butler).\n",
-                  "formatting": {}
-                }
+                [
+                  {
+                    "text": "Run artefacts in Piscarillius while attaching the staves to the orbs and alching them while running, using your Kharedst’s memoirs for transportation and dueling rings to Ferox Enclave to bank and/or restore run energy as needed. Repeat this process of buying staves in Yanille, attaching and alching orbs while running artefacts until all 1590 have been processed."
+                  }
+                ],
+                [
+                  {
+                    "text": "Also buy 500 law runes and 500 soul runes (50 per world) in Yanille in between buying battlestaves. "
+                  }
+                ],
+                [
+                  {
+                    "text": "Grab coins, a rope, antipoison, barcrawl card, 15 oak logs."
+                  }
+                ],
+                [
+                  {
+                    "text": "Digsite teleport and run to the sawmill, make logs into planks and buy 1 iron and 300 steel nails (if you have spares from Tempoross you can skip those items) as well as five bolts of cloth. "
+                  }
+                ],
+                [
+                  {
+                    "text": "Head to the Jolly Boar Inn, complete the barcrawl and speak with the third brother for Family Crest. "
+                  }
+                ],
+                [
+                  {
+                    "text": "Games’ necklace teleport to the barbarian outpost, show the barcrawl card to the Barbarian Guard to complete the barcrawl. Toggle vial smashing. "
+                  }
+                ],
+                [
+                  {
+                    "text": "Teleport to your POH and buy two bedrooms, then build a bed in each (Oak or Wooden is fine). Next buy a dining room and build a rope bell-pull. "
+                  }
+                ],
+                [
+                  {
+                    "text": "Teleport to Ardougne, pay the estate agent to swap your POH location to Rimmington, then hire the highest tier servant possible at the Servant’s Guild - Cook for levels 39 and below, Butler for levels 40 and up (you shouldn’t be level 50+ construction yet but if you are: good for you, and hire the Demon Butler). "
+                  }
+                ]
               ],
               "nestedContent": [
                 {
@@ -9078,82 +9123,78 @@
             },
             {
               "content": [
-                {
-                  "text": "Train construction to level 50 using oak logs at the Rimmington portal. ",
-                  "formatting": {}
-                },
-                {
-                  "text": "Method: ",
-                  "formatting": {
-                    "color": {
-                      "r": 0.7882353,
-                      "g": 0.12941177,
-                      "b": 0.11764706
+                [
+                  {
+                    "text": "Train construction to level 50 using oak logs at the Rimmington portal. ",
+                    "formatting": {}
+                  },
+                  {
+                    "text": "Method: ",
+                    "formatting": {
+                      "color": {
+                        "r": 0.7882353,
+                        "g": 0.12941177,
+                        "b": 0.11764706
+                      }
+                    }
+                  },
+                  {
+                    "text": "https://www.youtube.com/watch?v=GFH6-oJrJ0o",
+                    "formatting": {
+                      "underline": true,
+                      "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0.5019608
+                      },
+                      "url": "https://www.youtube.com/watch?v=GFH6-oJrJ0o",
+                      "isLink": true
+                    }
+                  },
+                  {
+                    "text": " should be ~1200 oak planks for 38-50 Construction, 60 xp per plank.",
+                    "formatting": {
+                      "color": {
+                        "r": 0.7882353,
+                        "g": 0.12941177,
+                        "b": 0.11764706
+                      }
+                    }
+                  },
+                  {
+                    "text": " Don’t wait for the servant to come back, this method will bank the planks (if your POH instance is closed while your servant returns the planks will go straight to your bank) and you can use them from the bank later (have the servant grab the planks from the bank for you while you stay in the POH), for example with oak larders. "
+                  }
+                ],
+                [
+                  {
+                    "text": "Leave the final set of larders in the house. Also build a fancy range, oak shelves 2 and a pump and drain (requires 13 steel bars, 3 oak planks and 6 soft clay)."
+                  }
+                ],
+                [
+                  {
+                    "text": "Buy a Menagerie and build a house (oak or teak) so you can keep a cat for questing in your POH while raising kittens without worry."
+                  }
+                ],
+                [
+                  {
+                    "text": "Buy a study and swap your servant for the Demon Butler (in Ardougne). If you started below level 40 it is worth upgrading the Cook to the Butler at level 40 (by revisiting the Servant’s Guild in Ardougne). "
+                  }
+                ],
+                [
+                  {
+                    "text": "Optional but recommended: when in Ardougne, charter a ship to Aldarin and buy an adamant kiteshield from Shields of Mistrock for tank gear for Rex.",
+                    "formatting": {
+                      "italic": true
                     }
                   }
-                },
-                {
-                  "text": "https://www.youtube.com/watch?v=GFH6-oJrJ0o",
-                  "formatting": {
-                    "underline": true,
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0.5019608
-                    },
-                    "url": "https://www.youtube.com/watch?v=GFH6-oJrJ0o",
-                    "isLink": true
-                  }
-                },
-                {
-                  "text": " ",
-                  "formatting": {}
-                },
-                {
-                  "text": "should be ~1200 oak planks for 38-50 Construction, 60 xp per plank.",
-                  "formatting": {
-                    "color": {
-                      "r": 0.7882353,
-                      "g": 0.12941177,
-                      "b": 0.11764706
-                    }
-                  }
-                },
-                {
-                  "text": " Don’t wait for the servant to come back, this method will bank the planks (if your POH instance is closed while your servant returns the planks will go straight to your bank) and you can use them from the bank later (have the servant grab the planks from the bank for you while you stay in the POH), for example with oak larders. Buy a study and swap your servant for the Demon Butler (in Ardougne). If you started below level 40 it is worth upgrading the Cook to the Butler at level 40 (by revisiting the Servant’s Guild in Ardougne). Buy a Menagerie and build a house (oak or teak) so you can keep a cat for questing in your POH while raising kittens without worry.\n",
-                  "formatting": {}
-                }
+                ]
               ],
               "nestedContent": [
                 {
                   "level": 1,
                   "content": [
                     {
-                      "text": "Leave the final set of larders in the house. Also build a fancy range, oak shelves 2 and a pump and drain (requires 13 steel bars, 3 oak planks and 6 soft clay).\n",
-                      "formatting": {}
-                    }
-                  ]
-                },
-                {
-                  "level": 1,
-                  "content": [
-                    {
                       "text": "If you have spare oak logs (or even planks), for example from wintertodt, use those first instead of chopping.\n",
-                      "formatting": {}
-                    }
-                  ]
-                },
-                {
-                  "level": 1,
-                  "content": [
-                    {
-                      "text": "Optional but recommended: when in Ardougne, charter a ship to Aldarin and buy an adamant kiteshield from Shields of Mistrock for tank gear for Rex.",
-                      "formatting": {
-                        "italic": true
-                      }
-                    },
-                    {
-                      "text": "\n",
                       "formatting": {}
                     }
                   ]
@@ -9274,10 +9315,46 @@
             },
             {
               "content": [
-                {
-                  "text": "Teleport to Camelot, collect the Kandarin easy diary and put the lamp on herblore. Teleport to Lumbridge, collect the Lumbridge & Draynor easy diary and put the lamp on herblore. Run to Draynor, recruit Ned for Dragon Slayer I, buy 100 chronicle teleport cards and continue Dragon Slayer I to get to Crandor. Kill Moss Giants for Rag and Bone Man II. While on Crandor, make sure to go back up the rope to Crandor, kill Elvarg, and unlock the hidden wall door for two Karamja medium diary steps. Keep running and enter the Fight Cave, then leave immediately. Head to Oziach in Edgeville with the standard Clan Wars minigame teleport method and complete Dragon Slayer I. Buy a green d’hide body. \n",
-                  "formatting": {}
-                }
+                [
+                  {
+                    "text": "Teleport to Camelot, collect the Kandarin easy diary and put the lamp on herblore."
+                  }
+                ],
+                [
+                  {
+                    "text": "Teleport to Lumbridge, collect the Lumbridge & Draynor easy diary and put the lamp on herblore. "
+                  }
+                ],
+                [
+                  {
+                    "text": "Run to Draynor, recruit Ned for Dragon Slayer I, buy 100 chronicle teleport cards and continue Dragon Slayer I to get to Crandor. Bring plenty of food."
+                  }
+                ],
+                [
+                  {
+                    "text": "Kill Moss Giants for Rag and Bone Man II. "
+                  }
+                ],
+                [
+                  {
+                    "text": "While on Crandor, make sure to go back up the rope to Crandor, kill Elvarg, and unlock the hidden wall door for two Karamja medium diary steps. "
+                  }
+                ],
+                [
+                  {
+                    "text": "Keep running and enter the Fight Cave, then leave immediately. "
+                  }
+                ],
+                [
+                  {
+                    "text": "Head to Oziach in Edgeville with the standard Clan Wars minigame teleport method and complete Dragon Slayer I. "
+                  }
+                ],
+                [
+                  {
+                    "text": "Buy a green d’hide body. "
+                  }
+                ]
               ],
               "nestedContent": [],
               "metadata": {
@@ -9308,10 +9385,26 @@
             },
             {
               "content": [
-                {
-                  "text": "Teleport to Ardougne, pay the estate agent to move your POH to Rellekka. Do Underground Pass, upgrade your Iban’s staff at the Dark Mage in West Ardougne. After the quest grab a ring of visibility and ghostspeak amulet \n",
-                  "formatting": {}
-                }
+                [
+                  {
+                    "text": "Teleport to Ardougne, pay the estate agent to move your POH to Rellekka. "
+                  }
+                ],
+                [
+                  {
+                    "text": "Do Underground Pass."
+                  }
+                ],
+                [
+                  {
+                    "text": "Upgrade your Iban’s staff at the Dark Mage in West Ardougne. "
+                  }
+                ],
+                [
+                  {
+                    "text": "(Editor's note: This step seems pointless. Items for Curse of the Empty Lord?) After the quest grab a ring of visibility and ghostspeak amulet."
+                  }
+                ]
               ],
               "nestedContent": [
                 {
@@ -9333,10 +9426,16 @@
             },
             {
               "content": [
-                {
-                  "text": "POH teleport and exit the house, head east and enter the Keldagrim mine and start Between a Rock… at Dondakan (bring gp for the ferry). Continue until the step where you talk to Rolad, buy a gold leaf at the stonemason. Buy 5 silk at the clothes stall. \n",
-                  "formatting": {}
-                }
+                [
+                  {
+                    "text": "POH teleport and exit the house, head east and enter the Keldagrim mine and start Between a Rock… at Dondakan (bring gp for the ferry). Continue until the step where you talk to Rolad."
+                  }
+                ],
+                [
+                  {
+                    "text": "Buy a gold leaf at the stonemason. Buy 5 silk at the clothes stall. "
+                  }
+                ]
               ],
               "nestedContent": [],
               "metadata": {
@@ -9348,10 +9447,21 @@
             },
             {
               "content": [
-                {
-                  "text": "Mine 112 soft clay in the Varrock West mine, using the chronicle to get there, rings of dueling to bank and bracelets of clay. Teleport to your POH and make tea in a porcelain cup for a +2 construction boost, use the boost and crystal saw to build a Mahogany eagle lectern in your POH. Make up to 106 teleport to house tablets, having your butler bring you soft clay from the bank while you stand at the lectern. Make sure to leave two soft clay in the bank.\n",
-                  "formatting": {}
-                }
+                [
+                  {
+                    "text": "Mine 112 soft clay in the Varrock West mine, using the chronicle to get there, rings of dueling to bank and bracelets of clay."
+                  }
+                ],
+                [
+                  {
+                    "text": "Teleport to your POH and make tea in a porcelain cup for a +2 construction boost, use the boost and crystal saw to build a Mahogany eagle lectern in your POH. "
+                  }
+                ],
+                [
+                  {
+                    "text": "Make up to 106 teleport to house tablets, having your butler bring you soft clay from the bank while you stand at the lectern. Make sure to leave two soft clay in the bank."
+                  }
+                ]
               ],
               "nestedContent": [
                 {
@@ -9382,115 +9492,21 @@
             },
             {
               "content": [
-                {
-                  "text": "Take a wind spell (staff + runes, wind bolt works great)",
-                  "formatting": {}
-                },
-                {
-                  "text": " ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                [
+                  {
+                    "text": "Take a wind spell (staff + runes, wind bolt works great) from the bank, along with your trollweiss (flower), trollheim teleport runes, food, prayer potions, a rune sword, any pickaxe and a Paddewwa tab (or Falador teleport runes). "
                   }
-                },
-                {
-                  "text": "from",
-                  "formatting": {}
-                },
-                {
-                  "text": " ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Teleport to Trollheim, complete Troll Romance. "
                   }
-                },
-                {
-                  "text": "the ",
-                  "formatting": {}
-                },
-                {
-                  "text": "bank, along with you",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Teleport, to Paddewwa(/Falador), run to Rolad at the dwarf camp at Ice Mountain and progress Between a Rock… until you have read Dwarven lore, buy an ammo mould."
                   }
-                },
-                {
-                  "text": "r trollweiss (flower), trollheim teleport runes, food, prayer potions,",
-                  "formatting": {}
-                },
-                {
-                  "text": " a rune sword, any pickaxe and a ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "Paddewwa tab (or Falador teleport runes)",
-                  "formatting": {}
-                },
-                {
-                  "text": ". Teleport to Trollheim, complete Troll Romance. ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "T",
-                  "formatting": {}
-                },
-                {
-                  "text": "eleport, to Paddewwa(",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "/Falador), r",
-                  "formatting": {}
-                },
-                {
-                  "text": "un to Rolad at the dwarf camp at Ice Mountain and progress Between a Rock… until you have read Dwarven lore",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": ", buy an ammo mould.\n",
-                  "formatting": {}
-                }
+                ]
               ],
               "nestedContent": [],
               "metadata": {
@@ -9502,63 +9518,34 @@
             },
             {
               "content": [
-                {
-                  "text": "As per Ch1St51, you need to have mined 2000 stardust by now. If you haven’t, do that first, hunting T4 or lower shooting stars using ",
-                  "formatting": {}
-                },
-                {
-                  "text": "https://osrsportal.com/shooting-stars-tracker",
-                  "formatting": {
-                    "underline": true,
-                    "color": {
-                      "r": 0.06666667,
-                      "g": 0.33333334,
-                      "b": 0.8
-                    },
-                    "url": "https://osrsportal.com/shooting-stars-tracker",
-                    "isLink": true
+                [
+                  {
+                    "text": "As per Ch1St51, you need to have mined 2000 stardust by now. If you haven’t, do that first, hunting T4 or lower shooting stars using ",
+                    "formatting": {}
+                  },
+                  {
+                    "text": "https://osrsportal.com/shooting-stars-tracker",
+                    "formatting": {
+                      "underline": true,
+                      "color": {
+                        "r": 0.06666667,
+                        "g": 0.33333334,
+                        "b": 0.8
+                      },
+                      "url": "https://osrsportal.com/shooting-stars-tracker",
+                      "isLink": true
+                    }
+                  },
+                  {
+                    "text": ". ",
+                    "formatting": {}
                   }
-                },
-                {
-                  "text": ". ",
-                  "formatting": {}
-                },
-                {
-                  "text": "Go to Burthorpe and st",
-                  "formatting": {
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Bring Falador teleport runes. Go to Burthorpe and start Heroes’ Quest, collect the ice gloves by killing the Ice Queen under White Wolf Mountain, killing Ice Giants along the way for Rag and Bone Man II."
                   }
-                },
-                {
-                  "text": "art Heroes’ Quest",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": ", ",
-                  "formatting": {}
-                },
-                {
-                  "text": "collect the ice gloves by killing the Ice Queen under White Wolf Mountain, killing Ice Giants along the way for Rag and Bone Man II.",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "\n",
-                  "formatting": {}
-                }
+                ]
               ],
               "nestedContent": [],
               "metadata": {
@@ -9570,33 +9557,26 @@
             },
             {
               "content": [
-                {
-                  "text": "Tele",
-                  "formatting": {
-                    "fontSize": 12
+                [
+                  {
+                    "text": "Teleport to Falador, deposit everything in the bank, and complete Black Knights’ Fortress (only cashing the reward left)."
                   }
-                },
-                {
-                  "text": "port to Falador, deposit everything in the bank, and complete Black Knights’ Fortress (only cashing the reward left), do all of Recruitment Drive, set your spawn point to Falador, rebank, buy full initiate. Also buy your celestial ring now. Start Wanted! and continue it until you have to go to Taverley dung",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Do all of Recruitment Drive."
                   }
-                },
-                {
-                  "text": "eon.",
-                  "formatting": {
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Set your spawn point to Falador, rebank, buy full initiate. Also buy your celestial ring now. "
                   }
-                },
-                {
-                  "text": "\n",
-                  "formatting": {}
-                }
+                ],
+                [
+                  {
+                    "text": "Start Wanted! and continue it until you have to go to Taverley dungeon."
+                  }
+                ]
               ],
               "nestedContent": [],
               "metadata": {
@@ -9608,49 +9588,21 @@
             },
             {
               "content": [
-                {
-                  "text": "Do Shilo Village (if you have rogue kits they can help save inventory space during this quest). While in Shilo Village mine (and successfully cut) a jade and ",
-                  "formatting": {
-                    "fontSize": 12
+                [
+                  {
+                    "text": "Do Shilo Village (if you have rogue kits they can help save inventory space during this quest). "
                   }
-                },
-                {
-                  "text": "three",
-                  "formatting": {}
-                },
-                {
-                  "text": " red topazes (you can tick manipulate this to speed it up),",
-                  "formatting": {
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "While in Shilo Village mine (and successfully cut) a jade and three red topazes (you can tick manipulate this to speed it up), plus enough gems (including to sell) to exchange for a machete at Safta Doc (300 trading sticks + 3 opals). It’s worth considering getting a few extra in case all your gems for One Small Favour break. "
                   }
-                },
-                {
-                  "text": " ",
-                  "formatting": {
-                    "color": {
-                      "r": 1,
-                      "g": 1,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Buy four inventories of cooked karambwans from Alfonse the waiter in The Shrimp and Parrot (Brimhaven restaurant), banking in Shilo using the Hajedy & Vigroy cart system (right click to travel, going through dialogue is cheaper but not worth the time)."
                   }
-                },
-                {
-                  "text": "plus enough gems (including to sell) to exchange for a machete at Safta Doc (300 trading sticks + 3 opals). It’s worth considering getting a few extra in case all your gems for One Small Favour break. Buy four inventories of cooke",
-                  "formatting": {
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "d karambwans from Alfonse the waiter in The Shrimp and Parrot (Brimhaven restaurant), banking in Shilo using the Hajedy & Vigroy cart system (right click to travel, going through dialogue is cheaper but not worth the time).",
-                  "formatting": {}
-                },
-                {
-                  "text": "\n",
-                  "formatting": {
-                    "fontSize": 12
-                  }
-                }
+                ]
               ],
               "nestedContent": [
                 {
@@ -9672,16 +9624,21 @@
             },
             {
               "content": [
-                {
-                  "text": "Start One Small Favour and continue it up to the step with Captain Shanks. Next, to get to Brian, take the Lady of the Waves to Port Khazard (for a diary task) then charter to Port Sarim and speak with Brian, completing that step of the quest. Go to Entrana, grab the fire feather, return to Port Sarim and collect the snail oil for Heroes’ Quest.",
-                  "formatting": {
-                    "fontFamily": "Arial"
+                [
+                  {
+                    "text": "Start One Small Favour and continue it up to the step with Captain Shanks. "
                   }
-                },
-                {
-                  "text": "\n",
-                  "formatting": {}
-                }
+                ],
+                [
+                  {
+                    "text": "To get to Brian, take the Lady of the Waves to Port Khazard (for a diary task) then charter to Port Sarim and speak with Brian, completing that step of the quest. "
+                  }
+                ],
+                [
+                  {
+                    "text": "Go to Entrana, grab the fire feather, return to Port Sarim and collect the snail slime for Heroes’ Quest."
+                  }
+                ]
               ],
               "nestedContent": [],
               "metadata": {
@@ -9693,86 +9650,31 @@
             },
             {
               "content": [
-                {
-                  "text": "Go to Dr",
-                  "formatting": {
-                    "fontSize": 12
+                [
+                  {
+                    "text": "Go to Draynor to rebank, grab a harralander and turn the blamish snail slime into blamish snail oil, add it to a fishing rod to make an oily rod. "
                   }
-                },
-                {
-                  "text": "aynor to rebank, grab a h",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Speak with Aggie to continue One Small Favour. "
                   }
-                },
-                {
-                  "text": "arralander and turn the blamish snail slime into blamish snail oil, add it to a fishing rod to make an oily rod. Speak with Aggie to continue One Small Favour. Enter the HAM hideout, speak with Johannes Ulsbrecht to continue One Small favour, then pickpocket HAM members ",
-                  "formatting": {
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Enter the HAM hideout, speak with Johannes Ulsbrecht to continue One Small favour, then pickpocket HAM members until you have two sets of HAM robes (you may already have some in the bank) and polished buttons (if you got polished buttons earlier you don’t need another one). "
                   }
-                },
-                {
-                  "text": "until you have",
-                  "formatting": {}
-                },
-                {
-                  "text": " two sets of HAM robes (",
-                  "formatting": {
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Speak with Fred the Farmer for One Small Favour, use a sack on the hay to get a sack of hay."
                   }
-                },
-                {
-                  "text": "you may already have some in the bank)",
-                  "formatting": {}
-                },
-                {
-                  "text": " and polished buttons (if you got polished buttons earlier you don’t need another one). Speak with Fred the Farmer for One Small Favour, us",
-                  "formatting": {
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Make a necklace of passage, then speak with Seth Groats to continue One Small Favour."
                   }
-                },
-                {
-                  "text": "e a sack on the hay to get a sack of hay, ",
-                  "formatting": {}
-                },
-                {
-                  "text": "make a necklace of passage,",
-                  "formatting": {
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": " then",
-                  "formatting": {}
-                },
-                {
-                  "text": " ",
-                  "formatting": {
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "s",
-                  "formatting": {
-                    "italic": true,
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "peak with Seth Groats to continue One Small Favour.",
-                  "formatting": {
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "\n",
-                  "formatting": {}
-                }
+                ]
               ],
               "nestedContent": [],
               "metadata": {
@@ -9784,84 +9686,33 @@
             },
             {
               "content": [
-                {
-                  "text": "Run (or teleport) to Lumbridge. Start RFD/Evil ",
-                  "formatting": {
-                    "fontSize": 12
+                [
+                  {
+                    "text": "Run (or teleport) to Lumbridge. Start RFD/Evil Dave. Buy six buckets of milk, a pot of cream, two eggs, two pots of flour, five cheese, make two bowls of water."
                   }
-                },
-                {
-                  "text": "Dave. Buy six buckets of milk, a pot of cream, two eggs, two pots of flour, five cheese, make two bo",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Continue and complete Death to the Dorgeshuun (and light your mining helmet in the cellar for the diary along the way). "
                   }
-                },
-                {
-                  "text": "wls of water",
-                  "formatting": {}
-                },
-                {
-                  "text": " ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "and continue and complete Death to the Dorgeshuun (",
-                  "formatting": {
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "and light your mining helmet in the cellar for the diary alo",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "ng the way). Get a bullseye lantern (Dorgesh-kaan average chest), pickpocket a Dorgesh-kaan rich chest for the diary. ",
-                  "formatting": {
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "Note: this requires 78 thieving",
-                  "formatting": {
-                    "italic": true,
-                    "color": {
-                      "r": 0.7882353,
-                      "g": 0.12941177,
-                      "b": 0.11764706
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": ".\n",
-                  "formatting": {
-                    "italic": true,
-                    "color": {
-                      "r": 0.7882353,
-                      "g": 0.12941177,
-                      "b": 0.11764706
+                ],
+                [
+                  {
+                    "text": "Get a bullseye lantern (Dorgesh-kaan average chest), pickpocket a Dorgesh-kaan rich chest for the diary. "
+                  },
+                  {
+                    "text": "Note: this requires 78 thieving.",
+                    "formatting": {
+                      "italic": true,
+                      "color": {
+                        "r": 0.7882353,
+                        "g": 0.12941177,
+                        "b": 0.11764706
+                      },
+                      "fontSize": 12
                     }
                   }
-                }
+                ]
               ],
               "nestedContent": [],
               "metadata": {
@@ -9873,66 +9724,31 @@
             },
             {
               "content": [
-                {
-                  "text": "Do Another Slice of H.A.M., doing the Tears of Guthix quest (don’t participate in the minigame yet) while in the Lumbridge Swamp Cave. Buy ",
-                  "formatting": {
-                    "fontSize": 12
+                [
+                  {
+                    "text": "Do Another Slice of H.A.M., doing the Tears of Guthix quest (don’t participate in the minigame yet) while in the Lumbridge Swamp Cave. "
                   }
-                },
-                {
-                  "text": "one",
-                  "formatting": {}
-                },
-                {
-                  "text": " moving-over-distance sphere from Oldak to Dorges",
-                  "formatting": {
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Buy one moving-over-distance sphere from Oldak to Dorgesh-Kaan (1 noted molten glass and 2 law runes). "
                   }
-                },
-                {
-                  "text": "h-Kaan ",
-                  "formatting": {}
-                },
-                {
-                  "text": "(",
-                  "formatting": {
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Kill Cave Goblins for Rag and Bone Man II. "
                   }
-                },
-                {
-                  "text": "1",
-                  "formatting": {}
-                },
-                {
-                  "text": " noted molten glass and ",
-                  "formatting": {
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Take the train to Keldagrim for the diary. "
                   }
-                },
-                {
-                  "text": "2",
-                  "formatting": {}
-                },
-                {
-                  "text": " law runes). Kill Cave Goblins for Rag and Bone Man II. Take the train to Keldagrim for the diar",
-                  "formatting": {
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Use a gold bar (or ore) on Dondakan to progress Between a Rock.…"
                   }
-                },
-                {
-                  "text": "y. U",
-                  "formatting": {}
-                },
-                {
-                  "text": "se a gold bar (or ore) on Dondakan to progress Between a Rock.…",
-                  "formatting": {
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "\n",
-                  "formatting": {}
-                }
+                ]
               ],
               "nestedContent": [],
               "metadata": {
@@ -9944,102 +9760,78 @@
             },
             {
               "content": [
-                {
-                  "text": "Teleport to Varrock, ask the Apothecary to make you a strength potion for the diary (requires a limpwurt root, red spider’s eggs and 5gp). Collect the Varrock easy and medium diary rewards, putting the lamps on herblore. Go to the Mage of Zamorak, show him the eye amulet and continue Temple of the Eye until you have the abyssal incantation. ",
-                  "formatting": {}
-                },
-                {
-                  "text": "Dueling ring to Al-Kharid, give the incantation to Persten and resume and complete the Temple of the Eye. ",
-                  "formatting": {
-                    "fontSize": 12
+                [
+                  {
+                    "text": "Teleport to Varrock, ask the Apothecary to make you a strength potion for the diary (requires a limpwurt root, red spider’s eggs and 5gp). "
                   }
-                },
-                {
-                  "text": "Games necklace teleport to Tears of Guthix, complete the minigame. From now on visit the minigame weekly, the XP isn’t too important but it’s efficient to grab it for slayer or herblore (either is fine). Make sure to get at least 100 tears in one go at a certain point for the diary. ",
-                  "formatting": {}
-                },
-                {
-                  "text": "Dueling ring to Al-",
-                  "formatting": {
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Collect the Varrock easy and medium diary rewards, putting the lamps on herblore. "
                   }
-                },
-                {
-                  "text": "Kharid,",
-                  "formatting": {}
-                },
-                {
-                  "text": " buy two steel platelegs, smith a golden cannonball and two topaz rings in the furnace and enchant them into Efaritay",
-                  "formatting": {
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Go to the Mage of Zamorak, show him the eye amulet and continue Temple of the Eye until you have the abyssal incantation. "
                   }
-                },
-                {
-                  "text": "’s aid rings at your convenience.",
-                  "formatting": {}
-                },
-                {
-                  "text": " ",
-                  "formatting": {
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Dueling ring to Al-Kharid, give the incantation to Persten and resume and complete the Temple of the Eye. "
                   }
-                },
-                {
-                  "text": "B",
-                  "formatting": {}
-                },
-                {
-                  "text": "uy a kebab if you don’t have any, take the boat to the Ruins of Unkah",
-                  "formatting": {
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Games necklace teleport to Tears of Guthix, complete the minigame. From now on visit the minigame weekly, the XP isn’t too important but it’s efficient to grab it for slayer or herblore (either is fine). Make sure to get at least 100 tears in one go at a certain point for the diary. "
                   }
-                },
-                {
-                  "text": ". Mine sandstone, ideally with 4s,",
-                  "formatting": {}
-                },
-                {
-                  "text": "3 tick sandstone mining at new spot (easier method)",
-                  "url": "https://www.youtube.com/watch?v=hPQ-6aZdydI",
-                  "isLink": true,
-                  "formatting": {
-                    "underline": true
+                ],
+                [
+                  {
+                    "text": "Dueling ring to Al-Kharid, buy two steel platelegs, smith a golden cannonball and two topaz rings in the furnace and enchant them into Efaritay’s aid rings at your convenience. Buy a kebab if you don’t have any."
                   }
-                },
-                {
-                  "text": ", the modern method ",
-                  "formatting": {}
-                },
-                {
-                  "text": "Binxy4SandstoneSpot.png",
-                  "url": "https://drive.google.com/file/d/1En18zEdCPsmMSDFu70dPfa8TMR6X2hYd/view?usp=sharing",
-                  "isLink": true,
-                  "formatting": {
-                    "underline": true
+                ],
+                [
+                  {
+                    "text": "Take the boat to the Ruins of Unkah. Mine sandstone, ideally with 4s,"
+                  },
+                  {
+                    "text": "3 tick sandstone mining at new spot (easier method)",
+                    "url": "https://www.youtube.com/watch?v=hPQ-6aZdydI",
+                    "isLink": true,
+                    "formatting": {
+                      "underline": true
+                    }
+                  },
+                  {
+                    "text": ", the modern method "
+                  },
+                  {
+                    "text": "Binxy4SandstoneSpot.png",
+                    "url": "https://drive.google.com/file/d/1En18zEdCPsmMSDFu70dPfa8TMR6X2hYd/view?usp=sharing",
+                    "isLink": true,
+                    "formatting": {
+                      "underline": true
+                    }
+                  },
+                  {
+                    "text": " at this south spot shown by Binxy, until you are 10k xp away from level 60 mining (you don’t have to buy any sand for this. Feel free to get the level instead, if you want). "
                   }
-                },
-                {
-                  "text": " at this south spot shown by Binxy, until you are 10k xp away from level 60 mining (you don’t have to buy any sand for this. Feel free to get the level instead, if you want). Buy the ancient staff from Eblis. Once done, head south (rebank at the Ruins of Unkah if needed),",
-                  "formatting": {}
-                },
-                {
-                  "text": " kill Jackals and Vultures for Rag and Bone Man II and desert diary. Do Enakhra’s Lament.",
-                  "formatting": {
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Buy the ancient staff from Eblis. "
                   }
-                },
-                {
-                  "text": "\n",
-                  "formatting": {
-                    "italic": true,
-                    "color": {
-                      "r": 1,
-                      "g": 0.6,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Head south (rebank at the Ruins of Unkah if needed), kill Jackals and Vultures for Rag and Bone Man II and desert diary. "
                   }
-                }
+                ],
+                [
+                  {
+                    "text": "Do Enakhra’s Lament."
+                  }
+                ]
               ],
               "nestedContent": [
                 {
@@ -10194,83 +9986,26 @@
             },
             {
               "content": [
-                {
-                  "text": "R",
-                  "formatting": {
-                    "fontSize": 12
+                [
+                  {
+                    "text": "Run into Nardah, kill a goat northwest of the town for the horn (and grind it to dust), burn some yew logs on the mayor’s balcony for the diary, have Zahur clean a herb for you, buy rune platelegs (or a plateskirt) at Seddu’s Adventurer’s Store. "
                   }
-                },
-                {
-                  "text": "un into Nardah, kill a goat northwest of the town for the horn (and grind it to dust), burn some yew logs on the mayor’s balcony for the diary, have Zahur clean a herb for you, ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Bank, do Spirits of the Elid (use your necklace of passage to Eagle’s Eyrie to save some time). "
                   }
-                },
-                {
-                  "text": "buy rune platelegs (or a plateskirt) at Seddu’s Adventurer’s Store. B",
-                  "formatting": {}
-                },
-                {
-                  "text": "ank, do Spirits of the Elid (use your necklace of passage to Eagle’s Eyrie to save some time). On the run back south to Nardah catch an orange salamander, make a combat potion",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "On the run back south to Nardah catch an orange salamander, make a combat potion and cut open a cactus to fill a waterskin. "
                   }
-                },
-                {
-                  "text": " and",
-                  "formatting": {}
-                },
-                {
-                  "text": " cut open a cactus to fill a waterski",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Visit the genie and pray at the statue after the quest for the diary."
                   }
-                },
-                {
-                  "text": "n",
-                  "formatting": {}
-                },
-                {
-                  "text": ". ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "Visit the genie and pray at the statue after the quest for the diary.",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "\n",
-                  "formatting": {}
-                }
+                ]
               ],
               "nestedContent": [],
               "metadata": {
@@ -10282,78 +10017,31 @@
             },
             {
               "content": [
-                {
-                  "text": "St",
-                  "formatting": {
-                    "fontSize": 12
+                [
+                  {
+                    "text": "Start and complete Icthlarin’s Little Helper, taking a light source, antipoison and tinderbox with you as well as all Icthlarin’s quest items. Make sure to carry some teleport jewellery."
                   }
-                },
-                {
-                  "text": "art and complete Icthlarin’s Little Helper, taking a light source",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "After completing the quest enter Pyramid Plunder for the diary and collect at least one artefact (any will do, e.g. stone scarab), then open a sarcophagus. "
                   }
-                },
-                {
-                  "text": ", antipoison and ",
-                  "formatting": {}
-                },
-                {
-                  "text": "tinderbox with you",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Do Contact! up to the step you need to visit Osman. "
                   }
-                },
-                {
-                  "text": " as well as all Icthlarin’s quest items. ",
-                  "formatting": {}
-                },
-                {
-                  "text": "After completing the quest",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Teleport to Thormac in the Sorcerer’s Tower (fairy ring BLR is nearby, or run down from Camelot), start Scorpion Catcher. "
                   }
-                },
-                {
-                  "text": " enter Pyramid Plunder for the diary and collect at least one artefact (any will do, e.g. stone scarab), then open a sarcophagus. D",
-                  "formatting": {}
-                },
-                {
-                  "text": "o Contact! up to the ste",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Teleport to Seers’ Village and speak with a seer to continue the quest. "
                   }
-                },
-                {
-                  "text": "p you need to visit Osman. Make sure to carry some ",
-                  "formatting": {
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "teleport jewellery. Teleport to Thormac in the Sorcerer’s Tower (fairy ring BLR is nearby, or run down from Camelot), start Scorpion Catcher. Teleport to Seers’ Village and speak with a seer to continue the quest.\n",
-                  "formatting": {}
-                }
+                ]
               ],
               "nestedContent": [],
               "metadata": {
@@ -10365,87 +10053,51 @@
             },
             {
               "content": [
-                {
-                  "text": "G",
-                  "formatting": {
-                    "fontSize": 12
+                [
+                  {
+                    "text": "Go to Burthorpe and start A Tail of Two Cats to get the enchanted catspeak amulet. "
                   }
-                },
-                {
-                  "text": "o to Burthorpe and start A Tail of Two Cats to get the enchanted catspeak amulet. Rebank in Rogues’ Den, then pray at the Altar of Guthix (Taverley) while wearing full initiate, then multiquest Taverley Dungeon (lava eel for Heroes’ Quest, grab a scorpion for Scorpion Catcher, progress Wanted!, grab a dusty key and the d",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Rebank in Rogues’ Den, then prepare to multiquest Taverley Dungeon. Items needed: full initiate, rune sword, Commorb, oily fishing rod, 1 fishing bait, scorpion cage, damaged soul bearer, Kharedst's memoirs."
                   }
-                },
-                {
-                  "text": "amaged soulbearer",
-                  "formatting": {}
-                },
-                {
-                  "text": ", kill baby blue dragons for Rag and Bone Man II while inside, bank at least one set of bones, run on to Cerberus",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Pray at the Altar of Guthix (Taverley) while wearing full initiate. "
                   }
-                },
-                {
-                  "text": "’ Lair to complete the Bear Your Soul miniquest",
-                  "formatting": {}
-                },
-                {
-                  "text": "). Kharedst’s teleport out to Lovakengj, make the strength potion in the pub for the diary if you haven",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Progress Wanted! and grab a dusty key."
                   }
-                },
-                {
-                  "text": "’t already, then",
-                  "formatting": {}
-                },
-                {
-                  "text": " run to the Castle and collect the Kourend Easy diary reward (lamp on herblore).",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Kill baby blue dragons for Rag and Bone Man II while inside, bank at least one set of bones. Fish a lava eel for Heroes’ Quest."
                   }
-                },
-                {
-                  "text": " ",
-                  "formatting": {}
-                },
-                {
-                  "text": "Swap to the Arceuus spellbook and do hourlies if you haven’t recently. Salve teleport and complete Olaf’s Quest (fairy ring DKS)",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Grab a scorpion for Scorpion Catcher."
                   }
-                },
-                {
-                  "text": ".\n",
-                  "formatting": {}
-                }
+                ],
+                [
+                  {
+                    "text": "Run on to Cerberus’ Lair to complete the Bear Your Soul miniquest."
+                  }
+                ],
+                [
+                  {
+                    "text": "Kharedst’s teleport out to Lovakengj, make the strength potion in the pub for the diary if you haven’t already, then run to the Castle and collect the Kourend Easy diary reward (lamp on herblore). "
+                  }
+                ],
+                [
+                  {
+                    "text": "Swap to the Arceuus spellbook and do hourlies if you haven’t recently. Salve teleport and complete Olaf’s Quest (fairy ring DKS). "
+                  }
+                ]
               ],
               "nestedContent": [
                 {
@@ -10508,45 +10160,26 @@
             },
             {
               "content": [
-                {
-                  "text": "C",
-                  "formatting": {
-                    "fontSize": 12
+                [
+                  {
+                    "text": "Chronicle teleport to Varrock, world hop at the anvils south of Varrock West bank to find Bob for A Tail of Two Cats. Go to Gertrude, continue A Tail of Two Cats and start Ratcatchers. "
                   }
-                },
-                {
-                  "text": "hronicle teleport to Varrock, world hop at the anvils south of Varrock West bank to find Bob for A Tail of Two Cats. Go to Gertrude, continue A Tail of Two Cats and start Ratcatchers. Visit Reldo for A Tail of Two Cats, ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Visit Reldo for A Tail of Two Cats, return to Bob for A Tail of Two Cats."
                   }
-                },
-                {
-                  "text": "return to Bob for A Tail of Two Cats, go back to the castle and ",
-                  "formatting": {}
-                },
-                {
-                  "text": "chop some yew logs behind the castle and burn them at the top of the church for the diary, then head into the sewers and continue Ratcatchers until you need to visit Jimmy Dazzler, also kill rats for Rag and Bone Man II.",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Go back to the castle and chop some yew logs behind the castle and burn them at the top of the church for the diary."
                   }
-                },
-                {
-                  "text": "\n",
-                  "formatting": {}
-                },
-                {
-                  "text": "Total time:"
-                }
+                ],
+                [
+                  {
+                    "text": "Head into the sewers and continue Ratcatchers until you need to visit Jimmy Dazzler, also kill rats for Rag and Bone Man II. "
+                  }
+                ]
               ],
               "nestedContent": [],
               "metadata": {
@@ -10557,43 +10190,34 @@
             },
             {
               "content": [
-                {
-                  "text": "Continue One Small Favour and Wanted! in Varrock.",
-                  "formatting": {
-                    "fontSize": 12
+                [
+                  {
+                    "text": "Continue One Small Favour and Wanted! in Varrock. "
                   }
-                },
-                {
-                  "text": " ",
-                  "formatting": {
-                    "color": {
-                      "r": 0.7058824,
-                      "g": 0.37254903,
-                      "b": 0.023529412
+                ],
+                [
+                  {
+                    "text": "Speak with your gang leader (Straven for Phoenix, Katrine for Black Arm) for Heroes quest. ",
+                    "formatting": {
+                      "italic": true,
+                      "color": {
+                        "r": 0.7058824,
+                        "g": 0.37254903,
+                        "b": 0.023529412
+                      }
                     }
                   }
-                },
-                {
-                  "text": "Speak with your gang leader (Straven for Phoenix, Katrine for Black Arm) for Heroes quest. ",
-                  "formatting": {
-                    "italic": true,
-                    "color": {
-                      "r": 0.7058824,
-                      "g": 0.37254903,
-                      "b": 0.023529412
-                    }
+                ],
+                [
+                  {
+                    "text": "Buy 11 furs from Baraek. "
                   }
-                },
-                {
-                  "text": "Buy 11 furs from Baraek. Return to the west anvils and smith a steel longsword, 2 shortswords, 1 mace, 1 warhammer, 1 dagger, 2 med helms and 1 full helm.",
-                  "formatting": {
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Return to the west anvils and smith a steel longsword, 2 shortswords, 1 mace, 1 warhammer, 1 dagger, 2 med helms and 1 full helm."
                   }
-                },
-                {
-                  "text": "\n",
-                  "formatting": {}
-                }
+                ]
               ],
               "nestedContent": [],
               "metadata": {
@@ -10605,42 +10229,36 @@
             },
             {
               "content": [
-                {
-                  "text": "Complete Wanted! (this involves random transportation, good luck. Rebank as needed, e.g. at Canifis. Use the sphere for Dorgesh-Kaan, complete a lap of the Canifis Rooftop course,",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                [
+                  {
+                    "text": "Complete Wanted! This involves random transportation, good luck. Rebank as needed, e.g. at Canifis. Use the sphere for Dorgesh-Kaan. Use the Respawn Point teleport to get back to Falador."
                   }
-                },
-                {
-                  "text": " kill a werewolf in human form with the wolfbane dagger and several in wolf form (any weapon, you may choose to safespot them on a table in the pub) for Rag and Bone Man II,",
-                  "formatting": {}
-                },
-                {
-                  "text": " tan some green dragonhide at Sbott, kill a Banshee in the slayer tower and get a slayer task from Mazchna along the way, use the Respawn Point teleport to get back to Falador). Grab your ring of charos (a) along with the items for the quests below, teleport to Draynor Manor and do Ernest the Chicken. Start Animal Magnetism.",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Complete a lap of the Canifis Rooftop course."
                   }
-                },
-                {
-                  "text": "\n",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    }
+                ],
+                [
+                  {
+                    "text": "Kill a werewolf in human form with the wolfbane dagger and several in wolf form (any weapon, you may choose to safespot them on a table in the pub) for Rag and Bone Man II."
                   }
-                }
+                ],
+                [
+                  {
+                    "text": "Tan some green dragonhide at Sbott."
+                  }
+                ],
+                [
+                  {
+                    "text": "Kill a Banshee in the slayer tower and get a slayer task from Mazchna along the way."
+                  }
+                ],
+                [
+                  {
+                    "text": "Grab your ring of charos (a) along with the items for the quests below, teleport to Draynor Manor and do Ernest the Chicken. Start Animal Magnetism."
+                  }
+                ]
               ],
               "nestedContent": [],
               "metadata": {
@@ -10652,74 +10270,31 @@
             },
             {
               "content": [
-                {
-                  "text": "Fenkenstrain teleport, visit Alice and her husband for Animal Magnetism. Kill ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                [
+                  {
+                    "text": "Fenkenstrain teleport, visit Alice and her husband for Animal Magnetism. "
                   }
-                },
-                {
-                  "text": "an experiment for Rag and Bone Man II, ",
-                  "formatting": {}
-                },
-                {
-                  "text": "undead cows for Rag and Bone Man II",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Kill an experiment for Rag and Bone Man II, undead cows for Rag and Bone Man II, then undead chickens to get 8 bones total. "
                   }
-                },
-                {
-                  "text": ", ",
-                  "formatting": {}
-                },
-                {
-                  "text": "then undead chickens to get 8 bones total. When you need to visit the Old Crone, enter Port Phasmatys instead (grind 8",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "When you need to visit the Old Crone, enter Port Phasmatys instead (grind 8 bones at the Ectofuntus grinder to get 40 ecto-tokens, also grind a silver bar)."
                   }
-                },
-                {
-                  "text": " ",
-                  "formatting": {
-                    "italic": true,
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Start and continue Ghosts Ahoy until you need to visit the Old Crone. "
                   }
-                },
-                {
-                  "text": "bones at the Ectofuntus grinder to get 40 ecto-tokens, also grind a silver bar) and start and continue Ghosts Ahoy until you need to visit the Old Crone. Teleport to salve, take the ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Teleport to salve, take the fairy ring to the desert (DLQ) and kill a Desert Lizard (level 24) for the diary and Desert Lizard (level 42) for Rag and Bone Man II. "
                   }
-                },
-                {
-                  "text": "fairy ring to the desert (DLQ) and kill a Desert Lizard (level 24) for the diary and Desert Lizard (level 42) for Rag and Bone Man II.\n",
-                  "formatting": {}
-                }
+                ]
               ],
               "nestedContent": [],
               "metadata": {
@@ -10731,116 +10306,26 @@
             },
             {
               "content": [
-                {
-                  "text": "Salve teleport, kill ghouls for Rag and Bone Man II and the diary near the teleport and bats for Rag and Bone Man II just outside the slayer tower entrance. Note: bank you",
-                  "formatting": {
-                    "fontSize": 12
+                [
+                  {
+                    "text": "Salve teleport, kill ghouls for Rag and Bone Man II and the diary near the teleport and bats for Rag and Bone Man II just outside the slayer tower entrance. "
                   }
-                },
-                {
-                  "text": "r cat/kitten before doing the rest of this step as you can’t have one on you during Temple Trekking. ",
-                  "formatting": {}
-                },
-                {
-                  "text": "Do In Search of the Myreque in its entirety,",
-                  "formatting": {
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Note: bank your cat/kitten before doing the rest of this step as you can’t have one on you during Temple Trekking. Do In Search of the Myreque in its entirety, buying 18 planks from Razmire while in Mort’ton and completing the swamp boaty diary task along the way. "
                   }
-                },
-                {
-                  "text": " ",
-                  "formatting": {}
-                },
-                {
-                  "text": "buying 18 planks from Razmire while in Mort’ton and completing the swamp boaty diary task along the way",
-                  "formatting": {
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "You need to rebank in Canifis before starting In Aid of the Myreque and do the entire section until you unlock the Burgh de Rott bank in one go. "
                   }
-                },
-                {
-                  "text": ". S",
-                  "formatting": {}
-                },
-                {
-                  "text": "tart In Aid of the Myreque",
-                  "formatting": {
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Start In Aid of the Myreque. Buy 11 more planks from Razmire before first entering Burgh de Rott, leave midway to collect the raw snails or raw mackerel (can be bought in Piscarilius). Use your Wolfbane for fighting vampyres. Continue In Aid of the Myreque until you obtain the rod mould (make a Guthix balance potion for the diary along the way). "
                   }
-                },
-                {
-                  "text": ". B",
-                  "formatting": {}
-                },
-                {
-                  "text": "uy 11 more planks from Razmire before first entering Burgh de Rott, leave midway to collect the raw snails or raw mackerel (can be bought in Piscarilius)",
-                  "formatting": {
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": ".",
-                  "formatting": {}
-                },
-                {
-                  "text": " ",
-                  "formatting": {
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "U",
-                  "formatting": {}
-                },
-                {
-                  "text": "se your Wolfbane for fighting vampyres [si",
-                  "formatting": {
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "c]. Continue In Aid of the Myreque",
-                  "formatting": {}
-                },
-                {
-                  "text": " ",
-                  "formatting": {
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "until",
-                  "formatting": {}
-                },
-                {
-                  "text": " you ",
-                  "formatting": {
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "obtain ",
-                  "formatting": {}
-                },
-                {
-                  "text": "the rod mould (make a Guthix balance potion for the diary along the way",
-                  "formatting": {
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": ")",
-                  "formatting": {}
-                },
-                {
-                  "text": ". You need to rebank in Canifis before starting In Aid of the Myreque and do the entire section until you unlock the Burgh de Rott bank in one go.",
-                  "formatting": {
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "\n",
-                  "formatting": {}
-                }
+                ]
               ],
               "nestedContent": [],
               "metadata": {
@@ -10852,27 +10337,21 @@
             },
             {
               "content": [
-                {
-                  "text": "Visit the Old Crone to progress Animal Magnetism and Ghosts Ahoy (Salve teleport to get there, and rebank in Canifis if needed). Fenkenstrain teleport, colour the repaired model ship and progress Ghosts Ahoy until you have the treasure map. Continue Animal Magnetism until you have bought the undead chickens.",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                [
+                  {
+                    "text": "Visit the Old Crone to progress Animal Magnetism and Ghosts Ahoy (Salve teleport to get there, and rebank in Canifis if needed)."
                   }
-                },
-                {
-                  "text": "\n",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    }
+                ],
+                [
+                  {
+                    "text": "Fenkenstrain teleport, colour the repaired model ship and progress Ghosts Ahoy until you have the treasure map. "
                   }
-                }
+                ],
+                [
+                  {
+                    "text": "Continue Animal Magnetism until you have bought the undead chickens."
+                  }
+                ]
               ],
               "nestedContent": [],
               "metadata": {
@@ -10884,42 +10363,21 @@
             },
             {
               "content": [
-                {
-                  "text": "Continue and complete Ghosts Ahoy. While inside Port Phasmatys cook a thin snail on the Port Phasmatys range, smelt some cannonballs at the Port Phasmatys furnace. Draynor Manor teleport and complete Animal Magnetism (you can use the Pest Control minigame teleport ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                [
+                  {
+                    "text": "Continue and complete Ghosts Ahoy."
                   }
-                },
-                {
-                  "text": "to get to the Rimmington mine)",
-                  "formatting": {}
-                },
-                {
-                  "text": ".",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "While inside Port Phasmatys cook a thin snail on the Port Phasmatys range, smelt some cannonballs at the Port Phasmatys furnace. "
                   }
-                },
-                {
-                  "text": "\n",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    }
+                ],
+                [
+                  {
+                    "text": "Draynor Manor teleport and complete Animal Magnetism (you can use the Pest Control minigame teleport to get to the Rimmington mine)."
                   }
-                }
+                ]
               ],
               "nestedContent": [],
               "metadata": {
@@ -10931,57 +10389,26 @@
             },
             {
               "content": [
-                {
-                  "text": "Swap to the normal spellbook and take the fairy ring/standard Clan Wars teleport to Edgeville (DKR) (and rebank, cook your lava eel). Run to the monastery an",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                [
+                  {
+                    "text": "Swap to the normal spellbook and take the fairy ring/standard Clan Wars teleport to Edgeville (DKR) (and rebank, cook your lava eel). "
                   }
-                },
-                {
-                  "text": "d catch the scorpion for Scorpion Catcher. ",
-                  "formatting": {}
-                },
-                {
-                  "text": "Defeat Chronozon for Family Crest. Teleport to Varrock and complete Family Crest (start the miniquest after), collect goldsmithing gauntlets (",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Run to the monastery and catch the scorpion for Scorpion Catcher. "
                   }
-                },
-                {
-                  "text": "dueling ring teleport to Al Kharid)",
-                  "formatting": {}
-                },
-                {
-                  "text": ".",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Defeat Chronozon for Family Crest. "
                   }
-                },
-                {
-                  "text": "\n",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    }
+                ],
+                [
+                  {
+                    "text": "Teleport to Varrock and complete Family Crest (start the miniquest after), collect goldsmithing gauntlets (dueling ring teleport to Al Kharid)."
                   }
-                }
+                ] 
               ],
               "nestedContent": [],
               "metadata": {
@@ -10993,91 +10420,61 @@
             },
             {
               "content": [
-                {
-                  "text": "Continue and complete Monkey Madness I (catch a bass and chop and burn some teak logs on Ape Atoll for the diary along the way, follow the wiki steps to pre-bank RFD/MM2 greegree materials). Buy 20 potatoes, 10 cabbages and 10 onions at the Grand Tree Groceries and put them in your sacks for Dream Mentor and Mourning’s End Part II. Buy an inventory of premade choc bombs/tangled toad",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                [
+                  {
+                    "text": "Continue and complete Monkey Madness I. Follow the wiki steps to pre-bank RFD/MM2 greegree materials."
                   }
-                },
-                {
-                  "text": "’s legs",
-                  "formatting": {}
-                },
-                {
-                  "text": " and one premade t’d crunch from Gianne. Make a chocolate bomb for the diary.",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Catch a bass and chop and burn some teak logs on Ape Atoll for the diary along the way."
                   }
-                },
-                {
-                  "text": " ",
-                  "formatting": {}
-                },
-                {
-                  "text": "Go to Daero and pick attack and defence (35k). Fletch an oak shortbow in the Gnome Stronghold (rebank if needed) for the diary - bank i",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Buy 20 potatoes, 10 cabbages and 10 onions at the Grand Tree Groceries and put them in your sacks for Dream Mentor and Mourning’s End Part II. "
                   }
-                },
-                {
-                  "text": "t if you want to woo/befriend the princess during Throne of Miscellania later",
-                  "formatting": {}
-                },
-                {
-                  "text": ". ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Buy an inventory of premade choc bombs/tangled toad’s legs and one premade t’d crunch from Gianne. "
                   }
-                },
-                {
-                  "text": "Score a goal in Gnome Ball, complete a lap of the Gnome Agility Course, kill  terrorbirds for Rag and Bone Man II. ",
-                  "formatting": {}
-                },
-                {
-                  "text": "Take a delivery order for the gnome restaurant. Take the agility shortcut to Otto’s Grotto for the diary. ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Make a chocolate bomb for the diary. "
                   }
-                },
-                {
-                  "text": "Complete the delivery order for the diary.",
-                  "formatting": {}
-                },
-                {
-                  "text": "\n",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    }
+                ],
+                [
+                  {
+                    "text": "Go to Daero and pick attack and defence (35k). "
                   }
-                }
+                ],
+                [
+                  {
+                    "text": "Fletch an oak shortbow in the Gnome Stronghold (rebank if needed) for the diary - bank it if you want to woo/befriend the princess during Throne of Miscellania later. "
+                  }
+                ],
+                [
+                  {
+                    "text": "Score a goal in Gnome Ball."
+                  }
+                ],
+                [
+                  {
+                    "text": "Complete a lap of the Gnome Agility Course."
+                  }
+                ],
+                [
+                  {
+                    "text": "Kill terrorbirds for Rag and Bone Man II. "
+                  }
+                ],
+                [
+                  {
+                    "text": "Take a delivery order for the gnome restaurant. Take the agility shortcut to Otto’s Grotto for the diary. Complete the delivery order for the diary."
+                  }
+                ]
               ],
               "nestedContent": [],
               "metadata": {
@@ -11151,149 +10548,29 @@
             },
             {
               "content": [
-                {
-                  "text": "Buy ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                [
+                  {
+                    "text": "Buy 300 law runes, 1100 nature runes, top up your death rune stack to 3k (Watchtower teleport and buy in Yanille). "
                   }
-                },
-                {
-                  "text": "30",
-                  "formatting": {}
-                },
-                {
-                  "text": "0 law runes, ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "If you do not have a Rune Pouch yet, use the minigames teleport to Clan Wars and do Last Man Standing to obtain both a rune pouch and a magic shortbow scroll. ",
+                    "formatting": {
+                      "italic": true
+                    }
                   }
-                },
-                {
-                  "text": "1100",
-                  "formatting": {}
-                },
-                {
-                  "text": " nature runes, ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Buy and smelt 1100 gold ore (or exactly as many as it takes to get to level 50). Save a few hundred gold bars for jewellery, the rest are to be alched. This uses a significant amount of energy pots, if you have/had any. Make sure to equip your ring of charos (a) to reduce the foreman cost."
                   }
-                },
-                {
-                  "text": "top",
-                  "formatting": {}
-                },
-                {
-                  "text": " up your death rune stack to 3k (Watchtower teleport and buy in Yanille)",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Make a(n inventory of) mithril bar(s), buying the ore if needed. "
                   }
-                },
-                {
-                  "text": ". If you do not have a Rune Pouch yet, use the minigames teleport to Clan Wars and do Last Man Standing to obtain both a rune pouch and a magic shortbow scroll. ",
-                  "formatting": {
-                    "italic": true,
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "Buy and smelt ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "1100",
-                  "formatting": {}
-                },
-                {
-                  "text": " gold ore (",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "or exactly as many as it takes to get to level 50) ",
-                  "formatting": {}
-                },
-                {
-                  "text": "and make a(n inventory of) mithril bar(s), buying the ore if needed. Save a few hundred gold ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "bars for jewellery, the rest are to be alched.",
-                  "formatting": {}
-                },
-                {
-                  "text": " This uses a significant amount of energy pots, if you have/had any",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": ". ",
-                  "formatting": {}
-                },
-                {
-                  "text": "Make sure to equ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "ip your ring of charos (a) to reduce the foreman cost.\n",
-                  "formatting": {}
-                }
+                ]
               ],
               "nestedContent": [
                 {
@@ -11325,74 +10602,40 @@
             },
             {
               "content": [
-                {
-                  "text": "Go to Rellekka (house teleport). ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                [
+                  {
+                    "text": "Go to Rellekka (house teleport). Grab the Fremennik Easy diary, putting the lamp on Herblore. "
                   }
-                },
-                {
-                  "text": "Grab the Fremennik Easy diary, putting the lamp on Herblore. Collect a few pet rocks. Put at least one in your POH menagerie and collect it again for the diary. ",
-                  "formatting": {}
-                },
-                {
-                  "text": "Buy a berserker helmet. ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Collect a few pet rocks. Put at least one in your POH menagerie and collect it again for the diary. "
                   }
-                },
-                {
-                  "text": "Your attack should be at least level 50 by now, if it is not do a bit of slayer (see below in this same step) ",
-                  "formatting": {
-                    "italic": true,
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Buy a berserker helmet. "
                   }
-                },
-                {
-                  "text": "first. Train slayer to get to level 50 defence, using your ancient s",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Your attack should be at least level 50 by now, if it is not do a bit of slayer (see below in this same step) first.",
+                    "formatting": {
+                      "italic": true,
+                      "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                      },
+                      "fontSize": 12
+                    }
                   }
-                },
-                {
-                  "text": "taff as a melee weapon",
-                  "formatting": {}
-                },
-                {
-                  "text": ". Alch gold bars while doing this (you’ll get plenty of time to alch during Rex later too). ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Train slayer to get to level 50 defence, using your ancient staff as a melee weapon. Alch gold bars while doing this (you’ll get plenty of time to alch during Rex later too). "
                   }
-                },
-                {
-                  "text": "\n",
-                  "formatting": {}
-                }
+                ]
               ],
               "nestedContent": [
                 {
@@ -11414,29 +10657,19 @@
             },
             {
               "content": [
-                {
-                  "text": "Teleport to Barbarian Assault, do at least one full queen run in any role and buy a granite platebody. ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                [
+                  {
+                    "text": "Teleport to Barbarian Assault, do at least one full queen run in any role and buy a granite platebody."
                   }
-                },
-                {
-                  "text": "Recommended: continue Barbarian Assault to obtain a Fighter Torso.\n",
-                  "formatting": {
-                    "italic": true,
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Recommended: continue Barbarian Assault to obtain a Fighter Torso.\n",
+                    "formatting": {
+                      "italic": true
+                    }
                   }
-                }
+                ]
               ],
               "nestedContent": [
                 {
@@ -11458,59 +10691,35 @@
             },
             {
               "content": [
-                {
-                  "text": "C",
-                  "formatting": {}
-                },
-                {
-                  "text": "ontinue Scorpion Catcher (cat",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                [
+                  {
+                    "text": "Continue Scorpion Catcher (catch the scorpion inside the Barbarian Outpost agility course), do a lap of the agility course for the diary. "
                   }
-                },
-                {
-                  "text": "ch the scorpion inside the Barbarian Outpost agility course)",
-                  "formatting": {}
-                },
-                {
-                  "text": ", do a lap of the agility course for the diary. Do Horror from the Deep, kill the Dagannoth Mother w/ magic, like on the wiki. Collect a berserker ring from Dagannoth Rex ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Do Horror from the Deep, kill the Dagannoth Mother w/ magic, like on the wiki. "
                   }
-                },
-                {
-                  "text": "(optional: stay for a dragon axe)",
-                  "formatting": {
-                    "italic": true,
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Collect a berserker ring from Dagannoth Rex "
+                  },
+                  {
+                    "text": "(optional: stay for a dragon axe)",
+                    "formatting": {
+                      "italic": true
+                    }
+                  },
+                  {
+                    "text": ". Bring your remaining gold bars and nature runes to alch between kills (and between hits)."
                   }
-                },
-                {
-                  "text": ". Bring your remaining gold bars and nature runes to alch between kills (and between hits). Leave the long way to the Lighthouse for the diary, kill dagannoths on your way out for Rag and Bone Man II.\n",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Leave the long way to the Lighthouse for the diary, kill dagannoths on your way out for Rag and Bone Man II."
                   }
-                }
+                ]
               ],
               "nestedContent": [
                 {
@@ -11638,77 +10847,93 @@
             },
             {
               "content": [
-                {
-                  "text": " Optional and recommended: go to the PVP Arena and imbue your berserker ring. The PVP Arena method involves either an alt/friend to boost points (go at off-peak hours, hope to get matched with each other, quickly die to the other/kill the other for points, repeat) or just suiciding to randoms for quick points ",
-                  "formatting": {}
-                },
-                {
-                  "text": "imbue scroll via pvp arena - losing method",
-                  "url": "https://www.youtube.com/watch?v=OORAXLhdZAg",
-                  "isLink": true,
-                  "formatting": {
-                    "underline": true
+                [
+                  {
+                    "text": "Optional and recommended: go to the PVP Arena and imbue your berserker ring. The PVP Arena method involves either an alt/friend to boost points (go at off-peak hours, hope to get matched with each other, quickly die to the other/kill the other for points, repeat) or just suiciding to randoms for quick points "
+                  },
+                  {
+                    "text": "imbue scroll via pvp arena - losing method",
+                    "url": "https://www.youtube.com/watch?v=OORAXLhdZAg",
+                    "isLink": true,
+                    "formatting": {
+                      "underline": true
+                    }
+                  },
+                  {
+                    "text": "."
                   }
-                },
-                {
-                  "text": ". Next, a",
-                  "formatting": {}
-                },
-                {
-                  "text": "lch your granite body. Train slayer to level 40 with shit tier tasks with your ancient staff (you might barely cross 70 combat near the end of this training, so get a Chaeldar task for the diary step if so), training melee on accurate to 60 attack. ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Alch your granite body."
                   }
-                },
-                {
-                  "text": "Buy a dragon scimitar and dragon dagger if you hit level 60 attack. ",
-                  "formatting": {}
-                },
-                {
-                  "text": "You can use smoke burst (on accurate/magic) on jellies and ankou tasks. Make sure to complete your final task at the end.",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": " ",
-                  "formatting": {}
-                },
-                {
-                  "text": "NOTE: it is difficult for us to keep track of all small amounts of combat xp obtained so far, so all combat levels and experience trackers in BRUHsailer are estimates. Do not worry if you are several levels off in either direction.",
-                  "formatting": {
-                    "italic": true,
-                    "color": {
-                      "r": 1,
-                      "g": 0,
-                      "b": 0
+                ],
+                [
+                  {
+                    "text": "Train slayer to level 40 with shit tier tasks with your ancient staff (you might barely cross 70 combat near the end of this training, so get a Chaeldar task for the diary step if so), training melee on accurate to 60 attack. Buy a dragon scimitar and dragon dagger if you hit level 60 attack. You can use smoke burst (on accurate/magic) on jellies and ankou tasks. Make sure to complete your final task at the end. "
+                  },
+                  {
+                    "text": "NOTE: it is difficult for us to keep track of all small amounts of combat xp obtained so far, so all combat levels and experience trackers in BRUHsailer are estimates. Do not worry if you are several levels off in either direction.",
+                    "formatting": {
+                      "italic": true,
+                      "color": {
+                        "r": 1,
+                        "g": 0,
+                        "b": 0
+                      }
                     }
                   }
-                },
-                {
-                  "text": " ",
-                  "formatting": {}
-                },
-                {
-                  "text": "Get on normal spellbook, go to Falador and start The Slug Menace. Pay the estate agent to move your POH to Kourend. Teleport to Ardougne with the cloak, start Eagles’ Peak in the Ardougne Zoo. Continue The Slug Menace in Witchhaven. Necklace of passage to Jorral, start Making History. Run to Eagles’ Peak, collect two dashing kebbit fur for Varrock Hard diary (if you have the hunter level, it’s fine if you do not), catch a copper longtail for the diary, mine some iron ore, and continue Eagles’ Peak until you have to make the disguise, make sure to collect the feathers. Teleport to Ardougne, resume The Slug Menace until you have chiselled the five special runestones.",
-                  "formatting": {}
-                },
-                {
-                  "text": "\n",
-                  "formatting": {
-                    "italic": true
+                ],
+                [
+                  {
+                    "text": "Get on normal spellbook, go to Falador and start The Slug Menace. Bring a pickaxe and a bird snare."
                   }
-                }
+                ],
+                [
+                  {
+                    "text": "Pay the estate agent to move your POH to Kourend. "
+                  }
+                ],
+                [
+                  {
+                    "text": "Teleport to Ardougne with the cloak, start Eagles’ Peak in the Ardougne Zoo. "
+                  }
+                ],
+                [
+                  {
+                    "text": "Continue The Slug Menace in Witchhaven. "
+                  }
+                ],
+                [
+                  {
+                    "text": "Necklace of passage to Jorral, start Making History. "
+                  }
+                ],
+                [
+                  {
+                    "text": "Run to Eagles’ Peak, collect two dashing kebbit fur for Varrock Hard diary (if you have the hunter level, it’s fine if you do not)."
+                  }
+                ],
+                [
+                  {
+                    "text": "Catch a copper longtail for the diary."
+                  }
+                ],
+                [
+                  {
+                    "text": "Mine some iron ore."
+                  }
+                ],
+                [
+                  {
+                    "text": "Continue Eagles’ Peak until you have to make the disguise, make sure to collect the feathers. "
+                  }
+                ],
+                [
+                  {
+                    "text": "Teleport to Ardougne, resume The Slug Menace until you have chiselled the five special runestones."
+                  }
+                ]
               ],
               "nestedContent": [],
               "metadata": {
@@ -11720,138 +10945,47 @@
             },
             {
               "content": [
-                {
-                  "text": "Do Throne of Miscellania and Royal Trouble (fairy ring CIP to get there), obtain 100% support (buying flowers from ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                [
+                  {
+                    "text": "Do Throne of Miscellania (fairy ring CIP to get there)."
                   }
-                },
-                {
-                  "text": "the flower girl",
-                  "formatting": {
-                    "underline": true,
-                    "color": {
-                      "r": 0.06666667,
-                      "g": 0.33333334,
-                      "b": 0.8
-                    },
-                    "fontSize": 12,
-                    "url": "https://oldschool.runescape.wiki/w/Flower_Girl",
-                    "isLink": true
+                ],
+                [
+                  {
+                    "text": "Do Royal Trouble."
                   }
-                },
-                {
-                  "text": " or chopping Etceteria teak logs), kill Rabbits for Rag and Bone Man II, deposit ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Obtain 100% support (buying flowers from "
+                  },
+                  {
+                    "text": "the flower girl",
+                    "formatting": {
+                      "underline": true,
+                      "color": {
+                        "r": 0.06666667,
+                        "g": 0.33333334,
+                        "b": 0.8
+                      },
+                      "url": "https://oldschool.runescape.wiki/w/Flower_Girl",
+                      "isLink": true
+                    }
+                  },
+                  {
+                    "text": " or chopping Etceteria teak logs)."
                   }
-                },
-                {
-                  "text": "600k",
-                  "formatting": {}
-                },
-                {
-                  "text": " gp (or: ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Kill Rabbits for Rag and Bone Man II."
                   }
-                },
-                {
-                  "text": "your entire cash stack)",
-                  "formatting": {}
-                },
-                {
-                  "text": " in Misc and set it to 10 ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Deposit 600k gp (or: your entire cash stack) in Misc and set it to 10 mahogany 5 maple. The mahogany logs are for bird runs (levels 49-80), the maples for arrow shafts for fletching. Also visit at least once/twice a week to restore the support to 100% (buying flowers from the flower girl or raking the herb patch). "
                   }
-                },
-                {
-                  "text": "mahogany",
-                  "formatting": {}
-                },
-                {
-                  "text": " 5 maple. The ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "mahogany",
-                  "formatting": {}
-                },
-                {
-                  "text": " logs are for",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": " bird runs (levels 49-80)",
-                  "formatting": {}
-                },
-                {
-                  "text": ", the maples for arrow shafts for fletching.",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": " Also visit at least once/twice a week to restore the support to 100% (buying flowers from ",
-                  "formatting": {}
-                },
-                {
-                  "text": "the flower girl",
-                  "formatting": {
-                    "underline": true,
-                    "color": {
-                      "r": 0.06666667,
-                      "g": 0.33333334,
-                      "b": 0.8
-                    },
-                    "url": "https://oldschool.runescape.wiki/w/Flower_Girl",
-                    "isLink": true
-                  }
-                },
-                {
-                  "text": " or raking the herb patch).\n",
-                  "formatting": {}
-                }
+                ]
               ],
               "nestedContent": [
                 {
@@ -12097,90 +11231,31 @@
             },
             {
               "content": [
-                {
-                  "text": "Swap to the standard spellbook. ",
-                  "formatting": {}
-                },
-                {
-                  "text": "Use your Fremennik boots to get to Rellekka. Do The Fremennik Isles (make a Fremennik shield",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                [
+                  {
+                    "text": "Swap to the standard spellbook. "
                   }
-                },
-                {
-                  "text": ", ‘Neitiznot shield’,",
-                  "formatting": {}
-                },
-                {
-                  "text": " along the way for the diary), putting the XP on attack ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Use your Fremennik boots to get to Rellekka. Do The Fremennik Isles, putting the XP on attack (or defence if you are already level 60). "
                   }
-                },
-                {
-                  "text": "(or defence if you are already level 60)",
-                  "formatting": {
-                    "italic": true,
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Make a Fremennik shield, ‘Neitiznot shield’, along the way for the diary."
                   }
-                },
-                {
-                  "text": ". Make a silvthrill rod at the Neitiznot furnace. ",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Make a silvthrill rod at the Neitiznot furnace. Enchant your silvthrill rod. "
                   }
-                },
-                {
-                  "text": "Enchant your silvthrill rod. ",
-                  "formatting": {}
-                },
-                {
-                  "text": "Sell your berserker helm back to Skulgrimen after you’ve obtained the Helm of Neitiznot",
-                  "formatting": {
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
+                ],
+                [
+                  {
+                    "text": "Sell your berserker helm back to Skulgrimen after you’ve obtained the Helm of Neitiznot."
                   }
-                },
-                {
-                  "text": ".",
-                  "formatting": {
-                    "italic": true,
-                    "color": {
-                      "r": 0,
-                      "g": 0,
-                      "b": 0
-                    },
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "text": "\n",
-                  "formatting": {}
-                }
+                ]
               ],
               "nestedContent": [],
               "metadata": {
