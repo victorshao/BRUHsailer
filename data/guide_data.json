@@ -1153,7 +1153,7 @@
                 ],
                 [
                   {
-                    "text": "Oak logs to cut into headless arrows, to make arrow shafts for 46 fletching (only as many as needed - you will get 190 fletching xp per oak log). 3 more oak logs for Sleeping Giants (do not cut these into shafts) "
+                    "text": "Oak logs to cut into headless arrows, to make arrow shafts for 46 fletching (only as many as needed - you will get 190 fletching xp per oak log). 3 more oak logs for Sleeping Giants (do not cut these into shafts). If possible, save around more 20 logs for future uses."
                   }
                 ],
                 [
@@ -1432,12 +1432,12 @@
                 ],
                 [
                   {
-                    "text": "Pickpocket from the fruit stalls in the house on the east of Hosidius square to a bit over 42 thieving (46,512 xp!). Bank one jangerberry (optionally: bank two as it’s a possible Fairytale pt. 1 item), all the strange fruit and the golovanova tops (you will need at least 2 tops). "
+                    "text": "Pickpocket from the fruit stalls in the house on the east of Hosidius square to level 36 thieving. Bank one jangerberry (optionally: bank two as it’s a possible Fairytale pt. 1 item), all the strange fruit and the golovanova tops (you will need at least 2 tops). "
                   }
                 ],
                 [
                   {
-                    "text": "Run west and dig up a saltpetre for the diary. "
+                    "text": "Run west and dig up a saltpetre for the diary, then run to Land’s End and charter a ship to Aldarin. There thieve the upstairs chest in the western villa (Chest (Aldarin Villas) - OSRS Wiki) to a bit over level 42 thieving (46,512 xp!)."
                   }
                 ]
               ],
@@ -1782,12 +1782,12 @@
               "content": [
                 [
                   {
-                    "text": "Use the Fishing Trawler minigame to teleport to Port Khazard. Charter a ship to Land’s end. Buy 1600 soda ash and 10 buckets of slime (if it is competitive or bought out, charter to Catherby and buy them there), 10/world at a time. "
+                    "text": "Use the Fishing Trawler minigame to teleport to Port Khazard. Charter a ship Catherby (use the deposit box) or, if that shop is bought out, to Land’s end. Buy 1600 soda ash and 10 buckets of slime, 10/world at a time. "
                   }
                 ],
                 [
                   {
-                    "text": "Charter a ship to Catherby. Buy steel arrowtips to round out 46 fletching (if you don’t have that level yet). "
+                    "text": "If you were at Land’s end, now charter a ship to Catherby. Buy steel arrowtips to round out 46 fletching (if you don’t have that level yet). "
                   },
                   {
                     "text": "We recommend buying 250 tips/world to save hopping but if you are low on gp you can buy 100/world instead to save some cash here.",
@@ -1803,7 +1803,7 @@
                 ],
                 [
                   {
-                    "text": "Grab insect repellant, collect two buckets of wax and five flax (diary) and speak with Sherlock (diary). "
+                    "text": "Grab insect repellant, collect two buckets of wax and and ten flax (five for the diary, but we need ten) and speak with Sherlock (diary). "
                   }
                 ],
                 [
@@ -1818,7 +1818,7 @@
                 ],
                 [
                   {
-                    "text": "Run to Seers, grab the fishing pass and other items for fishing contest from the bank. Continue Fishing Contest to the step where you get the trophy. "
+                    "text": "Run to Seers, grab the fishing pass and other items for fishing contest from the bank. Spin the flax into ten linen yarn. Continue Fishing Contest to the step where you get the trophy. "
                   }
                 ],
                 [
@@ -2147,7 +2147,7 @@
                     }
                   },
                   {
-                    "text": "Buy dwellberries, 2 buckets of milk, 1 pineapple, 10 potatoes, 3 pots of flour, 4 cheese, 1 orange, 1 gnome spice and 120 produce items (all of onion, "
+                    "text": "Grab your sacks from the bank and use them to reduce the amount of running. Buy dwellberries, 2 buckets of milk, 1 pineapple, 10 potatoes, 3 pots of flour, 4 cheese, 1 orange, 1 gnome spice and 120 produce items in any combination of the following (all of onion, "
                   },
                   {
                     "text": "potato",
@@ -2947,7 +2947,7 @@
               "content": [
                 [
                   {
-                    "text": "Chronicle teleport to Varrock. Buy a rune shortsword, green d’hide chaps, green d’hide vambraces from Scavvo in the Champions’ Guild",
+                    "text": "Chronicle teleport to Varrock. Buy a rune sword (not a longsword!), green d’hide chaps, green d’hide vambraces from Scavvo in the Champions’ Guild",
                     "formatting": {
                       "fontSize": 12
                     }
@@ -4141,7 +4141,7 @@
                 ],
                 [
                   {
-                    "text": "Do The Lost Tribe up to the step where you need to visit Reldo, buy 10 bronze axes from Bob along the way."
+                    "text": "Start The Lost Tribe by speaking to Sigmund. Start The Ides of Milk, speaking with people for The Lost Tribe and buying 10 bronze axes from Bob along the way. Continue and complete The Ides of Milk, putting the lamp on prayer. Continue The Lost Tribe up to the step where you need to visit Reldo. "
                   }
                 ],
                 [
@@ -4172,7 +4172,7 @@
               "content": [
                 [
                   {
-                    "text": "Enter the Lumbridge Swamp, collect 5 swamp tar for quests."
+                    "text": "Enter the Lumbridge Swamp, collect 25 swamp tar for quests."
                   }
                 ],
                 [
@@ -5211,7 +5211,7 @@
                 ],
                 [
                   {
-                    "text": "If you are not cut-eating all of your barbarian fishing, Kharedst’s memoirs teleport to Hosidius, run to the mess hall and train to level 70 cooking (if you are cut-eating the whole way you will get this level later passively)."
+                    "text": "If you are not cut-eating all of your barbarian fishing, Kharedst’s memoirs teleport to Hosidius, spin your ten linen yarn into five bolts of linen, then run to the mess hall and train to level 70 cooking (if you are cut-eating the whole way you will get this level later passively)."
                   }
                 ],
                 [
@@ -9072,7 +9072,7 @@
                 ],
                 [
                   {
-                    "text": "Digsite teleport and run to the sawmill, make logs into planks and buy 1 iron and 300 steel nails (if you have spares from Tempoross you can skip those items) as well as five bolts of cloth. "
+                    "text": "Digsite teleport and run to the sawmill, make logs into planks and buy 101 iron and 700 steel nails (if you have spares from Tempoross you can skip those items) as well as five bolts of cloth. "
                   }
                 ],
                 [
@@ -9162,7 +9162,12 @@
                     }
                   },
                   {
-                    "text": " Don’t wait for the servant to come back, this method will bank the planks (if your POH instance is closed while your servant returns the planks will go straight to your bank) and you can use them from the bank later (have the servant grab the planks from the bank for you while you stay in the POH), for example with oak larders. "
+                    "text": " Don’t wait for the servant to come back, this method will bank the planks (if your POH instance is closed while your servant returns the planks will go straight to your bank) and you can use them from the bank later (have the servant grab the planks from the bank for you while you stay in the POH), for example with oak larders. If you have spare oak logs (or even planks), for example from wintertodt, use those first instead of chopping. "
+                  }
+                ],
+                [
+                  {
+                    "text": "Buy a study and swap your servant for the Demon Butler (in Ardougne). If you started below level 40 it is worth upgrading the Cook to the Butler at level 40 (by revisiting the Servant’s Guild in Ardougne). "
                   }
                 ],
                 [
@@ -9177,7 +9182,7 @@
                 ],
                 [
                   {
-                    "text": "Buy a study and swap your servant for the Demon Butler (in Ardougne). If you started below level 40 it is worth upgrading the Cook to the Butler at level 40 (by revisiting the Servant’s Guild in Ardougne). "
+                    "text": "Save 50 oak planks for future uses after you’re done. "
                   }
                 ],
                 [
@@ -9210,7 +9215,7 @@
             {
               "content": [
                 {
-                  "text": "If you have (at least) two grown teak trees on Fossil Island, use the butler method to chop and make 1100 teak planks (example video of 2 tick teaks with butler plankmake: ",
+                  "text": "If you have (at least) two grown teak trees on Fossil Island, use the butler method to chop and make 1175 teak planks (example video of 2 tick teaks with butler plankmake: ",
                   "formatting": {}
                 },
                 {
@@ -10563,12 +10568,17 @@
                 ],
                 [
                   {
-                    "text": "Buy and smelt 1100 gold ore (or exactly as many as it takes to get to level 50). Save a few hundred gold bars for jewellery, the rest are to be alched. This uses a significant amount of energy pots, if you have/had any. Make sure to equip your ring of charos (a) to reduce the foreman cost."
+                    "text": "Do Big Chompy Bird Hunting, save a raw chompy for later. "
                   }
                 ],
                 [
                   {
-                    "text": "Make a(n inventory of) mithril bar(s), buying the ore if needed. "
+                    "text": "Do Zogre Flesh Eaters (use dueling rings for speeding up the quest), killing Zogres along the way for Rag and Bone Man II. Make sure to unlock Uglug’s Stuffsies and buy 16 relicym’s balm (3), decant them into 12 4-dose potions. Use Crumble Undead for the Slash Bash fight. "
+                  }
+                ],
+                [
+                  {
+                    "text": "Buy and smelt 1100 gold ore (or exactly as many as it takes to get to level 50), 6 iron bars, 20 steel bars, and 27 mithril bars. Save a few hundred gold bars for jewellery, the rest are to be alched. This uses a significant amount of energy pots, if you have/had any. Make sure to equip your ring of charos (a) to reduce the foreman cost."
                   }
                 ]
               ],
@@ -10577,8 +10587,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "If you decide to go for more smithing, and also happen to have a higher fletching level than the guide assumes, you might be able to make a mithril grapple (59 fletching and smithing, boostable) earlier than the guide assumes. These mithril grapples are needed for the Ardougne medium diary, the Falador medium diary, the Kandarin medium diary, the Karamja hard diary and the Lumbridge & Draynor medium diary, and it is worth knocking out all these steps (and with it the diaries) as soon as you have access to mithril grapples. Just keep in mind that ",
-                      "formatting": {}
+                      "text": "If you decide to go for more smithing, and also happen to have a higher fletching level than the guide assumes, you might be able to make a mithril grapple (59 fletching and smithing, boostable) earlier than the guide assumes. These mithril grapples are needed for the Ardougne medium diary, the Falador medium diary, the Kandarin medium diary, the Karamja hard diary and the Lumbridge & Draynor medium diary, and it is worth knocking out all these steps (and with it the diaries) as soon as you have access to mithril grapples. Just keep in mind that "
                     },
                     {
                       "text": "they can break",
@@ -10587,8 +10596,7 @@
                       }
                     },
                     {
-                      "text": ", so if you had to boost to make one it would be nice to first head off to the God Wars dungeon (requires 70 ranging, unboostable) and use a droptrick to grab 5 or so in the Armadyl camp (don’t forget your god protection items!). Alternatively you can make several yourself.\n",
-                      "formatting": {}
+                      "text": ", so if you had to boost to make one it would be nice to first head off to the God Wars dungeon (requires 70 ranging, unboostable) and use a droptrick to grab 5 or so in the Armadyl camp (don’t forget your god protection items!). Alternatively you can make several yourself. If you make these here you need extra mithril bars or you will not have enough later."
                     }
                   ]
                 }
@@ -10602,6 +10610,287 @@
             },
             {
               "content": [
+                [
+                  {
+                    "text": "Keep wearing your ring of charos (a). Teleport to Falador. Run south to Port Sarim. Start and complete the Pandemonium quest. Whenever sailing you get some XP and a speed boost for trimming sails, so try to consistently click the sail when there’s a burst of wind. "
+                  }
+                ],
+                [
+                  {
+                    "text": "Do port courier tasks (between Pandemonium and Port Sarim) until level 13 sailing, aiming to finish the level at Port Sarim. Complete the following charting tasks along the way:"
+                  }
+                ],
+                [
+                  {
+                    "text": "Look at the port task board in Port Sarim."
+                  }
+                ],
+                [
+                  {
+                    "text": "Interact with the salvaging station in Port Sarim."
+                  }
+                ],
+                [
+                  {
+                    "text": "Treacherous rock formation near Draynor Village."
+                  }
+                ],
+                [
+                  {
+                    "text": "Spyglass to get a good view of the Wizards’ Tower from the north."
+                  }
+                ],
+                [
+                  {
+                    "text": "Spyglass to get a good view of Karamja Shipyard from the east."
+                  }
+                ],
+                [
+                  {
+                    "text": "Wreck of the Salty Grouper south west of Tutorial Island."
+                  }
+                ],
+                [
+                  {
+                    "text": "Spyglass to get a good view of the Pandemonium from the cave entrance, also dig up the small key for the salvaging station schematic."
+                  }
+                ],
+                [
+                  {
+                    "text": "Spyglass to admire Charin’ Charles McAtless in the cave on the Pandemonium, also mine 22 lead ore in the cave."
+                  }
+                ]
+              ],
+              "metadata": {
+                "gp_stack": "tbd",
+                "items_needed": "yes",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
+              }
+            },
+            {
+              "content": [
+                [
+                  {
+                    "text": "If you were at Port Sarim, charter to the Pandemonium. Start Prying Times (bank to grab the items necessary on Pandemonium). Charter or sail back (if you’re sailing, complete another port task as well)."
+                  }
+                ],
+                [
+                  {
+                    "text": "Pick up the crate of looty and return to the Pandemonium, grabbing and completing a second courier task as well along the way."
+                  }
+                ],
+                [
+                  {
+                    "text": "Charter to Port Sarim, run to Thurgo, get the crowbar, return to the Pandemonium."
+                  }
+                ],
+                [
+                  {
+                    "text": "Board your raft and head to the sealed crate, also chart the wreck of the Pandemonium II and the crashed gnome glider to the west."
+                  }
+                ],
+                [
+                  {
+                    "text": "Open the crate, sail to the Pandemonium docks and drink the drink. You can either kill the troll or just disembark your ship, complete Prying Times."
+                  }
+                ],
+                [
+                  {
+                    "text": "Search a nearby crate for the waterlogged journal and read it to unlock the ability to make the Medallion of the Deep."
+                  }
+                ]
+              ],
+              "nestedContent": [],
+              "metadata": {
+                "gp_stack": "tbd",
+                "items_needed": "yes",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
+              }
+            },
+            {
+              "content": [
+                {
+                  "text": "Chart around the area using the route described in this image, getting you to level 22 sailing as you arrive at Catherby ",
+                  "formatting": {}
+                },
+                {
+                  "text": "20260215OSRS14-22ChartingRoute.png",
+                  "url": "https://drive.google.com/file/d/15CWomw2T_Uwmk-_RepxFgnhiCXcG8DUc/view?usp=sharing",
+                  "isLink": true,
+                  "formatting": {
+                    "underline": true
+                  }
+                },
+                {
+                  "text": ". Do not forget the spyglass for Keep le Faye just north of the image. The start point is deep in the Lumbridge Basin, so make your way there first. Whenever charting, collect drinks in your inventory and only start drinking them after you have docked your boat at your destination, ",
+                  "formatting": {}
+                },
+                {
+                  "text": "https://oldschool.runescape.wiki/w/Sealed_crate",
+                  "formatting": {
+                    "underline": true,
+                    "color": {
+                      "r": 0.06666667,
+                      "g": 0.33333334,
+                      "b": 0.8
+                    },
+                    "url": "https://oldschool.runescape.wiki/w/Sealed_crate",
+                    "isLink": true
+                  }
+                },
+                {
+                  "text": " tells you which drinks have negative effects.\n",
+                  "formatting": {}
+                }
+              ],
+              "nestedContent": [],
+              "metadata": {
+                "gp_stack": "tbd",
+                "items_needed": "yes",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
+              }
+            },
+            {
+              "content": [
+                {
+                  "text": "Start and complete Current Affairs in full. Note: for the current duck charting you do not have to follow the duck, you only need to set it loose and pick it up at the endpoint before it despawns, which is quite a generous timer. You can therefore combine this activity with other sailing in the area.\n",
+                  "formatting": {}
+                }
+              ],
+              "nestedContent": [],
+              "metadata": {
+                "gp_stack": "tbd",
+                "items_needed": "yes",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
+              }
+            },
+            {
+              "content": [
+                [
+                  {
+                    "text": "Buy a skiff, build an iron helm and an oak mast and linen sails on it."
+                  }
+                ],
+                [
+                  {
+                    "text": "Buy 25 repair kits and put them in your cargo hold, using them whenever appropriate (keep in mind you can also repair your ship every time you are at a shipwright, which is recommended)."
+                  }
+                ],
+                [
+                  {
+                    "text": "Chart most of the Ardent Ocean using the route in red in "
+                  },
+                  {
+                    "text": "20260215OSRS24-30ChartingRoute.png",
+                    "url": "https://drive.google.com/file/d/1A3jE9E6wZxuh6cOvD6G1-Ym7CXoGnXDY/view?usp=sharing",
+                    "isLink": true,
+                    "formatting": {
+                      "underline": true
+                    }
+                  },
+                  {
+                    "text": ". The starting point is near Catherby."
+                  }
+                ],
+                [
+                  {
+                    "text": "After reaching the Ruins of Unkah, drink the Bottle of slug’s mind balm last (it teleports you to Witchhaven), then run to Ardougne docks, charter a ship to Musa Point and recover your skiff. Then sail the orange route, visiting current duck spots. Dock at the Pandemonium."
+                  }
+                ]
+              ],
+              "nestedContent": [],
+              "metadata": {
+                "gp_stack": "tbd",
+                "items_needed": "yes",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
+              }
+            },
+            {
+              "content": [
+                [
+                  {
+                    "text": "If you are already level 31 sailing, upgrade your skiff with a teak hull. If not, sail south and complete the swordfish rank of the Tempor Tantrum to get the level, then return and upgrade the hull. "
+                  }
+                ],
+                [
+                  {
+                    "text": "Continue doing laps of Tempor Tantrum (unlock all difficulties, then do Marlin rank for xp) until at least 35,000 xp (level 39). Make sure to collect the stormy key, barrel stand and the Whirlpool surprises."
+                  }
+                ]
+              ],
+              "nestedContent": [],
+              "metadata": {
+                "gp_stack": "tbd",
+                "items_needed": "yes",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
+              }
+            },
+            {
+              "content": [
+                [
+                  {
+                    "text": "Using the route in ",
+                    "formatting": {}
+                  },
+                  {
+                    "text": "20260215OSRS39-45ChartingRoute.png",
+                    "url": "https://drive.google.com/file/d/1xF2WehguS3ax_60lmh_JkXvqsGbdMmRp/view?usp=sharing",
+                    "isLink": true,
+                    "formatting": {
+                      "underline": true
+                    }
+                  },
+                  {
+                    "text": " (starting at the Tempor Tantrum), chart a good portion of the Unquiet Ocean. "
+                  }
+                ],
+                [
+                  {
+                    "text": "Once you reach the end of this trek, make sure your ship is stationary before drinking the bottle of alone at sea (a 75 second cutscene will play while your ship keeps moving if it’s not stationary!), then teleport out, minigame teleport to Port Khazard, recover your skiff, build an inoculation station and complete the mermaid diving charts in the Strait of Khazard and Gu’tanoth Bay. This completes the charting for the Ardent Ocean. "
+                  }
+                ],
+                [
+                  {
+                    "text": "Teleport to your POH and charter a ship to the Pandemonium, then collect the Ardent Ocean xp reward and the kraken ink stout (buy 25 of them) from Chartin’ Charles McAtless."
+                  }
+                ],
+                [
+                  {
+                    "text": "Buy 48 whirlpool surprises from the Pandemonium pub. Build a keg on your skiff and fill it with whirlpool surprise."
+                  }
+                ]
+              ],
+              "nestedContent": [
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "When at Dognose Island, dock there and open the rusty chest to get a medallion fragment.\n",
+                      "formatting": {}
+                    }
+                  ]
+                }
+              ],
+              "metadata": {
+                "gp_stack": "tbd",
+                "items_needed": "yes",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
+              }
+            },
+            {
+              "content": [
+                [
+                  {
+                    "text": "Teleport to Falador, smelt your lead ore into 11 bars. Pay the estate agent to move your house to Rellekka. House teleport."
+                  }
+                ],
                 [
                   {
                     "text": "Go to Rellekka (house teleport). Grab the Fremennik Easy diary, putting the lamp on Herblore. "
@@ -11233,7 +11522,7 @@
               "content": [
                 [
                   {
-                    "text": "Swap to the Arceuus spellbook. "
+                    "text": "Swap to the standard spellbook. "
                   }
                 ],
                 [
@@ -11244,6 +11533,11 @@
                 [
                   {
                     "text": "Make a Fremennik shield, ‘Neitiznot shield’, along the way for the diary."
+                  }
+                ],
+                [
+                  {
+                    "text": "Turn 5 mithril bars into 75 mithril nails at the Neitiznot anvils during the quest."
                   }
                 ],
                 [
@@ -11274,7 +11568,7 @@
                   }
                 },
                 {
-                  "text": " (optional: make more than one lunar staff for cosmetic purposes). Remember to do your hourlies and grow cats whenever convenient.\n",
+                  "text": " (optional: make more than one lunar staff for cosmetic purposes). While on the Lady Zay, collect at least 45 swamp tar. Remember to do your hourlies and grow cats whenever convenient.\n",
                   "formatting": {}
                 }
               ],
@@ -11655,11 +11949,6 @@
                 ],
                 [
                   {
-                    "text": "Do Big Chompy Bird Hunting, save a raw chompy for later. "
-                  }
-                ],
-                [
-                  {
                     "text": "Kill wolves for Rag and Bone Man II. "
                   }
                 ],
@@ -12030,7 +12319,16 @@
               "content": [
                 [
                   {
-                    "text": "MLM for coal and gem bag (repair the strut along the way for the diary). "
+                    "text": "MLM for coal and gem bag (repair the strut along the way for the diary). Make sure "
+                  },
+                  {
+                    "text": "not",
+                    "formatting": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "text": " to use your celestial ring for this - it is bugged and reduces the amount of nuggets you get. "
                   }
                 ],
                 [
@@ -12386,8 +12684,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Make the Fire of Nourishment (three Fires of Eternal Light optional), grab an iron pickaxe, mine all the basalt (using your rune pickaxe) and salts for all the fires, make 100 Stony basalt and 100 Icy basalt. In total this requires 200 basalt, 1050 Efh, 1000 Urt and 1300 Te salt.\n",
-                      "formatting": {}
+                      "text": "Make the Fire of Nourishment (three Fires of Eternal Light optional), grab an iron pickaxe, mine all the basalt (using your rune pickaxe) and salts for all the fires and two eternal braziers, make 100 Stony basalt and 100 Icy basalt. In total this requires 200 basalt, 1550 Efh, 1500 Urt and 1800 Te salt. You can make the teleports right there in the mine, save the rest of the salts for future uses."
                     }
                   ]
                 },
@@ -13223,7 +13520,12 @@
                 ],
                 [
                   {
-                    "text": "Run east to the quetzal to go to Varlamore and do Meat and Greet."
+                    "text": "Buy 20,000 air runes (if you already have these you can ignore this). "
+                  }
+                ],
+                [
+                  {
+                    "text": "Run through the east gate to the quetzal to go to Varlamore and do Meat and Greet."
                   }
                 ],
                 [
@@ -13292,7 +13594,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "We will continue lamping slayer to level 58 for access to Cave Horrors, and after that put all lamps on herblore instead. You may choose to lamp more/less slayer depending on personal preference. There is more than enough lamp xp.\n",
+                      "text": "We will continue lamping slayer to level 58 for access to Cave Horrors (mind the quest xp still coming up, about 30k total from here), and after that put all lamps on herblore instead. You may choose to lamp more/less slayer depending on personal preference. There is more than enough lamp xp.\n",
                       "formatting": {}
                     }
                   ]
@@ -13331,27 +13633,172 @@
               "content": [
                 [
                   {
+                    "text": "Explorer’s ring teleport and run to Port Sarim to recruit Jobless Jim."
+                  }
+                ],
+                [
+                  {
+                    "text": "Charter to the Pandemonium. Take your skiff to the starting point of Troubled Tortugans and start and complete the quest in full. While on the Great Conch collect the spyglass and strange apple tree charter on the isle."
+                  }
+                ],
+                [
+                  {
+                    "text": "Do port courier tasks to Summer Shore until level 50 sailing ("
+                  },
+                  {
+                    "text": "Sailing training - OSRS Wiki",
+                    "formatting": {
+                      "underline": true,
+                      "color": {
+                        "r": 0.06666667,
+                        "g": 0.33333334,
+                        "b": 0.8
+                      },
+                      "url": "https://oldschool.runescape.wiki/w/Sailing_training#Levels_46-55:_Summer_Shore",
+                      "isLink": true
+                    }
+                  },
+                  {
+                    "text": "), completing the charting of the Unquiet Ocean in the process (the Sea of Shells after level 47). You can collect the ocean completion xp bonus (6k xp) to get to level 50. You can set Jim to man the ship and trim the sails, reducing the xp from trimming by 50% but allowing you to multiskill (e.g. fletching headless arrows or alching) while sailing."
+                  }
+                ],
+                [
+                  {
+                    "text": "Optional: keep going to level 51/52/53 instead, to reduce or eliminate the need for boosting while salvaging."
+                  }
+                ],
+                [
+                  {
+                    "text": "Once you hit level 50, use a dueling ring and run south all the way to the desert mining camp, then run out and recruit Ex-Captain Siad (don’t forget the key to the camp)."
+                  }
+                ],
+                [
+                  {
+                    "text": "Book of the dead teleport to Piscarillius (or charter if you were at Pandemonium for the xp bonus), recover your skiff here and sail south to Chinchompa Island. Chart the charred remains of a table and open the lockbox to get (and read) the salvaging station schematic. Sail to Port Roberts and dock there."
+                  }
+                ]
+              ],
+              "nestedContent": [
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "When at the Onyx Crest, dock there and dig to find the small key for the ",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "Lost schematics - OSRS Wiki",
+                      "formatting": {
+                        "underline": true,
+                        "color": {
+                          "r": 0.06666667,
+                          "g": 0.33333334,
+                          "b": 0.8
+                        },
+                        "url": "https://oldschool.runescape.wiki/w/Lost_schematics",
+                        "isLink": true
+                      }
+                    },
+                    {
+                      "text": " and kill pirates to get a medallion fragment.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "Make sure to only drink the bottle of the way home (which will teleport you to your POH and your ship to Port Sarim) when it’s convenient - you can use this to set up a courier task more easily.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "Coral farming starts here. This is a worthwhile activity, creating super hunter potions and/or armadyl brews for herblore xp. From here on include coral in your farm runs, but only with attas active and 99 farming! Paying for protection is allegedly not worth it. You can visit the location by chartering to The Summer Shore, then taking the small boat to the northeast side of the island, then diving down. The first time you are down there search the coral on the west side to find a medallion fragment.\n",
+                      "formatting": {}
+                    }
+                  ]
+                }
+              ],
+              "metadata": {
+                "gp_stack": "tbd",
+                "items_needed": "yes",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
+              }
+            },
+            {
+              "content": [
+                [
+                  {
+                    "text": "Buy 62 lead ore. "
+                  }
+                ],
+                [
+                  {
+                    "text": "Steal from the silver stall to get a medallion fragment."
+                  }
+                ],
+                [
+                  {
+                    "text": "Buy a sloop and build two kegs (fill one with whirlpool surprise and one with kraken ink stout), a salvaging station and two mithril salvaging hooks. Assign your two crewmembers to your boat."
+                  }
+                ],
+                [
+                  {
+                    "text": "Sail your sloop to the large shipwrecks far south - do not go out of your way for charting with your slow sloop - north of the Isle of Serpents. Bring four empty beer glasses, a log basket and seed box (if you have them), and optionally methods to 1.5t the salvaging. Salvage until level 55 sailing, boosting sailing where necessary (it’s technically good to boost even if you have level 53 already). Your goal is to collect several hemp and cotton seeds for farming."
+                  }
+                ],
+                [
+                  {
+                    "text": "Plant the hemp at your earliest convenience, making sure to have Attas up and using ultracompost to harvest at least 40 hemp in total."
+                  }
+                ]
+              ],
+              "nestedContent": [],
+              "metadata": {
+                "gp_stack": "tbd",
+                "items_needed": "yes",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
+              }
+            },
+            {
+              "content": [
+                [
+                  {
                     "text": "Catch ~1.5k grey chins for level 55 ranging (at Soul Wars - you can take an axe to chop the nearby teaks in case you mess up your knife-log). "
                   }
                 ],
                 [
                   {
-                    "text": "Catch "
+                    "text": "Catch ~1.5k red chins between Kastori and Tal Teklan ("
                   },
                   {
-                    "text": "~1.5k red chins",
+                    "text": "TalTeklanChinSpot.png",
+                    "url": "https://drive.google.com/file/d/1g2hPbPsetvSMkeEf0YuPG8n8bRJnniM8/view?usp=sharing",
+                    "isLink": true,
                     "formatting": {
-                      "bold": true,
-                      "italic": true,
-                      "color": {
-                        "r": 1,
-                        "g": 0.6,
-                        "b": 0
-                      }
+                      "underline": true
                     }
                   },
                   {
-                    "text": " in the Feldip Hills. "
+                    "text": "). Follow this guide for catching chins: "
+                  },
+                  {
+                    "text": "OSRS Easy 1t Hunter Guide (In-Depth)",
+                    "url": "https://www.youtube.com/watch?v=7XXH5HTrpCw",
+                    "isLink": true,
+                    "formatting": {
+                      "underline": true
+                    }
+                  },
+                  {
+                    "text": " for the methods (regardless of location and chin type)."
                   }
                 ],
                 [
@@ -13646,10 +14093,18 @@
                   ]
                 },
                 {
+                  "level": 2,
+                  "content": [
+                    {
+                      "text": "The recommended way to make planks is the Aubunvale sawmill, running between bank and sawmill using a log basket and a plank sack to make two inventories at a time. This consumes (super) energy potions or stamina potions. Alternatively, you can use the PVP world POH butler method."
+                    }
+                  ]
+                },
+                {
                   "level": 1,
                   "content": [
                     {
-                      "text": "After Misc is up and running, buy arrow shafts and headless feathers (in smaller chunks) to get to a total of 1 million headless arrows through fletchpalchre.\n",
+                      "text": "After Misc is up and running, buy arrow shafts(/cut them from maples) and buy feathers (in smaller chunks) to get to a total of 1 million headless arrows through fletchpalchre.\n",
                       "formatting": {}
                     }
                   ]
@@ -13694,6 +14149,32 @@
                     },
                     {
                       "text": ".\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "You can do this grind in smaller parts, or quit entirely at a lower agility level. ",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "Example setup here.",
+                      "formatting": {
+                        "underline": true,
+                        "color": {
+                          "r": 0.06666667,
+                          "g": 0.33333334,
+                          "b": 0.8
+                        },
+                        "url": "https://drive.google.com/file/d/1TVUPrJca_Wau7msvkiuMtZTvJagXbyRY/view?usp=drive_link",
+                        "isLink": true
+                      }
+                    },
+                    {
+                      "text": "\n",
                       "formatting": {}
                     }
                   ]
@@ -13743,7 +14224,7 @@
                     }
                   },
                   {
-                    "text": ") your mithril from MLM. Smelt your gold ore from MLM. Make sure to equip your ring of charos (a) until level 60 for reduced foreman costs. "
+                    "text": ") your mithril from MLM. Smelt your lead ore into bars. Smelt your gold ore from MLM. Make sure to equip your ring of charos (a) until level 60 for reduced foreman costs. "
                   }
                 ],
                 [
@@ -13917,17 +14398,7 @@
                       }
                     },
                     {
-                      "text": " so on 50% of all runs). If you have (and continue to be) tick perfect this is ",
-                      "formatting": {}
-                    },
-                    {
-                      "text": "not",
-                      "formatting": {
-                        "underline": true
-                      }
-                    },
-                    {
-                      "text": " worth looting, as it means you will lose the timing for ‘sword skip’ (and the 1:20-1:23 lap time) on the next section. If you are not tick perfect up to this floor the enchantment obstacle is efficient to loot, and works identically to that on floor 3.\n",
+                      "text": " so on 50% of all runs). This is efficient to loot barring exceptionally lucky circumstances - in practice this is always worth looting. The enchant works identically to that on floor 3.\n",
                       "formatting": {}
                     }
                   ]
@@ -14005,7 +14476,7 @@
                       }
                     },
                     {
-                      "text": ") but not to cross it.\n",
+                      "text": ") but not to cross it. The enchant on f3 is the best of the technically inefficient looting options, so if you want to increase your loot a little this is the one to include in your runs.",
                       "formatting": {}
                     }
                   ]
@@ -14350,10 +14821,21 @@
           "steps": [
             {
               "content": [
-                {
-                  "text": "At your own convenience make Catherby POH tabs for your herb runs (at the lectern on Lunar Isle). If you have reached level 70 fletching at Sepulchre (or are close enough you are willing to boost for it), teleport to Seers village and complete the Kandarin Hard diary, doing all remaining steps sequentially and putting the lamp on slayer. Remember that the goal is to lamp to 58 slayer, then go back to lamping herblore. Build the following in your POH, boosting when necessary:\n",
-                  "formatting": {}
-                }
+                [
+                  {
+                    "text": "At your own convenience make Catherby POH tabs for your herb runs (at the lectern on Lunar Isle)."
+                  }
+                ],
+                [
+                  {
+                    "text": "If you have reached level 70 fletching at Sepulchre (or are close enough you are willing to boost for it), teleport to Seers village and complete the Kandarin Hard diary, doing all remaining steps sequentially and putting the lamp on slayer. Remember that the goal is to lamp to 58 slayer, then go back to lamping herblore. "
+                  }
+                ],
+                [
+                  {
+                    "text": "Build the following in your POH, boosting when necessary:"
+                  }
+                ]
               ],
               "nestedContent": [
                 {
@@ -14602,28 +15084,17 @@
             },
             {
               "content": [
-                [
-                  {
-                    "text": "Do Zogre Flesh Eaters (on Arceuus spellbook, use dueling rings and fairy rings for speeding up the quest), killing Zogres along the way for Rag and Bone Man II. Make sure to unlock Uglug’s Stuffsies. Swap to the normal spellbook for the Slash Bash fight to use Crumble Undead."
-                  }
-                ],
-                [
-                  {
-                    "text": "Make a composite ogre bow (comp ogre bow) and 150 mithril brutal nails, kill 125 chompies for the diary."
-                  }
-                ],
-                [
-                  {
-                    "text": "Speak with Rantz to collect a (handful of) Chompy bird hat(s). "
-                  }
-                ]
+                {
+                  "text": "Make a composite ogre bow (comp ogre bow) and 150 mithril brutal nails, kill 125 chompies for the diary. Speak with Rantz to collect a (handful of) Chompy bird hat(s).\n",
+                  "formatting": {}
+                }
               ],
               "nestedContent": [
                 {
                   "level": 1,
                   "content": [
                     {
-                      "text": "Collect the Western Provinces easy and medium diaries at your own convenience, putting the lamps on slayer.\n",
+                      "text": "Collect the Western Provinces easy and medium diaries at your own convenience, putting the lamps on herblore.\n",
                       "formatting": {}
                     }
                   ]
@@ -14634,6 +15105,93 @@
                 "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "35d6h"
+              }
+            },
+            {
+              "content": [
+                [
+                  {
+                    "text": "Make 20 bolts of linen. "
+                  }
+                ],
+                [
+                  {
+                    "text": "Build the mahogany mast and canvas sails on your skiff using the hemp you farmed, build the mithril helm on your skiff (not sloop) and the inoculation station on your sloop."
+                  }
+                ],
+                [
+                  {
+                    "text": "Do the Jubbly Jive barracuda trial and complete up to the shark rank."
+                  }
+                ],
+                [
+                  {
+                    "text": "Build a wind catcher on both your skiff and your sloop, then return to the Jubbly Jive and keep training sailing to level 67 sailing using the following method for Marlin rank: "
+                  },
+                  {
+                    "text": "https://www.youtube.com/watch?v=1d2LIrd7_rM",
+                    "formatting": {
+                      "underline": true,
+                      "color": {
+                        "r": 0.06666667,
+                        "g": 0.33333334,
+                        "b": 0.8
+                      },
+                      "url": "https://www.youtube.com/watch?v=1d2LIrd7_rM",
+                      "isLink": true
+                    }
+                  },
+                  {
+                    "text": "."
+                  }
+                ],
+                [
+                  {
+                    "text": "At your convenience, return to the Ardent Ocean meteorologists for those charting tasks."
+                  }
+                ]
+              ],
+              "nestedContent": [
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "Optional but not recommended: if you prefer alternative training methods you can choose between Rellekka courier tasks ("
+                    },
+                    {
+                      "text": "Sailing training - OSRS Wiki",
+                      "formatting": {
+                        "underline": true,
+                        "color": {
+                          "r": 0.06666667,
+                          "g": 0.33333334,
+                          "b": 0.8
+                        },
+                        "url": "https://oldschool.runescape.wiki/w/Sailing_training#Levels_62-70:_Rellekka",
+                        "isLink": true
+                      }
+                    },
+                    {
+                      "text": ") or salvaging over Jubbly Jive.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "You now have access to Deepfin Point, which contains the best method for ironmenn to obtain blue dragon scales (using the general store in the mine), even beating out harvesting potato cactus.\n",
+                      "formatting": {}
+                    }
+                  ]
+                }
+              ],
+              "metadata": {
+                "gp_stack": "tbd",
+                "items_needed": "tbd",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
               }
             },
             {
@@ -16489,7 +17047,7 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "The total item requirements for this are: 1 Arceuus signet, 1 bolt of cloth, 1 steel bar, 3 games necklaces(8), 3 rings of dueling(8), 8 marble blocks (for the gilded portal nexus), 3 gold leaves (of which two are for the gilded portal nexus), 1 magic stone, 15 limestone bricks, 5 buckets of water, 6000 soul runes, 5000 blood runes, 1000 body runes, 10 stamina potions(4), 10 prayer potions(4), 11 mahogany planks.\n",
+                      "text": "The total item requirements for this are: 1 Arceuus signet, 1 bolt of cloth, 1 steel bar, 3 games necklaces(8), 3 rings of dueling(8), 8 marble blocks (for the gilded portal nexus), 3 gold leaves (of which two are for the gilded portal nexus), 1 magic stone (buy 2 if you want to build the bank chest on Sunbleak Island), 15 limestone bricks, 5 buckets of water, 6000 soul runes, 5000 blood runes, 1000 body runes, 10 stamina potions(4), 10 prayer potions(4), 9 mahogany planks.\n",
                       "formatting": {
                         "bold": true
                       }
@@ -16591,46 +17149,57 @@
             },
             {
               "content": [
-                {
-                  "text": "Camp Cave Horrors off-task for a black mask (protect melee allows an amulet of strength, so use your regular slayer gear, proselyte hauberk versus torso is fine either way, use thralls, take your herb sack). Start and complete the Morytania Hard diary (lamp on herblore). Visit Robin twice a day with 13 bones each time to collect 130 ectotokens for bonecrusher charges (3250 charges per day - you will need 24k charges to complete step 10 of this chapter) – collect the bones on any slayer task (for example regular/big/baby dragon). Imbue your black mask at the PVP Arena (",
-                  "formatting": {}
-                },
-                {
-                  "text": "imbue scroll via pvp arena - losing method",
-                  "url": "https://www.youtube.com/watch?v=OORAXLhdZAg",
-                  "isLink": true,
-                  "formatting": {
-                    "underline": true
+                [
+                  {
+                    "text": "Camp Cave Horrors off-task for a black mask (protect melee allows an amulet of strength, so use your regular slayer gear, proselyte hauberk versus torso is fine either way, use thralls, take your herb sack). An example setup (except for the black mask and expeditious bracelets, obviously) is "
+                  },
+                  {
+                    "text": "cave-horrors.png",
+                    "url": "https://drive.google.com/file/d/11QY9VWu3uEXwlBvIVnRpSfQLiKpdiQeZ/view?usp=drive_link",
+                    "isLink": true,
+                    "formatting": {
+                      "underline": true
+                    }
+                  },
+                  {
+                    "text": ". The recommended spot is ",
+                    "formatting": {}
+                  },
+                  {
+                    "text": "cave-horrors.png",
+                    "url": "https://drive.google.com/file/d/1zlpzRkYsRHNBEEwzd8nMzB5sclLYpNM5/view?usp=drive_link",
+                    "isLink": true,
+                    "formatting": {
+                      "underline": true
+                    }
+                  },
+                  {
+                    "text": " (northwest from the entrance).\n",
+                    "formatting": {}
                   }
-                },
-                {
-                  "text": ") or nightmare zone. An example setup (except for the black mask and expeditious bracelets, obviously) is",
-                  "formatting": {}
-                },
-                {
-                  "text": "cave-horrors.png",
-                  "url": "https://drive.google.com/file/d/11QY9VWu3uEXwlBvIVnRpSfQLiKpdiQeZ/view?usp=drive_link",
-                  "isLink": true,
-                  "formatting": {
-                    "underline": true
+                ],
+                [
+                  {
+                    "text": "Start and complete the Morytania Hard diary (lamp on herblore). Visit Robin twice a day with 13 bones each time to collect 130 ectotokens for bonecrusher charges (3250 charges per day - you will need 24k charges to complete step 10 of this chapter) – collect the bones on any slayer task (for example regular/big/baby dragon)."
                   }
-                },
-                {
-                  "text": ". The recommended spot is ",
-                  "formatting": {}
-                },
-                {
-                  "text": "cave-horrors.png",
-                  "url": "https://drive.google.com/file/d/1zlpzRkYsRHNBEEwzd8nMzB5sclLYpNM5/view?usp=drive_link",
-                  "isLink": true,
-                  "formatting": {
-                    "underline": true
+                ],
+                [
+                  {
+                    "text": " Imbue your black mask at the PVP Arena (",
+                    "formatting": {}
+                  },
+                  {
+                    "text": "imbue scroll via pvp arena - losing method",
+                    "url": "https://www.youtube.com/watch?v=OORAXLhdZAg",
+                    "isLink": true,
+                    "formatting": {
+                      "underline": true
+                    }
+                  },
+                  {
+                    "text": ") or nightmare zone."
                   }
-                },
-                {
-                  "text": "(northwest from the entrance).\n",
-                  "formatting": {}
-                }
+                ]
               ],
               "nestedContent": [],
               "metadata": {
@@ -16642,10 +17211,21 @@
             },
             {
               "content": [
-                {
-                  "text": "Buy 2300 sand (the goal is to get to level 70 crafting, each sand is approximately 88.1 xp) from the grinder (buy bucket packs as needed, e.g. at Alice’s farming shop near the ectofuntus). Superglass Make them into glass (18:3 no pickup). Blow all the glass into unpowered orbs doing artefacts, i.e. doing arteglass, to get to level 70 crafting. Do Pyramid Plunder for one (or two, it is recommended to get the second at/after level 91 thieving) sceptre(s) using the sceptre + xp method - all chests, sarcs in level 51+ rooms, urns in the level 81 room optional. Collect gold artefacts along the way - just bank them when your inv fills up, you’ll only need ~200 or so later.\n",
-                  "formatting": {}
-                }
+                [
+                  {
+                    "text": "Buy 2300 sand (the goal is to get to level 70 crafting, each sand is approximately 88.1 xp) from the grinder (buy bucket packs as needed, e.g. at Alice’s farming shop near the ectofuntus). Superglass Make them into glass (18:3 no pickup). "
+                  }
+                ],
+                [
+                  {
+                    "text": "Blow all the glass into unpowered orbs doing artefacts, i.e. doing arteglass, to get to level 70 crafting."
+                  }
+                ],
+                [
+                  {
+                    "text": "Do Pyramid Plunder for one (or two, it is recommended to get the second at/after level 91 thieving) sceptre(s) using the sceptre + xp method - all chests, sarcs in level 51+ rooms, urns in the level 81 room optional. Collect gold artefacts along the way - just bank them when your inv fills up, you’ll only need ~200 or so later."
+                  }
+                ]
               ],
               "nestedContent": [
                 {
@@ -17048,14 +17628,21 @@
             },
             {
               "content": [
-                {
-                  "text": "Buy broad arrowhead packs with most of your money (leave ~500k in reserve, buy the broad arrowtip packs at any slayer master, if you are opening fast enough the stock will slowly deplete. Hop worlds if the stock ever hits 700 or lower). Do Pest Control, veteran i.e. 100+ cb boat, for enough points for full elite void range (other two helmets optional) while fletching – 1250 points for just ranging, 1650 points for a full set, fletching during the games and only contributing as much as necessary to get points. You can optionally get the other two helmets as well, or ignore them(/consider getting them later).",
-                  "formatting": {}
-                },
-                {
-                  "text": "\n",
-                  "formatting": {}
-                }
+                [
+                  {
+                    "text": "Optional but recommended: collect buckets of sand and giant seaweed to train your crafting level to 80 (or 75, boosting after) using SGM and arteglass. Make an amulet of glory."
+                  }
+                ],
+                [
+                  {
+                    "text": "Buy broad arrowhead packs with most of your money (leave ~500k in reserve, buy the broad arrowtip packs at any slayer master, if you are opening fast enough the stock will slowly deplete. Hop worlds if the stock ever hits 700 or lower). "
+                  }
+                ],
+                [
+                  {
+                    "text": "Do Pest Control, veteran i.e. 100+ cb boat, for enough points for full elite void range (other two helmets optional) while fletching – 1250 points for just ranging, 1650 points for a full set, fletching during the games and only contributing as much as necessary to get points. You can optionally get the other two helmets as well, or ignore them(/consider getting them later)."
+                  }
+                ]
               ],
               "nestedContent": [],
               "metadata": {
@@ -17067,10 +17654,26 @@
             },
             {
               "content": [
-                {
-                  "text": "Do the Fremennik Exiles, A Night at the Theatre (lamps on ranging), Hopespear’s Will. Start Monkey Madness II until you have access to Kruk’s Dungeon (with the Maniacal monkeys).\n",
-                  "formatting": {}
-                }
+                [
+                  {
+                    "text": "Do the Fremennik Exiles."
+                  }
+                ],
+                [
+                  {
+                    "text": "Do A Night at the Theatre (lamps on ranging)."
+                  }
+                ],
+                [
+                  {
+                    "text": "Do Hopespear's Will."
+                  }
+                ],
+                [
+                  {
+                    "text": "Start Monkey Madness II until you have access to Kruk’s Dungeon (with the Maniacal monkeys)."
+                  }
+                ]
               ],
               "nestedContent": [
                 {
@@ -17092,112 +17695,67 @@
             },
             {
               "content": [
-                {
-                  "text": "Optional but recommended: with the Karamja Hard diary completed, 3t gem mine to level 97 mining (",
-                  "formatting": {}
-                },
-                {
-                  "text": "gems route",
-                  "url": "https://www.youtube.com/watch?v=JCD8mwJVygI",
-                  "isLink": true,
-                  "formatting": {
-                    "underline": true,
-                    "fontFamily": "Arial"
+                [
+                  {
+                    "text": "Catch 20k red chinchompas between Tal Teklan and Kastori ",
+                    "formatting": {}
+                  },
+                  {
+                    "text": "TalTeklanChinSpot.png",
+                    "url": "https://drive.google.com/file/d/1g2hPbPsetvSMkeEf0YuPG8n8bRJnniM8/view?usp=sharing",
+                    "isLink": true,
+                    "formatting": {
+                      "underline": true
+                    }
+                  },
+                  {
+                    "text": " or 16k black chinchompas (for 92 ranged, if you have extras then can consider throwing for more Ranged XP or using them for your first fire cape if you’re good at speed strats) in the wilderness. Follow this guide for catching chins: ",
+                    "formatting": {}
+                  },
+                  {
+                    "text": "OSRS Easy 1t Hunter Guide (In-Depth)",
+                    "url": "https://www.youtube.com/watch?v=7XXH5HTrpCw",
+                    "isLink": true,
+                    "formatting": {
+                      "underline": true
+                    }
+                  },
+                  {
+                    "text": ". If you want to catch red chinchompas but the Varlamore spot is too competitive, e.g. with bots, the second best option is catching them northeast of Prifddinas."
                   }
-                },
-                {
-                  "text": "), banking the uncut gems using the deposit box. With multiskill cutting the gems (see below) this is more efficient than 3t4g. This requires a charged amulet of glory! If you make one here you won’t have to make one next step. ",
-                  "formatting": {
-                    "fontFamily": "Arial"
+                ],
+                [
+                  {
+                    "text": "Throw the chins in the cave to get to 70 ranging."
                   }
-                },
-                {
-                  "text": "You may skip this step if you don’t value multiskilling or efficiency enough to take such a long detour/don’t feel like it.",
-                  "formatting": {
-                    "italic": true,
-                    "fontFamily": "Arial"
+                ],
+                [
+                  {
+                    "text": "Complete the Western Provinces Hard Diary (this involves getting one Zulrah kill)."
                   }
-                },
-                {
-                  "text": "\n",
-                  "formatting": {
-                    "italic": true
+                ],
+                [
+                  {
+                    "text": "Upgrade your void to Elite."
                   }
-                }
-              ],
-              "nestedContent": [],
-              "metadata": {
-                "gp_stack": "52m",
-                "items_needed": "tbd",
-                "skills_quests_met": "yes",
-                "total_time": "tbd"
-              }
-            },
-            {
-              "content": [
-                {
-                  "text": "Go to Guardians of the Rift, participate in the minigame with the multiskilling method until you are completely out of uncut gems.\n",
-                  "formatting": {}
-                }
+                ],
+                [
+                  {
+                    "text": "Optionally grab an offtask fire cape at some point along the way."
+                  }
+                ],
+                [
+                  {
+                    "text": "Return and throw the chins to get to level 92 ranging."
+                  }
+                ]
               ],
               "nestedContent": [
                 {
                   "level": 1,
                   "content": [
                     {
-                      "text": "Guardians of the Rift - multiskilling",
-                      "url": "https://youtu.be/vAKese2xurs?list=PL1YmaQEbqW1jX9evljFu_CaJ-w-fueXUs",
-                      "isLink": true,
-                      "formatting": {
-                        "underline": true
-                      }
-                    },
-                    {
-                      "text": " - this video shows a simple example of multiskill Guardians of the Rift - you still make combination runes, but focus on skilling rather than participating throughout most of the game (in fact, you only enter the west essence mine when it opens and ignore all other opportunities to collect essence). ",
-                      "formatting": {}
-                    },
-                    {
-                      "text": "The best way",
-                      "formatting": {
-                        "bold": true
-                      }
-                    },
-                    {
-                      "text": " to multiskill is by carrying a gem bag full with uncut gems (60 sapphires, emeralds, rubies and diamonds) into the minigame, taking them out of the gem sack, cutting them and depositing them at the Deposit Pool (which acts as a regular deposit box!) one inventory at a time. The point and xp rate will be lower than active GotR, but the crafting xp makes it more efficient.\n",
-                      "formatting": {}
-                    }
-                  ]
-                },
-                {
-                  "level": 1,
-                  "content": [
-                    {
-                      "text": "Make an amulet of glory when you have the crafting level (75+5) to make one.\n",
-                      "formatting": {}
-                    }
-                  ]
-                }
-              ],
-              "metadata": {
-                "gp_stack": "52m",
-                "items_needed": "tbd",
-                "skills_quests_met": "yes",
-                "total_time": "tbd"
-              }
-            },
-            {
-              "content": [
-                {
-                  "text": "Catch 20k red chinchompas behind Prif or 16k black chinchompas (for 92 ranged, if you have extras then can consider throwing for more Ranged XP or using them for your first fire cape if you’re good at speed strats) in the wilderness. Throw the chins in the cave to get to 70 ranging, complete the Western Provinces Hard Diary (this involves getting one Zulrah kill), upgrade your void to Elite, (optionally: grab an offtask fire cape at some point along the way), return and throw the chins to get to level 92 ranging.\n",
-                  "formatting": {}
-                }
-              ],
-              "nestedContent": [
-                {
-                  "level": 1,
-                  "content": [
-                    {
-                      "text": "Make sure to use ranging potions and a bonecrusher (with at least 24k charges), your elite void ranged, an amulet of glory, shayzien boots 5, make a red d’hide shield (optional). ",
+                      "text": "Make sure to use ranging potions and a bonecrusher (with at least 24k charges), your elite void ranged, mixed hide boots, a berserker ring (i), an amulet of strength, a crystal halberd for speccing, a mixed hide cape and carry death charge runes. Also note that chins are not lost in death, so you could carry more and extend the trip.",
                       "formatting": {}
                     },
                     {
@@ -17207,17 +17765,7 @@
                       }
                     },
                     {
-                      "text": "Use protect melee and eagle eye, the regular potion drops will maintain your prayer (but bring a few to be safe, along with a teleport out). ",
-                      "formatting": {}
-                    },
-                    {
-                      "text": "If you die your chins will be lost",
-                      "formatting": {
-                        "underline": true
-                      }
-                    },
-                    {
-                      "text": ", so be careful and/or only bring a few thousand at a time.\n",
+                      "text": "Use protect melee and eagle eye, the regular potion drops will maintain your prayer (but bring a few to be safe, along with a teleport out). Also note that chins are not lost in death, so you could carry more and extend the trip.\n",
                       "formatting": {}
                     }
                   ]
@@ -17261,11 +17809,7 @@
                       }
                     },
                     {
-                      "text": " Make a blue d’hide shield (optional but recommended).",
-                      "formatting": {}
-                    },
-                    {
-                      "text": "\n",
+                      "text": " However, this gear is outdated - use mixed hide boots, a berserker ring (i), an amulet of strength, a crystal halberd for speccing, a mixed hide cape and carry death charge runes.\n",
                       "formatting": {}
                     }
                   ]
@@ -17305,11 +17849,7 @@
                       }
                     },
                     {
-                      "text": " example kill.",
-                      "formatting": {}
-                    },
-                    {
-                      "text": "\n",
+                      "text": " example kill.\n",
                       "formatting": {}
                     }
                   ]
@@ -17318,11 +17858,12 @@
                   "level": 1,
                   "content": [
                     {
-                      "text": "Red chinchompa calculator",
-                      "url": "https://docs.google.com/spreadsheets/d/122rSf8dpivoZBG5tFNcS7B2DZAdYfi95bt2TJ4N6zPU/edit?usp=sharing",
+                      "text": "Pre-99 Chinchompa Calculator",
+                      "url": "https://docs.google.com/spreadsheets/d/1SL6Oupd3fI6JOhfgqBnEP4CunjnyfKkH4cGr7xdti1s",
                       "isLink": true,
                       "formatting": {
-                        "underline": true
+                        "underline": true,
+                        "fontFamily": "Arial"
                       }
                     },
                     {
@@ -17485,6 +18026,492 @@
               "metadata": {
                 "gp_stack": "500k",
                 "items_needed": "red/black chins, elite void ranged, ranging pots, glory, shayzien boots 5, red dragonhide shield optional.",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
+              }
+            },
+            {
+              "content": [
+                {
+                  "text": "The following steps 11-15 are best combined, to break up the CG grind with skilling activities. Read ahead to combine these steps at your convenience. ",
+                  "formatting": {
+                    "bold": true
+                  }
+                },
+                {
+                  "text": "Optional but recommended: with the Karamja Hard diary completed, 3t gem mine to level 97 mining (",
+                  "formatting": {}
+                },
+                {
+                  "text": "gems route",
+                  "url": "https://www.youtube.com/watch?v=JCD8mwJVygI",
+                  "isLink": true,
+                  "formatting": {
+                    "underline": true,
+                    "fontFamily": "Arial"
+                  }
+                },
+                {
+                  "text": "), banking the uncut gems using the deposit box. With multiskill cutting the gems (see below) this is more efficient than 3t4g. This requires a charged amulet of glory! If you make one here you won’t have to make one next step. ",
+                  "formatting": {
+                    "fontFamily": "Arial"
+                  }
+                },
+                {
+                  "text": "You may skip this step if you don’t value multiskilling or efficiency enough to take such a long detour/don’t feel like it.",
+                  "formatting": {
+                    "italic": true,
+                    "fontFamily": "Arial"
+                  }
+                },
+                {
+                  "text": "\n",
+                  "formatting": {
+                    "italic": true
+                  }
+                }
+              ],
+              "nestedContent": [],
+              "metadata": {
+                "gp_stack": "500k",
+                "items_needed": "tbd",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
+              }
+            },
+            {
+              "content": [
+                [
+                  {
+                    "text": "Make sure you have at least 75 mining (if not, do some gem mining first)."
+                  }
+                ],
+                [
+                  {
+                    "text": "Sail to Deepfin Point, mine 24 nickel ore."
+                  }
+                ],
+                [
+                  {
+                    "text": "Do blast mining (as before) to obtain 551 addy ore - you may have to convert some of the gems into alchs (cut sapphires, emeralds and even rubies are fine, or make ruby and diamond bracelets) for dynamite. Make sure you get at least 15 runite ore along the way."
+                  }
+                ],
+                [
+                  {
+                    "text": "Smelt all the addy into bars, all the nickel into cupronickel bars, then convert 71 addy bars into 1065 addy nails."
+                  }
+                ],
+                [
+                  {
+                    "text": "Teleport to The Great Conch (fairy ring CJQ) and chop and bank up to 498 camphor logs. The fastest method is using a log basket and teleporting out to a bank, then using the fairy ring to get back. If you have (or plan to get) sawmill vouchers you can reduce the number of logs needed by 1 for each voucher for up to 233 vouchers (and 265 logs), saving 2,500 gp each (582,500 gp total)."
+                  }
+                ],
+                [
+                  {
+                    "text": "Make 466 camphor planks."
+                  }
+                ],
+                [
+                  {
+                    "text": "Build the following ship upgrades:"
+                  }
+                ]
+              ],
+              "nestedContent": [
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "Camphor cargo hold (sloop)\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "Adamant keel (skiff + sloop)\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "Camphor hull (skiff + sloop)\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "Camphor mast and canvas sails (skiff + sloop) - this requires a boost to build\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "Optional but recommended ",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "(see next step)",
+                      "formatting": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "text": ": adamant cannon x2 (sloop) - this requires a boost to build. Note that your salvaging hooks are in the way - you can just discard the mithril ones, but for higher tiers you’d use ",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "Facility bottle - OSRS Wiki",
+                      "formatting": {
+                        "underline": true,
+                        "color": {
+                          "r": 0.06666667,
+                          "g": 0.33333334,
+                          "b": 0.8
+                        },
+                        "url": "https://oldschool.runescape.wiki/w/Facility_bottle",
+                        "isLink": true
+                      }
+                    },
+                    {
+                      "text": " at 75k gp each to swap your facilities around.",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "\n",
+                      "formatting": {}
+                    }
+                  ]
+                }
+              ],
+              "metadata": {
+                "gp_stack": "tbd",
+                "items_needed": "yes",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
+              }
+            },
+            {
+              "content": [
+                [
+                  {
+                    "text": "Recruit Cabin Boy Jenkins (and Adventurer Ada while you’re at it) so you can get most xp out of multiskilling while charting. "
+                  }
+                ],
+                [
+                  {
+                    "text": "Use your skiff to chart the Sunset Ocean and Western Ocean in full, the lower level seas in the Shrouded Ocean along with all Miscellaneous charts in the same areas. "
+                  }
+                ],
+                [
+                  {
+                    "text": "Buy 5k mithril cannonballs at Port Roberts. "
+                  }
+                ],
+                [
+                  {
+                    "text": "Collect your charting xp bonuses from Chartin’ Charles McAtless. "
+                  }
+                ],
+                [
+                  {
+                    "text": "Optional and recommended, if you care for the rewards below from ship combat: also buy 25 Perildance bitters. "
+                  }
+                ],
+                [
+                  {
+                    "text": "Recruit Oarswoman Olga and Jittery Jim (boost to recruit him) and assign them to your sloop."
+                  }
+                ]
+              ],
+              "nestedContent": [
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "First do part of the Shrouded Ocean ",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "Shrouded Ocean, partial.png",
+                      "url": "https://drive.google.com/file/d/1nhfMHSenwO-IiB_Fg029qHTIoO84fi3H/view?usp=sharing",
+                      "isLink": true,
+                      "formatting": {
+                        "underline": true
+                      }
+                    },
+                    {
+                      "text": ", starting at Corsair Cove (teleport there and recover your boat). Make sure to visit the Isle of Bones to collect the small key (",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "Lost schematics - OSRS Wiki",
+                      "formatting": {
+                        "underline": true,
+                        "color": {
+                          "r": 0.06666667,
+                          "g": 0.33333334,
+                          "b": 0.8
+                        },
+                        "url": "https://oldschool.runescape.wiki/w/Lost_schematics",
+                        "isLink": true
+                      }
+                    },
+                    {
+                      "text": ") and investigate the cauldron to get a medallion fragment, include the additional south step of visiting the Charred Island for another key, dock at Tear of the Soul for a third key, and later still collect the gale catcher schematic on Angler’s retreat.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "Then the Western Ocean, continuing where the previous part ended. ",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "Western Ocean, part 1.png",
+                      "url": "https://drive.google.com/file/d/1CNcutFW-IcyESB94Fn6SeMK8vzbscE5r/view?usp=sharing",
+                      "isLink": true,
+                      "formatting": {
+                        "underline": true
+                      }
+                    },
+                    {
+                      "text": ". Warning: the crates in the Backwater will poison, disease and venom you (two different crates total) so bring an antipoison. Dock on Minotaur’s Rest to collect the small key, dock at Vatrachos Island and give the raccoon a berry (",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "Raccoon (Vatrachos Island) - OSRS Wiki",
+                      "formatting": {
+                        "underline": true,
+                        "color": {
+                          "r": 0.06666667,
+                          "g": 0.33333334,
+                          "b": 0.8
+                        },
+                        "url": "https://oldschool.runescape.wiki/w/Raccoon_(Vatrachos_Island)",
+                        "isLink": true
+                      }
+                    },
+                    {
+                      "text": ") to get a medallion fragment, dock at Wintumber Island to chart the crab monument and collect a medallion piece, then later dock at the Crown Jewel to collect the rosewood cargo hold schematic. The bottle of portal nexus perry will teleport you to the Abyss so drink it last.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "Then chart the Sunset Ocean, starting from Aldarin twice: first with your raft (pink), then with your skiff (red). ",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "Sunset Ocean.png",
+                      "url": "https://drive.google.com/file/d/1-wpT9W-att5BwD8nUaeJwvUmBrYrby9G/view?usp=sharing",
+                      "isLink": true,
+                      "formatting": {
+                        "underline": true
+                      }
+                    },
+                    {
+                      "text": " It is possible to only use the skiff, if you prefer, but the raft is easier. Dock at the Laguna Aurorae to collect a small key and at the Shimmering Atoll to obtain the rosewood hull schematic and chop a teak tree to obtain a medallion fragment.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "Then more Western Ocean, starting at Land’s End ",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "Western Ocean, part 2.png",
+                      "url": "https://drive.google.com/file/d/1Nk25uRTcRd3KBTXUsxZKxL0cT5Il8GLp/view?usp=sharing",
+                      "isLink": true,
+                      "formatting": {
+                        "underline": true
+                      }
+                    },
+                    {
+                      "text": ". The bottle of sea shandy 2 will teleport you and your ship to Port Sarim, so dock at Port Piscarilius before drinking it and charter back (and recover your ship).\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "Then more Western Ocean, continuing where the previous part ended. ",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "Western Ocean, part 3.png",
+                      "url": "https://drive.google.com/file/d/1OQhVEegf7bwle9iKF27cLiWzTi9gwIDK/view?usp=sharing",
+                      "isLink": true,
+                      "formatting": {
+                        "underline": true
+                      }
+                    },
+                    {
+                      "text": ". Watch out, the bottle of banker’s draught (south Port Poscarilius) will bank your items - drink this last.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "Then more Western Ocean, continuing where the previous part ended. ",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "Western Ocean, part 4.png",
+                      "url": "https://drive.google.com/file/d/1SB9JlvSfYBRZn0aNtYHaC2_RmQ65JNCA/view?usp=sharing",
+                      "isLink": true,
+                      "formatting": {
+                        "underline": true
+                      }
+                    },
+                    {
+                      "text": ". Dock at Ynysdail to collect the small key, then dock at Lledrith to collect the dragon salvaging hook schematic. Drinking the bottle of delicate elven wine will knock you out and put you at Isafdar (with your boat at Port Tyras), so dock at Port Tyras before drinking it.",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "\n",
+                      "formatting": {}
+                    }
+                  ]
+                }
+              ],
+              "metadata": {
+                "gp_stack": "tbd",
+                "items_needed": "yes",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
+              }
+            },
+            {
+              "content": [
+                [
+                  {
+                    "text": "If you have at least 825,000 sailing XP, boost to build an adamant helm on both your sloop and your skiff (If you do not, choose a training method between Jubbly Jive, courier tasks, bounty tasks or salvaging and get enough xp)."
+                  }
+                ],
+                [
+                  {
+                    "text": "Complete charting the Shrouded Ocean by charting to Deepfin Point and following the following route "
+                  },
+                  {
+                    "text": "Shrouded Ocean, part 2.png",
+                    "url": "https://drive.google.com/file/d/18KCtyaTWPL_l-Z_zBpDAafxBMAB_XMT1/view?usp=sharing",
+                    "isLink": true,
+                    "formatting": {
+                      "underline": true
+                    }
+                  },
+                  {
+                    "text": "."
+                  }
+                ],
+                [
+                  {
+                    "text": "Train your woodcutting to level 80 (e.g. at teaks or sulliusceps)."
+                  }
+                ],
+                [
+                  {
+                    "text": "Travel (back) to Sunbleak Island, collect the dragon helm schematic and build the bank chest there if you want to (if you intend to afk woodcut, ironwood trees are a very good option - take lunar Plank Make to produce 4 planks on the island)."
+                  }
+                ],
+                [
+                  {
+                    "text": "Chop enough logs for 20 ironwood planks, taking into account plank vouchers if you have them. "
+                  }
+                ]
+              ],
+              "nestedContent": [],
+              "metadata": {
+                "gp_stack": "tbd",
+                "items_needed": "yes",
+                "skills_quests_met": "yes",
+                "total_time": "tbd"
+              }
+            },
+            {
+              "content": [
+                {
+                  "text": "Go to Guardians of the Rift, participate in the minigame with the multiskilling method until you are completely out of uncut gems.\n",
+                  "formatting": {}
+                }
+              ],
+              "nestedContent": [
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "Guardians of the Rift - multiskilling",
+                      "url": "https://youtu.be/vAKese2xurs?list=PL1YmaQEbqW1jX9evljFu_CaJ-w-fueXUs",
+                      "isLink": true,
+                      "formatting": {
+                        "underline": true
+                      }
+                    },
+                    {
+                      "text": " - this video shows a simple example of multiskill Guardians of the Rift - you still make combination runes, but focus on skilling rather than participating throughout most of the game (in fact, you only enter the west essence mine when it opens and ignore all other opportunities to collect essence). ",
+                      "formatting": {}
+                    },
+                    {
+                      "text": "The best way",
+                      "formatting": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "text": " to multiskill is by carrying a gem bag full with uncut gems (60 sapphires, emeralds, rubies and diamonds) into the minigame, taking them out of the gem sack, cutting them and depositing them at the Deposit Pool (which acts as a regular deposit box!) one inventory at a time. The point and xp rate will be lower than active GotR, but the crafting xp makes it more efficient.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "An important strategy to increase your points per game (and per hour) at guardians of the rift is ‘empty cell running’. When out of essence, grab a cell from the table and enter an altar (higher tier is better) to charge the cell. Then deposit it for points, ideally on a golem but on a barrier is also fine. You can combine this with multiskilling for efficiency.\n",
+                      "formatting": {}
+                    }
+                  ]
+                },
+                {
+                  "level": 1,
+                  "content": [
+                    {
+                      "text": "Make an amulet of glory when you have the crafting level (75+5) to make one.\n",
+                      "formatting": {}
+                    }
+                  ]
+                }
+              ],
+              "metadata": {
+                "gp_stack": "500k",
+                "items_needed": "tbd",
                 "skills_quests_met": "yes",
                 "total_time": "tbd"
               }
